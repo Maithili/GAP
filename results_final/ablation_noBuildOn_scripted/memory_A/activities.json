@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning activities such as bathroom routines and preparing for the day.",
+      "created_day": 0,
+      "n_segments": 36
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 146
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Preparing and consuming a breakfast of cereal or oatmeal, possibly with coffee or juice.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "work_task",
+      "description": "Performing work-related tasks, such as calls or using a notebook.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "make_and_eat_lunch",
+      "description": "Preparing and eating lunch, including handling food and utensils.",
+      "created_day": 0,
+      "n_segments": 64
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 49
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 93
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 69
+    },
+    {
+      "name": "cook_and_clean_dinner",
+      "description": "Cooking dinner and cleaning up afterwards, involving pots, pans, and utensils.",
+      "created_day": 0,
+      "n_segments": 61
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 51
+    },
+    {
+      "name": "wash_dinner_dishes",
+      "description": "Putting away dishes used during dinner after they have been washed.",
+      "created_day": 5,
+      "n_segments": 51
+    },
+    {
+      "name": "drink_coffee",
+      "description": "Preparing and drinking coffee.",
+      "created_day": 6,
+      "n_segments": 21
+    },
+    {
+      "name": "wash_breakfast_dishes",
+      "description": "Putting away dishes used during breakfast after they have been washed.",
+      "created_day": 7,
+      "n_segments": 36
+    },
+    {
+      "name": "snack_and_cleanup",
+      "description": "Preparing and consuming a snack, followed by cleaning up, such as disposing of food items.",
+      "created_day": 8,
+      "n_segments": 24
+    },
+    {
+      "name": "prepare_dinner",
+      "description": "Preparing dinner by taking out necessary items.",
+      "created_day": 20,
+      "n_segments": 20
+    },
+    {
+      "name": "wash_lunch_dishes",
+      "description": "Putting away dishes used during lunch after they have been washed.",
+      "created_day": 47,
+      "n_segments": 3
+    },
+    {
+      "name": "drink_tea",
+      "description": "Preparing and drinking tea, including handling cups and tea items.",
+      "created_day": 48,
+      "n_segments": 2
+    },
+    {
+      "name": "snack_and_drink_wine",
+      "description": "Preparing and consuming a snack with wine, followed by cleaning up.",
+      "created_day": 58,
+      "n_segments": 3
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "work_task",
+    "snack_cleanup": "snack_and_cleanup",
+    "wash_breakfast_dishes": "wash_morning_dishes",
+    "snack_or_cheese_cleanup": "snack_or_cheese_or_wine_cleanup",
+    "snack_or_cheese_or_wine_cleanup": "snack_cleanup",
+    "wash_morning_dishes": "wash_breakfast_dishes",
+    "drink_tea": "prepare_and_drink_tea",
+    "drink_tea_or_coffee": "drink_coffee",
+    "prepare_and_drink_tea": "drink_tea",
+    "drink_wine": "snack_and_drink_wine"
+  }
+}

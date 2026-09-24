@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 177
+    },
+    {
+      "name": "breakfast_with_coffee_or_cereal_or_oatmeal_or_juice_or_jam_or_peanut_butter",
+      "description": "Preparing and consuming a breakfast of cereal, oatmeal, or similar, possibly with coffee, juice, jam, or peanut butter.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "office_work",
+      "description": "Performing office work tasks such as using a notebook and pen or making work-related calls.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "make_and_eat_lunch_or_snack",
+      "description": "Preparing and eating lunch or a snack, including handling food and utensils.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 45
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 103
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 78
+    },
+    {
+      "name": "cook_and_clean_dinner",
+      "description": "Cooking dinner and cleaning up afterwards, involving pots, pans, and utensils.",
+      "created_day": 0,
+      "n_segments": 62
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 66
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Returning clean dishes and utensils to their storage locations after washing.",
+      "created_day": 5,
+      "n_segments": 69
+    },
+    {
+      "name": "throw_away_trash",
+      "description": "Throwing away trash into the trash bag.",
+      "created_day": 8,
+      "n_segments": 14
+    },
+    {
+      "name": "morning_shaving_routine",
+      "description": "Performing a morning shaving routine using a razor and shaving cream.",
+      "created_day": 52,
+      "n_segments": 4
+    },
+    {
+      "name": "make_and_drink_coffee_or_tea",
+      "description": "Preparing and drinking coffee or tea, involving handling the beverage and a cup.",
+      "created_day": 55,
+      "n_segments": 2
+    },
+    {
+      "name": "morning_hair_care",
+      "description": "Performing a morning hair care routine using a hairbrush and hairdryer.",
+      "created_day": 60,
+      "n_segments": 1
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "office_work",
+    "cereal_or_oatmeal_breakfast": "breakfast_with_coffee",
+    "breakfast_with_coffee": "breakfast_with_coffee_or_oatmeal",
+    "breakfast_with_coffee_or_oatmeal": "breakfast_with_coffee_or_cereal",
+    "breakfast_with_coffee_or_cereal": "breakfast_with_coffee_or_cereal_or_oatmeal",
+    "breakfast_with_coffee_or_cereal_or_oatmeal": "breakfast_with_coffee_or_cereal_or_oatmeal_or_jam",
+    "morning_routine": "watch_tv",
+    "make_and_drink_coffee": "make_and_drink_coffee_or_tea",
+    "breakfast_with_coffee_or_cereal_or_oatmeal_or_jam": "breakfast_with_coffee_or_cereal_or_oatmeal_or_jam_or_peanut_butter",
+    "breakfast_with_coffee_or_cereal_or_oatmeal_or_jam_or_peanut_butter": "breakfast_with_coffee_or_cereal_or_oatmeal_or_juice_or_jam_or_peanut_butter",
+    "make_and_eat_lunch": "make_and_eat_lunch_or_snack"
+  }
+}

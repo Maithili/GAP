@@ -1,0 +1,147 @@
+# ============================================================
+# Co-Adaptation Simulation - Base Configuration
+# ============================================================
+# This file is the single source of defaults.  CLI arguments
+# override any value set here (pass --key.subkey value).
+
+# --- Simulation ---
+simulation:
+  max_time: 1440          # 24 * 60 minutes
+  time_step_minutes: 10    # minutes per simulation tick
+  verbose: true
+  init_graph_file: data/init_graph_homer_plus_114nodes.json
+  lookahead_eval: 100000000
+
+# --- Robot ---
+robot:
+  policy: hybrid           # slate_pro | streak | hybrid | plain_llm | oracle | nopa | noop
+  slate_pro:
+    model_checkpoint: external/SLaTe-PRO/checkpoints  # path to pretrained model checkpoint directory
+    train_from_scratch: false
+    confidence_threshold: 0.0  # minimum probability for predicted relocation to trigger action
+    lookahead_steps: 3         # autoregressive multi-step prediction (paper uses 6, but hurts closed-loop)
+  streak:
+    confidence_threshold: 0.0
+    lookahead_steps: 3
+  hybrid:
+    # LLM memory curation + activity transformer + task-graph policy
+    common_data_path: external/HOMER_PLUS/Household{household}/processed_seqLM_coarse/common_data.json
+    memory_dir: results/hybrid_memory      # per-run override via CLI
+    llm:
+      provider: openai
+      curate_model: gpt-4o        # one-time training curation (quality-critical)
+      cache_dir: cache/llm_curator/   # per-run override (NFS SQLite contention)
+      max_usd: 30.0               # hard ceiling on curation spend
+    embedding:
+      model: text-embedding-3-small
+    transformer:
+      mode: event                 # event (per-segment + time) | interval (per 10-min tick)
+    policy:
+      # Defaults = winner of the HHA sweep (2026-06-09): f1 0.423 vs 0.233 at
+      # the original conservative knobs (0.5/2/0.7/0.6). Peak is at bold
+      # acting: threshold 0.05/cap 12 already degrades (acc 70%->56%).
+      prob_threshold: 0.1         # min candidate score to act
+      lookahead_actions: 3        # task-graph beam lookahead steps
+      max_actions_per_tick: 8
+      prep_horizon_min: 60        # initiate next-activity prep if its predicted
+                                  # start is within this many minutes
+      next_act_conf: 0.5          # ... and with at least this confidence
+      prep_discount: 1.0          # score discount on next-activity prep actions
+      act_window_min: 30          # only emit actions whose expected moment
+                                  # (segment/prep start + node mean offset)
+                                  # is within this many minutes of now
+                                  # (v6 learned per-key lead overrides per action)
+    continual_learning:
+      # v2-PF: prequentially-selected per-day decay on task-graph counts
+      # (gamma chosen each retrain round by one-step-ahead backtest on
+      # training data only — see findings H13 addendum), actor-split node
+      # counts (human vs robot), and mirrored recency-weighted warm-start
+      # transformer training. gamma logged to <memory>/gamma_log.jsonl;
+      # plot with scripts/plot_gamma.py.
+      enabled: false
+      gamma_grid: [0.85, 0.90, 0.95, 0.98, 1.0]
+      transformer_recency: true   # mirror graph gamma-decay in transformer
+                                  # day-weights (ablate with --hybrid_no_transformer_recency)
+  oracle:
+    # P0 ceiling: GT-script policy (reads the day's processed .pt paired
+    # with the human script_path — measurement instrument, not a method).
+    common_data_path: external/HOMER_PLUS/Household{household}/processed_seqLM_coarse/common_data.json
+  nopa:
+    # NOPA baseline (Puig et al., ICRA 2023): goal proposal network +
+    # inverse-planning particle filter + uncertainty-aware helping planner.
+    common_data_path: external/HOMER_PLUS/Household{household}/processed_seqLM_coarse/common_data.json
+    task_episodes: true        # one GT activity segment = one NOPA episode
+    task_split: none           # none | prep_cleanup: also cut an activity where the
+                               # human's script moves an object a 2nd time
+                               # (O-WAH regime: ~27 tasks/day, median 30 min,
+                               # 3.7 predicates). false = whole day as one
+                               # goal, the original port; pair with
+                               # policy.lm_units: ticks.
+    solo_days: null            # = warmup_days. The GPN must be trained on
+                               # main-agent-alone episodes only (paper 3-C);
+                               # unset -> train() raises. No silent default.
+    include_finetune_days: false   # deviation ablation: also train on
+                                   # robot-perturbed days
+    policy:
+      K: 20                    # goal proposals per resample (paper)
+      T_prop: 15               # prediction horizon, in plan steps (paper)
+      L_max: 100               # L_M for goal edges beyond the horizon (paper)
+      w_r: 1.0                 # paper
+      w_c: 1.0                 # paper. Inert here: L_H == 1 for every edge, so
+                               # -w_c*L_H is a constant and cannot move argmax V.
+      w_m: 5.0                 # paper (w_d): state-disturbance weight
+      action_rule: value       # value = paper Eq.(1). most_likely = rank by
+                               # posterior support p(e) only, dropping the
+                               # earliness term, w_c, w_m and min_value.
+      max_actions: 1           # Alg. 3 executes ONE subgoal per step
+      lm_horizon_fallback: true  # paper: predicates past T_prop get L_M=L_max.
+                                 # false uses their true plan position, which we
+                                 # know (rank covers the whole plan) and the
+                                 # paper does not (its plan is an MCTS rollout).
+      lm_units: steps          # L_M unit. 'steps' = the paper's plan-step
+                               # semantics, correct for task episodes.
+                               # 'ticks' was the whole-day hack (L_max=100
+                               # ticks ~= 1 day); use it with task_episodes: false.
+      min_value: 0.0           # stay idle unless V > this (paper Fig. 1 "No action")
+      sigma_floor_min: 20.0    # floor on the arrival-clock prior sigma
+      goal_source: gpn         # gpn | uniform  (uniform = paper's OursRG)
+      inverse_planning: true   # false = paper's Ours-InvPlan
+      restore: true            # false = paper's Ours-Return (also pins w_m=0)
+      restore_all_initial: false  # true = literal Alg-3 reading: restore ANY
+                                  # object off its initial location, including
+                                  # ones only the human moved
+      plan_order_gate: true    # keep only each object's EARLIEST remaining
+                               # predicate (read off the particles' sampled
+                               # plans). Household objects visit several
+                               # destinations per day, unlike O-WAH's
+                               # consistent-final-state goals; without this the
+                               # helper ping-pongs an object between them.
+      argmax_goal: false       # true = paper's HPGPN (K=1, argmax goal)
+      seed: 0
+  plain_llm:
+    # No-frills LLM baseline: raw history in, relocations out (cond27)
+    common_data_path: external/HOMER_PLUS/Household{household}/processed_seqLM_coarse/common_data.json
+    provider: openai
+    model: gpt-4o-mini
+    history_days: 14            # past days of raw observations in the prompt
+    max_predictions: 10         # X: cap on relocations per LLM call
+    cache_dir: cache/llm_plainllm/   # per-run override
+    max_usd: 30.0
+
+# --- Human ---
+human:
+  # Vigilance: the human observes each robot action and may correct/undo it.
+  # (Separate from the removed 'curiosity' observation model.)
+  curiosity_vigilance:
+    enabled: false                 # human observes robot actions and corrects unmatched ones
+    probability: 1.0               # P(human observes a given robot action) [0,1]
+    correction_window_hours: 6.0   # lookahead window for matching planned human actions
+  policy: scripted                 # scripted | llm  ('llm' forces vigilance off)
+  llm:
+    redirect_window_min: 120       # redirect only to a planned dest within this many minutes
+
+# --- Benchmark household selection ---
+# The benchmark harness (scripts/closed_loop_eval.py, scripts/benchmark_comparison.py)
+# reads config['benchmark']['household'] for dataset naming and output paths.
+benchmark:
+  household: A

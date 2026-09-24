@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning hygiene tasks.",
+      "created_day": 0,
+      "n_segments": 1
+    },
+    {
+      "name": "morning_medicine",
+      "description": "Taking morning medicine with a glass of water.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "guitar_practice",
+      "description": "Practicing guitar playing.",
+      "created_day": 0,
+      "n_segments": 140
+    },
+    {
+      "name": "take_out_trash",
+      "description": "Taking the trash out.",
+      "created_day": 0,
+      "n_segments": 7
+    },
+    {
+      "name": "coffee_or_tea_and_games",
+      "description": "Having coffee or tea and playing games, can occur at any time of the day.",
+      "created_day": 0,
+      "n_segments": 76
+    },
+    {
+      "name": "work_session",
+      "description": "Working at the desk.",
+      "created_day": 0,
+      "n_segments": 126
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Cleaning the house with a vacuum cleaner.",
+      "created_day": 0,
+      "n_segments": 25
+    },
+    {
+      "name": "reading_session",
+      "description": "Reading a book.",
+      "created_day": 0,
+      "n_segments": 107
+    },
+    {
+      "name": "evening_grooming",
+      "description": "Evening grooming routine.",
+      "created_day": 0,
+      "n_segments": 22
+    },
+    {
+      "name": "lunch_preparation",
+      "description": "Preparing lunch.",
+      "created_day": 0,
+      "n_segments": 14
+    },
+    {
+      "name": "dinner_cleanup",
+      "description": "Cleaning up after dinner.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Putting away dishes after cleaning.",
+      "created_day": 0,
+      "n_segments": 67
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV.",
+      "created_day": 0,
+      "n_segments": 113
+    },
+    {
+      "name": "dinner_at_table",
+      "description": "Having dinner at the table.",
+      "created_day": 1,
+      "n_segments": 53
+    },
+    {
+      "name": "kitchen_cleaning",
+      "description": "Cleaning the kitchen surfaces with cleaning solution and washcloth.",
+      "created_day": 4,
+      "n_segments": 40
+    },
+    {
+      "name": "dinner_preparation",
+      "description": "Preparing dinner, including gathering ingredients and utensils, and serving the meal.",
+      "created_day": 30,
+      "n_segments": 34
+    },
+    {
+      "name": "lunch_with_wine",
+      "description": "Having lunch with a glass of wine.",
+      "created_day": 58,
+      "n_segments": 1
+    }
+  ],
+  "aliases": {
+    "afternoon_tea_and_games": "afternoon_coffee_and_games",
+    "dinner": "dinner_at_table",
+    "afternoon_coffee_and_games": "coffee_and_games",
+    "dinner_preparation": "dinner_preparation_and_serving",
+    "work_setup": "work_session",
+    "coffee_and_games": "coffee_or_tea_and_games",
+    "dinner_preparation_and_serving": "dinner_preparation"
+  }
+}

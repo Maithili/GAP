@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning activities such as bathroom routines and preparing for the day.",
+      "created_day": 0,
+      "n_segments": 39
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 136
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Preparing and consuming a breakfast of cereal or oatmeal, possibly with coffee or juice.",
+      "created_day": 0,
+      "n_segments": 66
+    },
+    {
+      "name": "make_and_eat_lunch",
+      "description": "Preparing and eating lunch, including handling food and utensils.",
+      "created_day": 0,
+      "n_segments": 68
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 43
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 89
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 74
+    },
+    {
+      "name": "cook_and_clean_dinner",
+      "description": "Cooking dinner and cleaning up afterwards, involving pots, pans, and utensils.",
+      "created_day": 0,
+      "n_segments": 71
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 62
+    },
+    {
+      "name": "work_task",
+      "description": "Performing a work-related task using a notebook and pen.",
+      "created_day": 5,
+      "n_segments": 48
+    },
+    {
+      "name": "put_away_clean_dishes",
+      "description": "Returning clean dishes and utensils to their storage locations after washing.",
+      "created_day": 7,
+      "n_segments": 64
+    },
+    {
+      "name": "throw_away_trash",
+      "description": "Throwing away trash into a trash bag.",
+      "created_day": 8,
+      "n_segments": 13
+    },
+    {
+      "name": "prepare_and_drink_coffee",
+      "description": "Preparing and drinking coffee, involving a cup and the coffee.",
+      "created_day": 15,
+      "n_segments": 5
+    },
+    {
+      "name": "cheese_and_wine_snack_or_game",
+      "description": "Having a snack involving cheese and wine, possibly while playing games such as chess or cards.",
+      "created_day": 50,
+      "n_segments": 4
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "work_task",
+    "put_away_dishes": "put_away_clean_dishes",
+    "make_and_drink_coffee": "prepare_and_drink_coffee",
+    "make_and_drink_beverage": "make_and_drink_coffee",
+    "evening_snack": "cheese_and_wine_snack",
+    "cheese_and_wine_snack": "cheese_and_wine_snack_or_game"
+  }
+}

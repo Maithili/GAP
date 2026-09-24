@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, possibly for practice or leisure.",
+      "created_day": 0,
+      "n_segments": 82
+    },
+    {
+      "name": "clean_kitchen_counter",
+      "description": "Cleaning the kitchen counter using cleaning solution and washcloth.",
+      "created_day": 0,
+      "n_segments": 28
+    },
+    {
+      "name": "bathroom_routine",
+      "description": "Routine in the bathroom, including using toothpaste, hairdryer, and other grooming items, can occur in the morning or afternoon.",
+      "created_day": 0,
+      "n_segments": 42
+    },
+    {
+      "name": "work_at_desk",
+      "description": "Working at the desk, involving a notebook and pen.",
+      "created_day": 0,
+      "n_segments": 42
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Having cereal or oatmeal for breakfast, involving a bowl, cereal or oatmeal, milk, and a spoon.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "wash_breakfast_dishes",
+      "description": "Washing dishes used during breakfast.",
+      "created_day": 0,
+      "n_segments": 41
+    },
+    {
+      "name": "bring_in_mail_and_groceries",
+      "description": "Bringing in mail and groceries from outside.",
+      "created_day": 0,
+      "n_segments": 6
+    },
+    {
+      "name": "prepare_and_eat_dinner",
+      "description": "Preparing and eating dinner, involving cooking and setting the table.",
+      "created_day": 0,
+      "n_segments": 70
+    },
+    {
+      "name": "wash_dinner_dishes",
+      "description": "Washing dishes used during dinner.",
+      "created_day": 0,
+      "n_segments": 51
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Putting away dishes after washing them, applicable to any meal.",
+      "created_day": 0,
+      "n_segments": 53
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV, involving the use of a remote control.",
+      "created_day": 0,
+      "n_segments": 98
+    },
+    {
+      "name": "evening_bathroom_routine",
+      "description": "Evening routine in the bathroom, typically involving the use of grooming items like a hairdryer.",
+      "created_day": 0,
+      "n_segments": 14
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Using the vacuum cleaner to clean the house.",
+      "created_day": 1,
+      "n_segments": 37
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book, possibly for leisure or study.",
+      "created_day": 1,
+      "n_segments": 54
+    },
+    {
+      "name": "play_board_games",
+      "description": "Playing board games, including setting up and putting away the games.",
+      "created_day": 1,
+      "n_segments": 39
+    },
+    {
+      "name": "prepare_and_eat_snack",
+      "description": "Preparing and eating a snack, possibly involving cheese, wine, or coffee.",
+      "created_day": 3,
+      "n_segments": 14
+    },
+    {
+      "name": "wash_snack_dishes",
+      "description": "Washing dishes used during a snack.",
+      "created_day": 10,
+      "n_segments": 7
+    },
+    {
+      "name": "discard_food",
+      "description": "Discarding food items into the trash.",
+      "created_day": 15,
+      "n_segments": 18
+    },
+    {
+      "name": "put_away_book",
+      "description": "Putting away a book after reading.",
+      "created_day": 28,
+      "n_segments": 27
+    }
+  ],
+  "aliases": {
+    "put_away_board_games": "set_up_board_games",
+    "set_up_board_games": "set_up_and_put_away_board_games",
+    "morning_bathroom_routine": "bathroom_routine",
+    "cereal_breakfast": "cereal_or_oatmeal_breakfast",
+    "night_bathroom_routine": "evening_bathroom_routine",
+    "afternoon_bathroom_routine": "morning_bathroom_routine_with_shaving",
+    "oatmeal_breakfast": "cereal_or_oatmeal_breakfast",
+    "prepare_snack": "prepare_and_eat_snack",
+    "morning_bathroom_routine_with_shaving": "morning_bathroom_routine",
+    "toothpaste_bathroom_routine": "night_bathroom_routine",
+    "set_up_and_put_away_board_games": "play_board_games",
+    "put_away_dinner_dishes": "put_away_dishes",
+    "put_away_board_game_and_coffee": "put_away_board_game",
+    "put_away_board_game_and_coffee_cup": "put_away_board_game_and_coffee",
+    "put_away_board_game": "discard_food"
+  }
+}

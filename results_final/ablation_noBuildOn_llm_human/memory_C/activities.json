@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning hygiene tasks.",
+      "created_day": 0,
+      "n_segments": 1
+    },
+    {
+      "name": "morning_medicine",
+      "description": "Taking morning medicine with a glass of water.",
+      "created_day": 0,
+      "n_segments": 53
+    },
+    {
+      "name": "guitar_practice_or_setup",
+      "description": "Practicing guitar playing or setting up the guitar for practice.",
+      "created_day": 0,
+      "n_segments": 128
+    },
+    {
+      "name": "take_out_trash",
+      "description": "Taking the trash out.",
+      "created_day": 0,
+      "n_segments": 7
+    },
+    {
+      "name": "work_setup",
+      "description": "Setting up work equipment.",
+      "created_day": 0,
+      "n_segments": 58
+    },
+    {
+      "name": "games_and_snack",
+      "description": "Playing games and having a snack or drink.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "work_session",
+      "description": "Working at the desk.",
+      "created_day": 0,
+      "n_segments": 78
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Cleaning the house with a vacuum cleaner.",
+      "created_day": 0,
+      "n_segments": 25
+    },
+    {
+      "name": "reading_session",
+      "description": "Reading a book.",
+      "created_day": 0,
+      "n_segments": 101
+    },
+    {
+      "name": "grooming_and_meal_preparation",
+      "description": "Performing grooming tasks and preparing a meal, including setting up food and drink items and moving dishes to the sink.",
+      "created_day": 0,
+      "n_segments": 21
+    },
+    {
+      "name": "dinner_preparation",
+      "description": "Preparing dinner, including setting up food and drink items and moving dishes to the sink.",
+      "created_day": 0,
+      "n_segments": 113
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Putting away dishes after cleaning.",
+      "created_day": 0,
+      "n_segments": 54
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV, including handling the remote control.",
+      "created_day": 0,
+      "n_segments": 108
+    },
+    {
+      "name": "kitchen_cleaning",
+      "description": "Cleaning the kitchen surfaces with cleaning solution and washcloth.",
+      "created_day": 4,
+      "n_segments": 41
+    },
+    {
+      "name": "lunch_preparation",
+      "description": "Preparing lunch, including setting up food and drink items.",
+      "created_day": 43,
+      "n_segments": 3
+    },
+    {
+      "name": "coffee_break",
+      "description": "Having a coffee break, including setting up and cleaning up coffee items.",
+      "created_day": 45,
+      "n_segments": 7
+    },
+    {
+      "name": "lunch_cleanup",
+      "description": "Cleaning up after lunch, including moving food and drink items back to their places.",
+      "created_day": 49,
+      "n_segments": 2
+    },
+    {
+      "name": "meal_cleanup",
+      "description": "Cleaning up after a meal, including moving dishes to the sink.",
+      "created_day": 57,
+      "n_segments": 3
+    },
+    {
+      "name": "evening_grooming",
+      "description": "Performing evening grooming tasks, such as using a hairbrush and hairdryer.",
+      "created_day": 57,
+      "n_segments": 1
+    }
+  ],
+  "aliases": {
+    "afternoon_tea_and_games": "games_and_tea",
+    "dinner": "dinner_at_table",
+    "afternoon_coffee_and_games": "afternoon_tea_and_games",
+    "dinner_cleanup": "meal_cleanup",
+    "games_and_tea": "games_and_tea_or_coffee",
+    "dinner_at_table": "dinner_cleanup",
+    "games_and_tea_or_coffee": "games_and_coffee_or_tea",
+    "games_and_coffee_or_tea": "games_and_snack",
+    "dinner_preparation": "dinner_preparation_and_cleanup",
+    "evening_grooming": "grooming_routine",
+    "guitar_practice": "guitar_practice_or_setup",
+    "watch_tv": "watch_tv_or_read",
+    "watch_tv_or_read": "watch_tv",
+    "dinner_preparation_and_cleanup": "dinner_preparation",
+    "grooming_routine": "grooming_or_dinner_preparation",
+    "grooming_or_dinner_preparation": "grooming_and_dinner_preparation",
+    "grooming_and_dinner_preparation": "grooming_and_meal_preparation"
+  }
+}

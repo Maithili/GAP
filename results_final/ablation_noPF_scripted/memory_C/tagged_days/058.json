@@ -1,0 +1,680 @@
+{
+  "day": 58,
+  "source_pt": "external/gen_warm5_resetFalse_suppressFalse_noRep0_every5_vigoff_1117_1100/HouseholdC/processed_seqLM_coarse/train/058.pt",
+  "events": [
+    {
+      "t_min": 400.0,
+      "obj_idx": 48,
+      "dest_idx": 8,
+      "prev_idx": 9,
+      "obj_class": "drinking_glass",
+      "dest_class": "cupboard",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 400.0,
+      "obj_idx": 76,
+      "dest_idx": 1,
+      "prev_idx": 9,
+      "obj_class": "painkillers",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 450.0,
+      "obj_idx": 68,
+      "dest_idx": 24,
+      "prev_idx": 21,
+      "obj_class": "instrument_guitar",
+      "dest_class": "chair",
+      "prev_class": "home_office"
+    },
+    {
+      "t_min": 460.0,
+      "obj_idx": 68,
+      "dest_idx": 21,
+      "prev_idx": 24,
+      "obj_class": "instrument_guitar",
+      "dest_class": "home_office",
+      "prev_class": "chair"
+    },
+    {
+      "t_min": 490.0,
+      "obj_idx": 74,
+      "dest_idx": 25,
+      "prev_idx": 20,
+      "obj_class": "notebook",
+      "dest_class": "desk",
+      "prev_class": "filing_cabinet"
+    },
+    {
+      "t_min": 750.0,
+      "obj_idx": 77,
+      "dest_idx": 25,
+      "prev_idx": 20,
+      "obj_class": "pen",
+      "dest_class": "desk",
+      "prev_class": "filing_cabinet"
+    },
+    {
+      "t_min": 760.0,
+      "obj_idx": 38,
+      "dest_idx": 7,
+      "prev_idx": 13,
+      "obj_class": "chessboard",
+      "dest_class": "table",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 760.0,
+      "obj_idx": 74,
+      "dest_idx": 20,
+      "prev_idx": 25,
+      "obj_class": "notebook",
+      "dest_class": "filing_cabinet",
+      "prev_class": "desk"
+    },
+    {
+      "t_min": 760.0,
+      "obj_idx": 77,
+      "dest_idx": 20,
+      "prev_idx": 25,
+      "obj_class": "pen",
+      "dest_class": "filing_cabinet",
+      "prev_class": "desk"
+    },
+    {
+      "t_min": 790.0,
+      "obj_idx": 68,
+      "dest_idx": 24,
+      "prev_idx": 21,
+      "obj_class": "instrument_guitar",
+      "dest_class": "chair",
+      "prev_class": "home_office"
+    },
+    {
+      "t_min": 860.0,
+      "obj_idx": 47,
+      "dest_idx": 7,
+      "prev_idx": 13,
+      "obj_class": "deck_of_cards",
+      "dest_class": "table",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 860.0,
+      "obj_idx": 53,
+      "dest_idx": 46,
+      "prev_idx": 31,
+      "obj_class": "food_cheese",
+      "dest_class": "cutting_board",
+      "prev_class": "fridge"
+    },
+    {
+      "t_min": 860.0,
+      "obj_idx": 90,
+      "dest_idx": 7,
+      "prev_idx": 9,
+      "obj_class": "wine",
+      "dest_class": "table",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 860.0,
+      "obj_idx": 91,
+      "dest_idx": 7,
+      "prev_idx": 10,
+      "obj_class": "wine_glass",
+      "dest_class": "table",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 870.0,
+      "obj_idx": 53,
+      "dest_idx": 31,
+      "prev_idx": 46,
+      "obj_class": "food_cheese",
+      "dest_class": "fridge",
+      "prev_class": "cutting_board"
+    },
+    {
+      "t_min": 870.0,
+      "obj_idx": 90,
+      "dest_idx": 9,
+      "prev_idx": 7,
+      "obj_class": "wine",
+      "dest_class": "kitchen_counter",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 900.0,
+      "obj_idx": 91,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "wine_glass",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 910.0,
+      "obj_idx": 38,
+      "dest_idx": 13,
+      "prev_idx": 7,
+      "obj_class": "chessboard",
+      "dest_class": "bookshelf",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 910.0,
+      "obj_idx": 91,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "wine_glass",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 920.0,
+      "obj_idx": 47,
+      "dest_idx": 13,
+      "prev_idx": 7,
+      "obj_class": "deck_of_cards",
+      "dest_class": "bookshelf",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 950.0,
+      "obj_idx": 34,
+      "dest_idx": 22,
+      "prev_idx": 18,
+      "obj_class": "book",
+      "dest_class": "sofa",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 970.0,
+      "obj_idx": 34,
+      "dest_idx": 18,
+      "prev_idx": 22,
+      "obj_class": "book",
+      "dest_class": "bookshelf",
+      "prev_class": "sofa"
+    },
+    {
+      "t_min": 990.0,
+      "obj_idx": 88,
+      "dest_idx": 16,
+      "prev_idx": 3,
+      "obj_class": "vacuum_cleaner",
+      "dest_class": "bedroom",
+      "prev_class": "dining_room"
+    },
+    {
+      "t_min": 1000.0,
+      "obj_idx": 88,
+      "dest_idx": 21,
+      "prev_idx": 16,
+      "obj_class": "vacuum_cleaner",
+      "dest_class": "home_office",
+      "prev_class": "bedroom"
+    },
+    {
+      "t_min": 1010.0,
+      "obj_idx": 34,
+      "dest_idx": 22,
+      "prev_idx": 18,
+      "obj_class": "book",
+      "dest_class": "sofa",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 1010.0,
+      "obj_idx": 88,
+      "dest_idx": 3,
+      "prev_idx": 21,
+      "obj_class": "vacuum_cleaner",
+      "dest_class": "dining_room",
+      "prev_class": "home_office"
+    },
+    {
+      "t_min": 1020.0,
+      "obj_idx": 88,
+      "dest_idx": 30,
+      "prev_idx": 3,
+      "obj_class": "vacuum_cleaner",
+      "dest_class": "kitchen_cabinet",
+      "prev_class": "dining_room"
+    },
+    {
+      "t_min": 1040.0,
+      "obj_idx": 68,
+      "dest_idx": 17,
+      "prev_idx": 24,
+      "obj_class": "instrument_guitar",
+      "dest_class": "chair",
+      "prev_class": "chair"
+    },
+    {
+      "t_min": 1050.0,
+      "obj_idx": 44,
+      "dest_idx": 29,
+      "prev_idx": 8,
+      "obj_class": "cookingpot",
+      "dest_class": "stove",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1050.0,
+      "obj_idx": 62,
+      "dest_idx": 29,
+      "prev_idx": 8,
+      "obj_class": "fryingpan",
+      "dest_class": "stove",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1070.0,
+      "obj_idx": 65,
+      "dest_idx": 2,
+      "prev_idx": 1,
+      "obj_class": "hairbrush",
+      "dest_class": "bathroom_counter",
+      "prev_class": "bathroom_cabinet"
+    },
+    {
+      "t_min": 1070.0,
+      "obj_idx": 66,
+      "dest_idx": 2,
+      "prev_idx": 1,
+      "obj_class": "hairdryer",
+      "dest_class": "bathroom_counter",
+      "prev_class": "bathroom_cabinet"
+    },
+    {
+      "t_min": 1080.0,
+      "obj_idx": 65,
+      "dest_idx": 1,
+      "prev_idx": 2,
+      "obj_class": "hairbrush",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "bathroom_counter"
+    },
+    {
+      "t_min": 1080.0,
+      "obj_idx": 66,
+      "dest_idx": 1,
+      "prev_idx": 2,
+      "obj_class": "hairdryer",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "bathroom_counter"
+    },
+    {
+      "t_min": 1100.0,
+      "obj_idx": 78,
+      "dest_idx": 9,
+      "prev_idx": 8,
+      "obj_class": "plate",
+      "dest_class": "kitchen_counter",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1110.0,
+      "obj_idx": 49,
+      "dest_idx": 44,
+      "prev_idx": 8,
+      "obj_class": "dry_pasta",
+      "dest_class": "cookingpot",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1110.0,
+      "obj_idx": 54,
+      "dest_idx": 9,
+      "prev_idx": 31,
+      "obj_class": "food_chicken",
+      "dest_class": "kitchen_counter",
+      "prev_class": "fridge"
+    },
+    {
+      "t_min": 1120.0,
+      "obj_idx": 49,
+      "dest_idx": 8,
+      "prev_idx": 44,
+      "obj_class": "dry_pasta",
+      "dest_class": "cupboard",
+      "prev_class": "cookingpot"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 44,
+      "dest_idx": 7,
+      "prev_idx": 29,
+      "obj_class": "cookingpot",
+      "dest_class": "table",
+      "prev_class": "stove"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 54,
+      "dest_idx": 31,
+      "prev_idx": 9,
+      "obj_class": "food_chicken",
+      "dest_class": "fridge",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 61,
+      "dest_idx": 7,
+      "prev_idx": 10,
+      "obj_class": "fork",
+      "dest_class": "table",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 62,
+      "dest_idx": 7,
+      "prev_idx": 29,
+      "obj_class": "fryingpan",
+      "dest_class": "table",
+      "prev_class": "stove"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 78,
+      "dest_idx": 7,
+      "prev_idx": 9,
+      "obj_class": "plate",
+      "dest_class": "table",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1130.0,
+      "obj_idx": 83,
+      "dest_idx": 7,
+      "prev_idx": 8,
+      "obj_class": "spoon",
+      "dest_class": "table",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1140.0,
+      "obj_idx": 44,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "cookingpot",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1140.0,
+      "obj_idx": 61,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "fork",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1140.0,
+      "obj_idx": 62,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "fryingpan",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1140.0,
+      "obj_idx": 78,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "plate",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1140.0,
+      "obj_idx": 83,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "spoon",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1150.0,
+      "obj_idx": 44,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "cookingpot",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 83,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "spoon",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1190.0,
+      "obj_idx": 78,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "plate",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1200.0,
+      "obj_idx": 62,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "fryingpan",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1230.0,
+      "obj_idx": 81,
+      "dest_idx": 22,
+      "prev_idx": 26,
+      "obj_class": "remote_control",
+      "dest_class": "sofa",
+      "prev_class": "tvstand"
+    },
+    {
+      "t_min": 1240.0,
+      "obj_idx": 81,
+      "dest_idx": 26,
+      "prev_idx": 22,
+      "obj_class": "remote_control",
+      "dest_class": "tvstand",
+      "prev_class": "sofa"
+    },
+    {
+      "t_min": 1360.0,
+      "obj_idx": 34,
+      "dest_idx": 18,
+      "prev_idx": 22,
+      "obj_class": "book",
+      "dest_class": "bookshelf",
+      "prev_class": "sofa"
+    }
+  ],
+  "segments": [
+    {
+      "activity_name": "morning_medicine",
+      "start_min": 400.0,
+      "end_min": 400.0,
+      "event_idxs": [
+        0,
+        1
+      ]
+    },
+    {
+      "activity_name": "guitar_practice",
+      "start_min": 450.0,
+      "end_min": 460.0,
+      "event_idxs": [
+        2,
+        3
+      ]
+    },
+    {
+      "activity_name": "work_session_setup",
+      "start_min": 490.0,
+      "end_min": 490.0,
+      "event_idxs": [
+        4
+      ]
+    },
+    {
+      "activity_name": "work_session_setup",
+      "start_min": 750.0,
+      "end_min": 760.0,
+      "event_idxs": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "activity_name": "guitar_practice",
+      "start_min": 790.0,
+      "end_min": 790.0,
+      "event_idxs": [
+        9
+      ]
+    },
+    {
+      "activity_name": "lunch_with_games",
+      "start_min": 860.0,
+      "end_min": 920.0,
+      "event_idxs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "activity_name": "reading_session",
+      "start_min": 950.0,
+      "end_min": 970.0,
+      "event_idxs": [
+        20,
+        21
+      ]
+    },
+    {
+      "activity_name": "vacuum_cleaning",
+      "start_min": 990.0,
+      "end_min": 1020.0,
+      "event_idxs": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "activity_name": "guitar_practice",
+      "start_min": 1040.0,
+      "end_min": 1040.0,
+      "event_idxs": [
+        27
+      ]
+    },
+    {
+      "activity_name": "dinner_preparation",
+      "start_min": 1050.0,
+      "end_min": 1050.0,
+      "event_idxs": [
+        28,
+        29
+      ]
+    },
+    {
+      "activity_name": "evening_grooming",
+      "start_min": 1070.0,
+      "end_min": 1080.0,
+      "event_idxs": [
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "activity_name": "dinner_at_table_or_counter",
+      "start_min": 1100.0,
+      "end_min": 1130.0,
+      "event_idxs": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "activity_name": "dinner_cleanup",
+      "start_min": 1140.0,
+      "end_min": 1140.0,
+      "event_idxs": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "activity_name": "put_away_dishes",
+      "start_min": 1150.0,
+      "end_min": 1200.0,
+      "event_idxs": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "activity_name": "watch_tv",
+      "start_min": 1230.0,
+      "end_min": 1240.0,
+      "event_idxs": [
+        53,
+        54
+      ]
+    },
+    {
+      "activity_name": "reading_session",
+      "start_min": 1360.0,
+      "end_min": 1360.0,
+      "event_idxs": [
+        55
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning activities such as bathroom routines and preparing for the day.",
+      "created_day": 0,
+      "n_segments": 35
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 148
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Preparing and consuming a breakfast of cereal or oatmeal, possibly with coffee or juice.",
+      "created_day": 0,
+      "n_segments": 66
+    },
+    {
+      "name": "work_call",
+      "description": "Using a headset for a work-related call.",
+      "created_day": 0,
+      "n_segments": 24
+    },
+    {
+      "name": "prepare_and_eat_meal",
+      "description": "Preparing and eating a meal, including handling food and utensils.",
+      "created_day": 0,
+      "n_segments": 101
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 47
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 87
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 70
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 59
+    },
+    {
+      "name": "organize_desk",
+      "description": "Organizing items on the desk, such as moving notebooks and pens.",
+      "created_day": 5,
+      "n_segments": 27
+    },
+    {
+      "name": "wash_dishes",
+      "description": "Cleaning dishes used during meals.",
+      "created_day": 7,
+      "n_segments": 57
+    },
+    {
+      "name": "clean_up_after_playing",
+      "description": "Putting away items used during play activities.",
+      "created_day": 7,
+      "n_segments": 7
+    },
+    {
+      "name": "snack_or_light_meal",
+      "description": "Having a quick snack or light meal, such as a donut or cheese.",
+      "created_day": 29,
+      "n_segments": 51
+    },
+    {
+      "name": "prepare_for_meal_or_snack",
+      "description": "Preparing the kitchen or table for an upcoming meal or snack.",
+      "created_day": 52,
+      "n_segments": 3
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "cook_and_clean_dinner": "make_and_eat_meal",
+    "wash_breakfast_dishes": "wash_dishes",
+    "cook_and_clean_meal": "cook_and_clean_dinner",
+    "make_and_eat_lunch": "make_and_eat_meal",
+    "snack_break": "snack_or_light_meal",
+    "snack_or_coffee_break": "snack_break",
+    "prepare_for_meal": "prepare_for_meal_or_snack",
+    "make_and_eat_meal": "prepare_and_eat_meal"
+  }
+}

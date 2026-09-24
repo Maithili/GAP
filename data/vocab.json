@@ -1,0 +1,717 @@
+{
+    "nodes": [
+        {
+            "properties": [],
+            "id": 240,
+            "states": [],
+            "category": "Characters",
+            "class_name": "character",
+            "static": true
+        },
+        {
+            "id": 15,
+            "class_name": "toilet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 16,
+            "class_name": "shower",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 17,
+            "class_name": "bathroom_cabinet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 18,
+            "class_name": "bathroom_counter",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 19,
+            "class_name": "sink",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 20,
+            "class_name": "faucet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 39,
+            "class_name": "light",
+            "category": "Electronics",
+            "static": true
+        },
+        {
+            "id": 61,
+            "class_name": "door",
+            "category": "Doors",
+            "static": true
+        },
+        {
+            "id": 113,
+            "class_name": "bench",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 114,
+            "class_name": "table",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 117,
+            "class_name": "cupboard",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 119,
+            "class_name": "kitchen_counter",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 120,
+            "class_name": "sink",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 121,
+            "class_name": "faucet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 122,
+            "class_name": "kitchen_counter",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 123,
+            "class_name": "kitchen_counter",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 124,
+            "class_name": "bookshelf",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 194,
+            "class_name": "chair",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 196,
+            "class_name": "bookshelf",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 198,
+            "class_name": "sofa",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 199,
+            "class_name": "table",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 200,
+            "class_name": "filing_cabinet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 269,
+            "class_name": "sofa",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 270,
+            "class_name": "table",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 271,
+            "class_name": "chair",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 272,
+            "class_name": "desk",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 273,
+            "class_name": "tvstand",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 275,
+            "class_name": "bookshelf",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 1004,
+            "class_name": "kitchen_cabinet",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 1008,
+            "class_name": "dresser",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 1010,
+            "class_name": "shoe_rack",
+            "category": "Furniture",
+            "static": true
+        },
+        {
+            "id": 1,
+            "class_name": "bathroom",
+            "category": "Rooms",
+            "static": false
+        },
+        {
+            "id": 41,
+            "class_name": "dining_room",
+            "category": "Rooms",
+            "static": false
+        },
+        {
+            "id": 76,
+            "class_name": "knifeblock",
+            "category": "Props",
+            "static": false
+        },
+        {
+            "id": 99,
+            "class_name": "trashcan",
+            "category": "Props",
+            "static": false
+        },
+        {
+            "id": 102,
+            "class_name": "mat",
+            "category": "Decor",
+            "static": false
+        },
+        {
+            "id": 130,
+            "class_name": "coffe_maker",
+            "category": "Appliances",
+            "static": true
+        },
+        {
+            "id": 135,
+            "class_name": "microwave",
+            "category": "Appliances",
+            "static": true
+        },
+        {
+            "id": 162,
+            "class_name": "bedroom",
+            "category": "Rooms",
+            "static": false
+        },
+        {
+            "id": 241,
+            "class_name": "home_office",
+            "category": "Rooms",
+            "static": false
+        },
+        {
+            "id": 999,
+            "class_name": "outside",
+            "category": "Rooms",
+            "static": false
+        },
+        {
+            "id": 1002,
+            "class_name": "stove",
+            "category": "Appliances",
+            "static": true
+        },
+        {
+            "id": 1006,
+            "class_name": "fridge",
+            "category": "Appliances",
+            "static": true
+        },
+        {
+            "id": 1012,
+            "class_name": "toothbrush_holder",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1018,
+            "class_name": "blanket",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1023,
+            "class_name": "book",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1026,
+            "class_name": "bowl",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1030,
+            "class_name": "cd",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1031,
+            "class_name": "cd_player",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1034,
+            "class_name": "chessboard",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1036,
+            "class_name": "cleaning_solution",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1037,
+            "class_name": "cloth_napkin",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1041,
+            "class_name": "clothes_jacket",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1048,
+            "class_name": "coffee",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1049,
+            "class_name": "coffee_cup",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1050,
+            "class_name": "coffee_filter",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1053,
+            "class_name": "comb",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1056,
+            "class_name": "cookingpot",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1058,
+            "class_name": "cup",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1059,
+            "class_name": "cutting_board",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1060,
+            "class_name": "deck_of_cards",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1061,
+            "class_name": "deodorant",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1067,
+            "class_name": "disinfectant_wipes",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1069,
+            "class_name": "drinking_glass",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1070,
+            "class_name": "dry_pasta",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1077,
+            "class_name": "face_soap",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1080,
+            "class_name": "food_apple",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1083,
+            "class_name": "food_bread",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1087,
+            "class_name": "food_cereal",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1088,
+            "class_name": "food_cheese",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1089,
+            "class_name": "food_chicken",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1091,
+            "class_name": "food_donut",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1098,
+            "class_name": "food_jam",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1102,
+            "class_name": "food_oatmeal",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1106,
+            "class_name": "food_peanut_butter",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1109,
+            "class_name": "food_rice",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1115,
+            "class_name": "food_vegetable",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1116,
+            "class_name": "fork",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1117,
+            "class_name": "fryingpan",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1119,
+            "class_name": "groceries",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1120,
+            "class_name": "ground_coffee",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1121,
+            "class_name": "hairbrush",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1122,
+            "class_name": "hairdryer",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1123,
+            "class_name": "headset",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1126,
+            "class_name": "instrument_guitar",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1132,
+            "class_name": "juice",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1137,
+            "class_name": "knife",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1142,
+            "class_name": "mail",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1144,
+            "class_name": "milk",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1148,
+            "class_name": "mug",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1154,
+            "class_name": "notebook",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1156,
+            "class_name": "oil",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1158,
+            "class_name": "painkillers",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1162,
+            "class_name": "pen",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1167,
+            "class_name": "plate",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1172,
+            "class_name": "radio",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1174,
+            "class_name": "razor",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1176,
+            "class_name": "remote_control",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1183,
+            "class_name": "shampoo",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1184,
+            "class_name": "shaving_cream",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1187,
+            "class_name": "shoes",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1191,
+            "class_name": "spectacles",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1193,
+            "class_name": "spoon",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1196,
+            "class_name": "tea",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1203,
+            "class_name": "tooth_paste",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1204,
+            "class_name": "toothbrush",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1205,
+            "class_name": "towel",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1206,
+            "class_name": "towel_rack",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1207,
+            "class_name": "trashbag",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1209,
+            "class_name": "vacuum_cleaner",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1212,
+            "class_name": "washcloth",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1215,
+            "class_name": "wine",
+            "category": "placable_objects",
+            "static": false
+        },
+        {
+            "id": 1216,
+            "class_name": "wine_glass",
+            "category": "placable_objects",
+            "static": false
+        }
+    ],
+    "activities": [
+        null,
+        "breakfast",
+        "brushing_teeth",
+        "cleaning",
+        "come_home",
+        "computer_work",
+        "dinner",
+        "getting_dressed",
+        "going_to_the_bathroom",
+        "leave_home",
+        "listening_to_music",
+        "lunch",
+        "nap",
+        "playing_music",
+        "reading",
+        "showering",
+        "sleep",
+        "socializing",
+        "take_out_trash",
+        "taking_medication",
+        "wake_up",
+        "wash_dishes_breakfast",
+        "wash_dishes_dinner",
+        "wash_dishes_lunch",
+        "watching_tv"
+    ]
+}

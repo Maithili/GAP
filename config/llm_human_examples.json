@@ -1,0 +1,58 @@
+{
+  "examples": [
+    {
+      "prompt_type": "unexpected",
+      "situation": "Current activity: breakfast.\nYou planned to move the cereal box to the table.\nBut you find the cereal box is currently at kitchen_counter (the robot already brought it out).\nThe robot just moved cereal to kitchen_counter.",
+      "decision": "accept",
+      "rationale": "Cereal at the counter still works for breakfast; not worth moving it the last step to the table."
+    },
+    {
+      "prompt_type": "unexpected",
+      "situation": "Current activity: cooking.\nYou planned to move the spoon to the cookingpot.\nBut you find the spoon is currently at table (the robot put it on the dining table).\nThe robot just moved spoon to table.",
+      "decision": "correct",
+      "rationale": "You actively need the spoon in the pot right now; the table location blocks the task."
+    },
+    {
+      "prompt_type": "unexpected",
+      "situation": "Current activity: idle.\nYou planned to move the remote_control to the sofa.\nBut you find the remote_control is currently at tvstand (the robot stowed it).\nThe robot just moved remote_control to tvstand.",
+      "decision": "skip",
+      "rationale": "Tvstand is fine for the remote; no reason to move it back just to follow the plan."
+    },
+    {
+      "prompt_type": "at_dest",
+      "situation": "Current activity: idle.\nYou planned to move the book to the bookshelf. The book is already there because the robot moved it.",
+      "decision": "skip",
+      "rationale": "Nothing to do — the robot's action matched the plan exactly."
+    },
+    {
+      "prompt_type": "observe",
+      "situation": "Current activity: cooking.\nYou just noticed the robot moved the plate to the knifeblock.\nUpcoming plan includes moving plate -> sink (in ~10 min).",
+      "decision": "undo",
+      "rationale": "The knifeblock is not where the plate belongs and you need it at the sink soon; quicker to undo now."
+    },
+    {
+      "prompt_type": "observe",
+      "situation": "Current activity: idle.\nYou just noticed the robot moved the mug to the coffee_maker.\nUpcoming plan has no mug actions in the next several hours.",
+      "decision": "allow",
+      "rationale": "Coffee maker is a reasonable home for the mug and you don't need it; let it be."
+    },
+    {
+      "prompt_type": "observe",
+      "situation": "Current activity: setting_table.\nYou just noticed the robot moved the plate to the cupboard.\nYour upcoming plan: move plate -> table (in ~20 min).",
+      "decision": "redirect",
+      "rationale": "I'll need the plate on the table shortly anyway, so I'll just carry it from the cupboard straight to the table now instead of undoing the robot and moving it twice."
+    },
+    {
+      "prompt_type": "observe",
+      "situation": "Current activity: idle.\nYou just noticed the robot moved the raw_steak to the kitchen_cabinet.\nUpcoming plan has no raw_steak actions for the rest of the day (you'll cook it tomorrow).",
+      "decision": "undo",
+      "rationale": "Raw steak left in a cabinet will spoil — I need to put it back in the fridge even though it's extra work, because leaving it out is harmful."
+    },
+    {
+      "prompt_type": "observe",
+      "situation": "Current activity: relaxing.\nYou just noticed the robot moved the remote_control to the tvstand.\nUpcoming plan has no remote_control actions in the next 2 hours.",
+      "decision": "allow",
+      "rationale": "The tvstand is a fine spot for the remote and I won't need to put it anywhere specific soon, so I'll leave it."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+scope,source,pct_total_actions,pct_true_positives,precision,n_actions,n_tp,n_fp
+pooled,current,75.69,83.43,0.6393,6336,3755,2119
+pooled,prep,24.31,16.57,0.4707,2035,746,839
+HH-A,current,77.72,82.52,0.6687,2564,1605,795
+HH-A,prep,22.28,17.48,0.5457,735,340,283
+HH-B,current,75.89,85.79,0.6264,2049,1177,702
+HH-B,prep,24.11,14.21,0.3955,651,195,298
+HH-C,current,72.64,82.18,0.6100,1723,973,622
+HH-C,prep,27.36,17.82,0.4499,649,211,258

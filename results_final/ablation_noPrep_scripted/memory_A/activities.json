@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning activities such as bathroom routines and preparing for the day.",
+      "created_day": 0,
+      "n_segments": 33
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 146
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Preparing and consuming a breakfast of cereal or oatmeal, possibly with coffee or juice.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "work_task",
+      "description": "Performing work-related tasks, such as using a headset for calls or handling office supplies.",
+      "created_day": 0,
+      "n_segments": 53
+    },
+    {
+      "name": "make_and_eat_lunch",
+      "description": "Preparing and eating lunch, including handling food and utensils.",
+      "created_day": 0,
+      "n_segments": 65
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 46
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 97
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 79
+    },
+    {
+      "name": "cook_and_clean_dinner",
+      "description": "Cooking dinner and cleaning up afterwards, involving pots, pans, and utensils.",
+      "created_day": 0,
+      "n_segments": 61
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 66
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Returning clean dishes and utensils to their storage locations.",
+      "created_day": 5,
+      "n_segments": 93
+    },
+    {
+      "name": "discard_food_and_drink",
+      "description": "Throwing away food and drink items into the trash or sink.",
+      "created_day": 26,
+      "n_segments": 11
+    },
+    {
+      "name": "wash_dishes",
+      "description": "Washing dishes used during meals, involving moving them to and from the sink.",
+      "created_day": 27,
+      "n_segments": 3
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "work_task",
+    "wash_dinner_dishes": "wash_dishes",
+    "discard_food": "discard_food_and_drink"
+  }
+}

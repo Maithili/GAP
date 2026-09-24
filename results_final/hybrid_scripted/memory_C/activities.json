@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning hygiene tasks.",
+      "created_day": 0,
+      "n_segments": 1
+    },
+    {
+      "name": "morning_medicine",
+      "description": "Taking morning medication with a glass of water.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "guitar_practice",
+      "description": "Practicing guitar playing.",
+      "created_day": 0,
+      "n_segments": 138
+    },
+    {
+      "name": "take_out_trash",
+      "description": "Taking the trash out to the outside bin.",
+      "created_day": 0,
+      "n_segments": 5
+    },
+    {
+      "name": "work_session_setup",
+      "description": "Setting up workspace for a work session.",
+      "created_day": 0,
+      "n_segments": 141
+    },
+    {
+      "name": "tea_break_with_games",
+      "description": "Having a tea break with games like chess or cards.",
+      "created_day": 0,
+      "n_segments": 56
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Cleaning different rooms with a vacuum cleaner.",
+      "created_day": 0,
+      "n_segments": 25
+    },
+    {
+      "name": "reading_session",
+      "description": "Reading a book in a comfortable spot.",
+      "created_day": 0,
+      "n_segments": 108
+    },
+    {
+      "name": "grooming_routine",
+      "description": "Performing grooming tasks, such as using a hairdryer and hairbrush.",
+      "created_day": 0,
+      "n_segments": 20
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Putting away dishes after they have dried.",
+      "created_day": 0,
+      "n_segments": 59
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV using the remote control.",
+      "created_day": 0,
+      "n_segments": 107
+    },
+    {
+      "name": "dinner_preparation_and_cleanup",
+      "description": "Preparing dinner, including cooking, setting the table, and cleaning up afterwards.",
+      "created_day": 1,
+      "n_segments": 116
+    },
+    {
+      "name": "kitchen_cleaning",
+      "description": "Cleaning the kitchen using cleaning supplies.",
+      "created_day": 4,
+      "n_segments": 40
+    },
+    {
+      "name": "coffee_break",
+      "description": "Having a coffee break, sometimes with games like chess or cards.",
+      "created_day": 29,
+      "n_segments": 15
+    },
+    {
+      "name": "wine_and_cheese_snack",
+      "description": "Having a snack with wine and cheese.",
+      "created_day": 43,
+      "n_segments": 5
+    }
+  ],
+  "aliases": {
+    "afternoon_tea_and_games": "afternoon_coffee_and_games",
+    "work_setup": "work_session_setup",
+    "afternoon_coffee_and_games": "afternoon_snack_and_games",
+    "work_session": "work_session_or_study",
+    "dinner_preparation": "dinner_preparation_and_cleanup",
+    "breakfast_preparation": "dinner_preparation",
+    "evening_grooming": "grooming_and_cooking_prep",
+    "evening_grooming_and_dinner_prep": "evening_grooming",
+    "dinner": "dinner_and_cleanup",
+    "dinner_and_cleanup": "dinner_preparation_and_cleanup",
+    "afternoon_snack_and_games": "snack_and_games",
+    "work_session_or_study": "work_session_setup",
+    "afternoon_tea": "tea_break",
+    "coffee_break": "coffee_break_with_games",
+    "grooming_and_cooking_prep": "grooming_routine",
+    "coffee_break_with_games": "coffee_break",
+    "dinner_and_immediate_cleanup": "dinner_and_cleanup",
+    "dinner_preparation_and_cleanup": "dinner_preparation",
+    "snack_and_games": "tea_break_with_games",
+    "tea_break": "tea_break_with_games",
+    "dinner_cleanup": "dinner_preparation_and_cleanup"
+  }
+}

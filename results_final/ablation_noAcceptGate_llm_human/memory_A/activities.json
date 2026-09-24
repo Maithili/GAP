@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine",
+      "description": "Performing morning activities such as bathroom routines and preparing for the day.",
+      "created_day": 0,
+      "n_segments": 30
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 131
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Preparing and consuming a breakfast of cereal or oatmeal, possibly with coffee or juice.",
+      "created_day": 0,
+      "n_segments": 66
+    },
+    {
+      "name": "put_away_work_items",
+      "description": "Putting away work-related items such as a headset.",
+      "created_day": 0,
+      "n_segments": 47
+    },
+    {
+      "name": "put_away_lunch_items",
+      "description": "Putting away lunch items after use.",
+      "created_day": 0,
+      "n_segments": 19
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Playing and listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 40
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, moving it between locations.",
+      "created_day": 0,
+      "n_segments": 60
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 63
+    },
+    {
+      "name": "cook_and_clean_meal",
+      "description": "Cooking a meal and cleaning up afterwards, involving pots, pans, and utensils.",
+      "created_day": 0,
+      "n_segments": 68
+    },
+    {
+      "name": "play_games",
+      "description": "Playing games such as chess or cards.",
+      "created_day": 0,
+      "n_segments": 51
+    },
+    {
+      "name": "wash_dinner_dishes",
+      "description": "Washing and putting away dinner dishes.",
+      "created_day": 6,
+      "n_segments": 42
+    },
+    {
+      "name": "make_coffee",
+      "description": "Preparing and putting away coffee.",
+      "created_day": 6,
+      "n_segments": 16
+    },
+    {
+      "name": "put_away_guitar",
+      "description": "Putting away the guitar after use.",
+      "created_day": 6,
+      "n_segments": 31
+    },
+    {
+      "name": "put_away_breakfast_items",
+      "description": "Putting away breakfast items after use.",
+      "created_day": 8,
+      "n_segments": 12
+    },
+    {
+      "name": "snack_on_donut",
+      "description": "Snacking on a donut.",
+      "created_day": 8,
+      "n_segments": 14
+    },
+    {
+      "name": "snack_on_cheese",
+      "description": "Snacking on cheese, involving moving cheese and utensils.",
+      "created_day": 12,
+      "n_segments": 33
+    },
+    {
+      "name": "snack_on_peanut_butter_and_jam",
+      "description": "Snacking on peanut butter and jam, involving moving food items and utensils.",
+      "created_day": 14,
+      "n_segments": 26
+    }
+  ],
+  "aliases": {
+    "cereal_and_coffee_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "put_away_work_items",
+    "cook_and_clean_dinner": "cook_and_clean_meal",
+    "make_and_eat_lunch": "put_away_lunch_items",
+    "cook_and_clean_meal": "cook_and_clean_dinner",
+    "make_tea": "make_and_drink_tea",
+    "make_and_drink_tea": "make_and_drink_tea_or_coffee",
+    "make_and_drink_tea_or_coffee": "make_coffee"
+  }
+}

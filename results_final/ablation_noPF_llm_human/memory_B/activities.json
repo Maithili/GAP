@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, possibly for practice or leisure.",
+      "created_day": 0,
+      "n_segments": 77
+    },
+    {
+      "name": "clean_kitchen_counter",
+      "description": "Cleaning the kitchen counter using cleaning solution and washcloth.",
+      "created_day": 0,
+      "n_segments": 28
+    },
+    {
+      "name": "morning_bathroom_routine_with_shaving",
+      "description": "Morning routine in the bathroom, including using toothpaste, hairdryer, and shaving items.",
+      "created_day": 0,
+      "n_segments": 7
+    },
+    {
+      "name": "work_at_desk",
+      "description": "Working at the desk, involving a notebook and pen.",
+      "created_day": 0,
+      "n_segments": 38
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Having cereal or oatmeal for breakfast, involving a bowl, cereal or oatmeal, milk, and a spoon.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "wash_meal_dishes",
+      "description": "Washing dishes used during any meal.",
+      "created_day": 0,
+      "n_segments": 31
+    },
+    {
+      "name": "handle_mail",
+      "description": "Handling mail, including bringing it in and organizing it.",
+      "created_day": 0,
+      "n_segments": 6
+    },
+    {
+      "name": "prepare_eat_and_cleanup_dinner",
+      "description": "Preparing, eating, and initial cleanup of dishes used during dinner.",
+      "created_day": 0,
+      "n_segments": 72
+    },
+    {
+      "name": "wash_dinner_dishes",
+      "description": "Washing dishes used during dinner.",
+      "created_day": 0,
+      "n_segments": 41
+    },
+    {
+      "name": "put_away_dinner_dishes",
+      "description": "Putting away dishes after washing them.",
+      "created_day": 0,
+      "n_segments": 42
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV, involving the use of a remote control.",
+      "created_day": 0,
+      "n_segments": 87
+    },
+    {
+      "name": "bathroom_routine_without_shaving",
+      "description": "Bathroom routine involving using toothpaste but without shaving items, regardless of time of day.",
+      "created_day": 0,
+      "n_segments": 21
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Using the vacuum cleaner to clean the house.",
+      "created_day": 1,
+      "n_segments": 37
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book, possibly for leisure or study.",
+      "created_day": 1,
+      "n_segments": 65
+    },
+    {
+      "name": "set_up_and_put_away_board_games",
+      "description": "Setting up and putting away board games on the table.",
+      "created_day": 1,
+      "n_segments": 57
+    },
+    {
+      "name": "bathroom_routine_with_hairdryer",
+      "description": "Bathroom routine involving the use of a hairdryer, regardless of time of day.",
+      "created_day": 1,
+      "n_segments": 19
+    },
+    {
+      "name": "wash_snack_dishes",
+      "description": "Washing dishes used during a snack.",
+      "created_day": 10,
+      "n_segments": 5
+    },
+    {
+      "name": "discard_food",
+      "description": "Throwing away food items into the trash.",
+      "created_day": 12,
+      "n_segments": 7
+    },
+    {
+      "name": "afternoon_tea",
+      "description": "Having tea in the afternoon, involving a cup and tea.",
+      "created_day": 40,
+      "n_segments": 7
+    }
+  ],
+  "aliases": {
+    "put_away_board_games": "set_up_board_games",
+    "set_up_board_games": "set_up_and_put_away_board_games",
+    "morning_bathroom_routine": "morning_bathroom_routine_with_shaving",
+    "prepare_and_eat_dinner": "prepare_eat_and_cleanup_dinner",
+    "cereal_breakfast": "cereal_or_oatmeal_breakfast",
+    "night_bathroom_routine": "morning_bathroom_routine_without_shaving",
+    "afternoon_bathroom_routine": "bathroom_routine_with_hairdryer",
+    "morning_bathroom_routine_without_shaving": "evening_bathroom_routine_without_shaving",
+    "evening_bathroom_routine_without_shaving": "bathroom_routine_without_shaving",
+    "prepare_snack": "set_up_and_put_away_board_games",
+    "bring_in_mail_and_groceries": "handle_mail",
+    "wash_breakfast_dishes": "wash_meal_dishes",
+    "prepare_and_eat_dinner_with_pasta": "prepare_and_eat_dinner",
+    "prepare_and_eat_dinner_with_rice": "prepare_and_eat_dinner",
+    "prepare_and_eat_dinner_with_cleanup": "prepare_and_eat_dinner"
+  }
+}

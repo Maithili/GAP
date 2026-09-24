@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "morning_routine_with_tv",
+      "description": "Morning routine activities, such as brushing teeth or preparing for work, sometimes including watching TV.",
+      "created_day": 0,
+      "n_segments": 40
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching television using the remote control.",
+      "created_day": 0,
+      "n_segments": 147
+    },
+    {
+      "name": "breakfast_with_cereal",
+      "description": "Preparing and eating breakfast, including cereal, followed by cleaning up afterwards.",
+      "created_day": 0,
+      "n_segments": 68
+    },
+    {
+      "name": "put_away_dishes",
+      "description": "Putting away clean dishes into the cupboard.",
+      "created_day": 0,
+      "n_segments": 59
+    },
+    {
+      "name": "work_task",
+      "description": "Using a headset or notebook for work-related tasks.",
+      "created_day": 0,
+      "n_segments": 45
+    },
+    {
+      "name": "lunch_preparation_and_cleanup",
+      "description": "Preparing and cleaning up after lunch.",
+      "created_day": 0,
+      "n_segments": 50
+    },
+    {
+      "name": "listen_to_music",
+      "description": "Listening to music using a CD player.",
+      "created_day": 0,
+      "n_segments": 45
+    },
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar.",
+      "created_day": 0,
+      "n_segments": 98
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book on the sofa.",
+      "created_day": 0,
+      "n_segments": 72
+    },
+    {
+      "name": "dinner_preparation_and_cleanup",
+      "description": "Preparing and cleaning up after dinner.",
+      "created_day": 0,
+      "n_segments": 74
+    },
+    {
+      "name": "games_with_coffee",
+      "description": "Playing games, such as chess or cards, with coffee, typically in the evening.",
+      "created_day": 0,
+      "n_segments": 53
+    },
+    {
+      "name": "snack_cleanup",
+      "description": "Cleaning up after having a snack.",
+      "created_day": 26,
+      "n_segments": 10
+    },
+    {
+      "name": "evening_snack_with_wine",
+      "description": "Having an evening snack with wine, possibly including cheese or other items.",
+      "created_day": 28,
+      "n_segments": 10
+    },
+    {
+      "name": "cheese_snack_or_cleanup",
+      "description": "Preparing a cheese snack, such as cheese on a plate, and/or cleaning up afterwards.",
+      "created_day": 32,
+      "n_segments": 24
+    },
+    {
+      "name": "discard_snack",
+      "description": "Discarding leftover snack items.",
+      "created_day": 32,
+      "n_segments": 9
+    }
+  ],
+  "aliases": {
+    "cereal_breakfast": "cereal_or_oatmeal_breakfast",
+    "morning_bathroom_routine": "morning_routine",
+    "work_call": "work_task",
+    "evening_relaxation": "evening_games",
+    "morning_tv": "tv_time",
+    "tv_time": "watch_tv",
+    "coffee_cleanup": "coffee_preparation_and_cleanup",
+    "coffee_preparation_and_cleanup": "cereal_or_oatmeal_breakfast",
+    "snack_cleanup": "snack_or_coffee_cleanup",
+    "snack_or_coffee_cleanup": "snack_cleanup",
+    "cereal_or_oatmeal_breakfast": "breakfast_preparation_and_cleanup",
+    "evening_snack": "evening_snack_with_cheese_and_wine",
+    "evening_games": "evening_games_with_coffee",
+    "evening_games_with_coffee": "games_with_coffee",
+    "snack_preparation": "cheese_snack_preparation",
+    "breakfast_preparation_and_cleanup": "breakfast_with_oatmeal_preparation_and_cleanup",
+    "breakfast_with_coffee_preparation_and_cleanup": "breakfast_preparation_and_cleanup",
+    "games_with_coffee": "games_with_tea",
+    "games_with_tea": "games_with_coffee_or_tea",
+    "evening_snack_with_cheese_and_wine": "evening_snack_with_wine",
+    "morning_routine": "morning_routine_with_tv",
+    "breakfast_with_oatmeal_preparation_and_cleanup": "breakfast_with_cereal_or_oatmeal_preparation_and_cleanup",
+    "breakfast_with_cereal_preparation_and_cleanup": "breakfast_with_cereal_or_oatmeal_preparation_and_cleanup",
+    "games_with_coffee_or_tea": "games_with_tea_or_coffee",
+    "cheese_snack_preparation": "cheese_snack_preparation_and_cleanup",
+    "cheese_snack_preparation_and_cleanup": "cheese_snack_or_cleanup",
+    "breakfast_with_cereal_or_oatmeal_preparation_and_cleanup": "breakfast_with_cereal_or_oatmeal",
+    "games_with_tea_or_coffee": "games_with_coffee",
+    "breakfast_with_cereal_or_oatmeal": "breakfast_with_cereal"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, possibly for practice or leisure.",
+      "created_day": 0,
+      "n_segments": 70
+    },
+    {
+      "name": "clean_kitchen_counter",
+      "description": "Cleaning the kitchen counter using cleaning solution and washcloth.",
+      "created_day": 0,
+      "n_segments": 29
+    },
+    {
+      "name": "bathroom_routine_with_shaving",
+      "description": "Bathroom routine including using toothpaste, hairdryer, and shaving items, regardless of time of day.",
+      "created_day": 0,
+      "n_segments": 7
+    },
+    {
+      "name": "work_at_desk",
+      "description": "Working at the desk, involving a notebook and pen.",
+      "created_day": 0,
+      "n_segments": 38
+    },
+    {
+      "name": "cereal_or_oatmeal_breakfast",
+      "description": "Having cereal or oatmeal for breakfast, involving a bowl, cereal or oatmeal, milk, and a spoon.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "wash_breakfast_dishes",
+      "description": "Washing dishes used during breakfast.",
+      "created_day": 0,
+      "n_segments": 32
+    },
+    {
+      "name": "bring_in_mail_and_groceries",
+      "description": "Bringing in mail and groceries from outside.",
+      "created_day": 0,
+      "n_segments": 6
+    },
+    {
+      "name": "prepare_and_eat_dinner_with_chicken",
+      "description": "Preparing and eating dinner, involving cooking and setting the table, with chicken as a component.",
+      "created_day": 0,
+      "n_segments": 35
+    },
+    {
+      "name": "wash_dinner_dishes",
+      "description": "Washing dishes used during dinner.",
+      "created_day": 0,
+      "n_segments": 46
+    },
+    {
+      "name": "put_away_dinner_dishes",
+      "description": "Putting away dishes after washing them.",
+      "created_day": 0,
+      "n_segments": 54
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV, involving the use of a remote control.",
+      "created_day": 0,
+      "n_segments": 82
+    },
+    {
+      "name": "bathroom_routine_without_shaving",
+      "description": "Bathroom routine involving using toothpaste but not shaving items, regardless of time of day.",
+      "created_day": 0,
+      "n_segments": 25
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Using the vacuum cleaner to clean the house.",
+      "created_day": 1,
+      "n_segments": 37
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book, possibly for leisure or study.",
+      "created_day": 1,
+      "n_segments": 68
+    },
+    {
+      "name": "set_up_and_put_away_board_games",
+      "description": "Setting up and putting away board games on the table.",
+      "created_day": 1,
+      "n_segments": 22
+    },
+    {
+      "name": "bathroom_routine_with_hairdryer",
+      "description": "Bathroom routine involving the use of a hairdryer, regardless of time of day.",
+      "created_day": 1,
+      "n_segments": 22
+    },
+    {
+      "name": "prepare_snack_with_cheese",
+      "description": "Preparing a snack involving cheese, possibly with wine or other accompaniments.",
+      "created_day": 3,
+      "n_segments": 11
+    },
+    {
+      "name": "prepare_and_eat_dinner_with_rice_or_vegetables",
+      "description": "Preparing and eating dinner, involving cooking and setting the table, with rice or vegetables as components.",
+      "created_day": 6,
+      "n_segments": 28
+    },
+    {
+      "name": "discard_food",
+      "description": "Discarding food items into the trash.",
+      "created_day": 15,
+      "n_segments": 8
+    },
+    {
+      "name": "prepare_snack_with_tea",
+      "description": "Preparing a snack involving tea.",
+      "created_day": 16,
+      "n_segments": 14
+    },
+    {
+      "name": "prepare_and_consume_coffee",
+      "description": "Preparing and consuming coffee, possibly with other accompaniments.",
+      "created_day": 26,
+      "n_segments": 15
+    }
+  ],
+  "aliases": {
+    "put_away_board_games": "set_up_board_games",
+    "set_up_board_games": "set_up_and_put_away_board_games",
+    "morning_bathroom_routine": "morning_bathroom_routine_with_shaving",
+    "prepare_and_eat_dinner": "prepare_and_eat_dinner_with_pasta",
+    "cereal_breakfast": "cereal_or_oatmeal_breakfast",
+    "prepare_snack": "prepare_snack_with_cheese_and_wine",
+    "night_bathroom_routine": "morning_bathroom_routine_without_shaving",
+    "afternoon_bathroom_routine": "bathroom_routine_with_hairdryer",
+    "prepare_and_eat_dinner_with_pasta": "prepare_and_eat_dinner_with_chicken",
+    "morning_bathroom_routine_with_shaving": "bathroom_routine_with_shaving",
+    "prepare_snack_with_cheese_and_wine": "prepare_snack_with_cheese",
+    "morning_bathroom_routine_without_shaving": "evening_bathroom_routine_without_shaving",
+    "evening_bathroom_routine_without_shaving": "bathroom_routine_without_shaving",
+    "prepare_snack_with_cheese": "prepare_snack_with_cheese_or_wine",
+    "prepare_snack_with_coffee": "prepare_and_consume_coffee",
+    "prepare_and_eat_dinner_with_rice": "prepare_and_eat_dinner_with_rice_or_vegetables",
+    "prepare_snack_with_cheese_or_wine": "prepare_snack_with_cheese"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "version": 1,
+  "activities": [
+    {
+      "name": "play_guitar",
+      "description": "Playing the guitar, possibly for practice or leisure.",
+      "created_day": 0,
+      "n_segments": 77
+    },
+    {
+      "name": "clean_kitchen_counter",
+      "description": "Cleaning the kitchen counter using cleaning solution and washcloth.",
+      "created_day": 0,
+      "n_segments": 28
+    },
+    {
+      "name": "work_at_desk",
+      "description": "Working at the desk, involving a notebook and pen.",
+      "created_day": 0,
+      "n_segments": 39
+    },
+    {
+      "name": "cereal_or_oatmeal_or_coffee_breakfast",
+      "description": "Having cereal, oatmeal, coffee, or juice for breakfast, involving a bowl, cereal or oatmeal, milk, a spoon, and possibly coffee items.",
+      "created_day": 0,
+      "n_segments": 52
+    },
+    {
+      "name": "wash_breakfast_dishes",
+      "description": "Washing dishes used during breakfast.",
+      "created_day": 0,
+      "n_segments": 31
+    },
+    {
+      "name": "bring_in_mail_and_groceries",
+      "description": "Bringing in mail and groceries from outside.",
+      "created_day": 0,
+      "n_segments": 6
+    },
+    {
+      "name": "prepare_and_eat_meal",
+      "description": "Preparing and eating a meal, involving cooking and setting the table.",
+      "created_day": 0,
+      "n_segments": 69
+    },
+    {
+      "name": "put_away_meal_dishes",
+      "description": "Putting away dishes after washing them, used during any meal.",
+      "created_day": 0,
+      "n_segments": 94
+    },
+    {
+      "name": "watch_tv",
+      "description": "Watching TV, involving the use of a remote control.",
+      "created_day": 0,
+      "n_segments": 95
+    },
+    {
+      "name": "toothpaste_bathroom_routine",
+      "description": "Bathroom routine involving the use of toothpaste, can occur at any time of day.",
+      "created_day": 0,
+      "n_segments": 34
+    },
+    {
+      "name": "vacuum_cleaning",
+      "description": "Using the vacuum cleaner to clean the house.",
+      "created_day": 1,
+      "n_segments": 37
+    },
+    {
+      "name": "read_book",
+      "description": "Reading a book, possibly for leisure or study.",
+      "created_day": 1,
+      "n_segments": 72
+    },
+    {
+      "name": "set_up_and_put_away_board_games",
+      "description": "Setting up and putting away board games on the table.",
+      "created_day": 1,
+      "n_segments": 35
+    },
+    {
+      "name": "hairdryer_bathroom_routine",
+      "description": "Bathroom routine involving the use of a hairdryer or other personal care items.",
+      "created_day": 1,
+      "n_segments": 22
+    },
+    {
+      "name": "prepare_snack",
+      "description": "Preparing a snack involving cheese and wine.",
+      "created_day": 3,
+      "n_segments": 8
+    },
+    {
+      "name": "coffee_breakfast",
+      "description": "Having coffee for breakfast, involving a mug, coffee filter, and coffee cup.",
+      "created_day": 9,
+      "n_segments": 3
+    },
+    {
+      "name": "discard_food",
+      "description": "Throwing away food items into the trash.",
+      "created_day": 12,
+      "n_segments": 9
+    },
+    {
+      "name": "coffee_break",
+      "description": "Having a coffee break, involving a coffee cup and coffee.",
+      "created_day": 13,
+      "n_segments": 11
+    },
+    {
+      "name": "prepare_and_drink_tea",
+      "description": "Preparing and drinking tea, involving a cup and tea.",
+      "created_day": 16,
+      "n_segments": 13
+    },
+    {
+      "name": "put_away_snack_items",
+      "description": "Putting away items used for a snack, such as wine and wine glasses.",
+      "created_day": 17,
+      "n_segments": 4
+    },
+    {
+      "name": "put_away_coffee_items",
+      "description": "Putting away items used for a coffee break, such as a coffee cup.",
+      "created_day": 64,
+      "n_segments": 1
+    }
+  ],
+  "aliases": {
+    "put_away_board_games": "set_up_board_games",
+    "set_up_board_games": "set_up_and_put_away_board_games",
+    "morning_bathroom_routine": "morning_toothpaste_bathroom_routine",
+    "prepare_and_eat_dinner": "prepare_and_eat_dinner_or_lunch",
+    "cereal_breakfast": "cereal_or_oatmeal_breakfast",
+    "prepare_and_eat_dinner_or_lunch": "prepare_and_eat_meal",
+    "night_bathroom_routine": "toothpaste_bathroom_routine",
+    "cereal_or_oatmeal_breakfast": "cereal_or_oatmeal_or_coffee_breakfast",
+    "toothpaste_bathroom_routine": "morning_toothpaste_bathroom_routine",
+    "morning_bathroom_routine_with_shaving": "morning_bathroom_routine",
+    "afternoon_bathroom_routine": "bathroom_routine",
+    "wash_dinner_dishes": "wash_meal_dishes",
+    "morning_toothpaste_bathroom_routine": "toothpaste_bathroom_routine",
+    "prepare_tea": "prepare_and_drink_tea",
+    "put_away_dinner_dishes": "put_away_meal_dishes",
+    "bathroom_routine": "hairdryer_bathroom_routine",
+    "cereal_or_oatmeal_or_coffee_breakfast": "cereal_or_oatmeal_or_coffee_or_juice_breakfast",
+    "cereal_or_oatmeal_or_coffee_or_juice_breakfast": "cereal_or_oatmeal_or_coffee_breakfast",
+    "wash_meal_dishes": "put_away_meal_dishes"
+  }
+}

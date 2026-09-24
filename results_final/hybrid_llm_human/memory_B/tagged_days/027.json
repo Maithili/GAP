@@ -1,0 +1,564 @@
+{
+  "day": 27,
+  "source_pt": "external/gen_warm5_resetFalse_suppressFalse_noRep0_every5_vigoff_humanllm-gpt-4o-mini-redirect_1116_1650/HouseholdB/processed_seqLM_coarse/train/027.pt",
+  "events": [
+    {
+      "t_min": 390.0,
+      "obj_idx": 68,
+      "dest_idx": 17,
+      "prev_idx": 21,
+      "obj_class": "instrument_guitar",
+      "dest_class": "chair",
+      "prev_class": "home_office"
+    },
+    {
+      "t_min": 410.0,
+      "obj_idx": 39,
+      "dest_idx": 9,
+      "prev_idx": 30,
+      "obj_class": "cleaning_solution",
+      "dest_class": "kitchen_counter",
+      "prev_class": "kitchen_cabinet"
+    },
+    {
+      "t_min": 410.0,
+      "obj_idx": 68,
+      "dest_idx": 21,
+      "prev_idx": 17,
+      "obj_class": "instrument_guitar",
+      "dest_class": "home_office",
+      "prev_class": "chair"
+    },
+    {
+      "t_min": 410.0,
+      "obj_idx": 89,
+      "dest_idx": 9,
+      "prev_idx": 30,
+      "obj_class": "washcloth",
+      "dest_class": "kitchen_counter",
+      "prev_class": "kitchen_cabinet"
+    },
+    {
+      "t_min": 430.0,
+      "obj_idx": 39,
+      "dest_idx": 30,
+      "prev_idx": 9,
+      "obj_class": "cleaning_solution",
+      "dest_class": "kitchen_cabinet",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 430.0,
+      "obj_idx": 89,
+      "dest_idx": 30,
+      "prev_idx": 9,
+      "obj_class": "washcloth",
+      "dest_class": "kitchen_cabinet",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 440.0,
+      "obj_idx": 66,
+      "dest_idx": 2,
+      "prev_idx": 1,
+      "obj_class": "hairdryer",
+      "dest_class": "bathroom_counter",
+      "prev_class": "bathroom_cabinet"
+    },
+    {
+      "t_min": 450.0,
+      "obj_idx": 66,
+      "dest_idx": 1,
+      "prev_idx": 2,
+      "obj_class": "hairdryer",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "bathroom_counter"
+    },
+    {
+      "t_min": 460.0,
+      "obj_idx": 80,
+      "dest_idx": 2,
+      "prev_idx": 1,
+      "obj_class": "razor",
+      "dest_class": "bathroom_counter",
+      "prev_class": "bathroom_cabinet"
+    },
+    {
+      "t_min": 460.0,
+      "obj_idx": 82,
+      "dest_idx": 2,
+      "prev_idx": 1,
+      "obj_class": "shaving_cream",
+      "dest_class": "bathroom_counter",
+      "prev_class": "bathroom_cabinet"
+    },
+    {
+      "t_min": 470.0,
+      "obj_idx": 35,
+      "dest_idx": 7,
+      "prev_idx": 8,
+      "obj_class": "bowl",
+      "dest_class": "table",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 470.0,
+      "obj_idx": 80,
+      "dest_idx": 1,
+      "prev_idx": 2,
+      "obj_class": "razor",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "bathroom_counter"
+    },
+    {
+      "t_min": 470.0,
+      "obj_idx": 82,
+      "dest_idx": 1,
+      "prev_idx": 2,
+      "obj_class": "shaving_cream",
+      "dest_class": "bathroom_cabinet",
+      "prev_class": "bathroom_counter"
+    },
+    {
+      "t_min": 500.0,
+      "obj_idx": 52,
+      "dest_idx": 7,
+      "prev_idx": 8,
+      "obj_class": "food_cereal",
+      "dest_class": "table",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 43,
+      "dest_idx": 14,
+      "prev_idx": 8,
+      "obj_class": "coffee_filter",
+      "dest_class": "coffe_maker",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 52,
+      "dest_idx": 8,
+      "prev_idx": 7,
+      "obj_class": "food_cereal",
+      "dest_class": "cupboard",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 64,
+      "dest_idx": 9,
+      "prev_idx": 8,
+      "obj_class": "ground_coffee",
+      "dest_class": "kitchen_counter",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 72,
+      "dest_idx": 7,
+      "prev_idx": 31,
+      "obj_class": "milk",
+      "dest_class": "table",
+      "prev_class": "fridge"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 73,
+      "dest_idx": 14,
+      "prev_idx": 8,
+      "obj_class": "mug",
+      "dest_class": "coffe_maker",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 510.0,
+      "obj_idx": 83,
+      "dest_idx": 35,
+      "prev_idx": 8,
+      "obj_class": "spoon",
+      "dest_class": "bowl",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 520.0,
+      "obj_idx": 43,
+      "dest_idx": 10,
+      "prev_idx": 14,
+      "obj_class": "coffee_filter",
+      "dest_class": "sink",
+      "prev_class": "coffe_maker"
+    },
+    {
+      "t_min": 520.0,
+      "obj_idx": 64,
+      "dest_idx": 8,
+      "prev_idx": 9,
+      "obj_class": "ground_coffee",
+      "dest_class": "cupboard",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 520.0,
+      "obj_idx": 73,
+      "dest_idx": 7,
+      "prev_idx": 14,
+      "obj_class": "mug",
+      "dest_class": "table",
+      "prev_class": "coffe_maker"
+    },
+    {
+      "t_min": 530.0,
+      "obj_idx": 72,
+      "dest_idx": 31,
+      "prev_idx": 7,
+      "obj_class": "milk",
+      "dest_class": "fridge",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 540.0,
+      "obj_idx": 73,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "mug",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 540.0,
+      "obj_idx": 83,
+      "dest_idx": 10,
+      "prev_idx": 35,
+      "obj_class": "spoon",
+      "dest_class": "sink",
+      "prev_class": "bowl"
+    },
+    {
+      "t_min": 1100.0,
+      "obj_idx": 38,
+      "dest_idx": 7,
+      "prev_idx": 13,
+      "obj_class": "chessboard",
+      "dest_class": "table",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 1100.0,
+      "obj_idx": 53,
+      "dest_idx": 46,
+      "prev_idx": 31,
+      "obj_class": "food_cheese",
+      "dest_class": "cutting_board",
+      "prev_class": "fridge"
+    },
+    {
+      "t_min": 1100.0,
+      "obj_idx": 90,
+      "dest_idx": 7,
+      "prev_idx": 9,
+      "obj_class": "wine",
+      "dest_class": "table",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1100.0,
+      "obj_idx": 91,
+      "dest_idx": 7,
+      "prev_idx": 8,
+      "obj_class": "wine_glass",
+      "dest_class": "table",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1110.0,
+      "obj_idx": 47,
+      "dest_idx": 7,
+      "prev_idx": 13,
+      "obj_class": "deck_of_cards",
+      "dest_class": "table",
+      "prev_class": "bookshelf"
+    },
+    {
+      "t_min": 1110.0,
+      "obj_idx": 90,
+      "dest_idx": 9,
+      "prev_idx": 7,
+      "obj_class": "wine",
+      "dest_class": "kitchen_counter",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1120.0,
+      "obj_idx": 47,
+      "dest_idx": 13,
+      "prev_idx": 7,
+      "obj_class": "deck_of_cards",
+      "dest_class": "bookshelf",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1150.0,
+      "obj_idx": 91,
+      "dest_idx": 8,
+      "prev_idx": 7,
+      "obj_class": "wine_glass",
+      "dest_class": "cupboard",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1160.0,
+      "obj_idx": 44,
+      "dest_idx": 29,
+      "prev_idx": 8,
+      "obj_class": "cookingpot",
+      "dest_class": "stove",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1160.0,
+      "obj_idx": 53,
+      "dest_idx": 31,
+      "prev_idx": 46,
+      "obj_class": "food_cheese",
+      "dest_class": "fridge",
+      "prev_class": "cutting_board"
+    },
+    {
+      "t_min": 1160.0,
+      "obj_idx": 62,
+      "dest_idx": 29,
+      "prev_idx": 8,
+      "obj_class": "fryingpan",
+      "dest_class": "stove",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1160.0,
+      "obj_idx": 78,
+      "dest_idx": 9,
+      "prev_idx": 8,
+      "obj_class": "plate",
+      "dest_class": "kitchen_counter",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1170.0,
+      "obj_idx": 59,
+      "dest_idx": 9,
+      "prev_idx": 8,
+      "obj_class": "food_rice",
+      "dest_class": "kitchen_counter",
+      "prev_class": "cupboard"
+    },
+    {
+      "t_min": 1170.0,
+      "obj_idx": 60,
+      "dest_idx": 9,
+      "prev_idx": 31,
+      "obj_class": "food_vegetable",
+      "dest_class": "kitchen_counter",
+      "prev_class": "fridge"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 59,
+      "dest_idx": 8,
+      "prev_idx": 9,
+      "obj_class": "food_rice",
+      "dest_class": "cupboard",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 60,
+      "dest_idx": 31,
+      "prev_idx": 9,
+      "obj_class": "food_vegetable",
+      "dest_class": "fridge",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 61,
+      "dest_idx": 7,
+      "prev_idx": 10,
+      "obj_class": "fork",
+      "dest_class": "table",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 62,
+      "dest_idx": 7,
+      "prev_idx": 29,
+      "obj_class": "fryingpan",
+      "dest_class": "table",
+      "prev_class": "stove"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 78,
+      "dest_idx": 7,
+      "prev_idx": 9,
+      "obj_class": "plate",
+      "dest_class": "table",
+      "prev_class": "kitchen_counter"
+    },
+    {
+      "t_min": 1180.0,
+      "obj_idx": 83,
+      "dest_idx": 7,
+      "prev_idx": 10,
+      "obj_class": "spoon",
+      "dest_class": "table",
+      "prev_class": "sink"
+    },
+    {
+      "t_min": 1190.0,
+      "obj_idx": 61,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "fork",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1190.0,
+      "obj_idx": 62,
+      "dest_idx": 10,
+      "prev_idx": 7,
+      "obj_class": "fryingpan",
+      "dest_class": "sink",
+      "prev_class": "table"
+    },
+    {
+      "t_min": 1260.0,
+      "obj_idx": 44,
+      "dest_idx": 8,
+      "prev_idx": 29,
+      "obj_class": "cookingpot",
+      "dest_class": "cupboard",
+      "prev_class": "stove"
+    },
+    {
+      "t_min": 1260.0,
+      "obj_idx": 62,
+      "dest_idx": 8,
+      "prev_idx": 10,
+      "obj_class": "fryingpan",
+      "dest_class": "cupboard",
+      "prev_class": "sink"
+    }
+  ],
+  "segments": [
+    {
+      "activity_name": "play_guitar",
+      "start_min": 390.0,
+      "end_min": 390.0,
+      "event_idxs": [
+        0
+      ]
+    },
+    {
+      "activity_name": "clean_kitchen_counter",
+      "start_min": 410.0,
+      "end_min": 430.0,
+      "event_idxs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "activity_name": "toothpaste_bathroom_routine",
+      "start_min": 440.0,
+      "end_min": 470.0,
+      "event_idxs": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "activity_name": "cereal_or_oatmeal_or_coffee_breakfast",
+      "start_min": 500.0,
+      "end_min": 540.0,
+      "event_idxs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "activity_name": "prepare_snack",
+      "start_min": 1100.0,
+      "end_min": 1150.0,
+      "event_idxs": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "activity_name": "prepare_and_eat_meal",
+      "start_min": 1160.0,
+      "end_min": 1180.0,
+      "event_idxs": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "activity_name": "put_away_meal_dishes",
+      "start_min": 1180.0,
+      "end_min": 1190.0,
+      "event_idxs": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "activity_name": "put_away_meal_dishes",
+      "start_min": 1260.0,
+      "end_min": 1260.0,
+      "event_idxs": [
+        48,
+        49
+      ]
+    }
+  ]
+}

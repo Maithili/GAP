@@ -1,0 +1,7650 @@
+{
+  "play_guitar": {
+    "activity_name": "play_guitar",
+    "n_segments": 26.408675802371484,
+    "nodes": [
+      {
+        "obj_idx": 68,
+        "dest_idx": 24,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 9.784370965852391,
+        "count_robot": 0.10467395472325501,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 21,
+        "obj_class": "instrument_guitar",
+        "dest_class": "home_office",
+        "count": 20.19754049213696,
+        "count_robot": 0,
+        "offset_sum_min": 296.8079538983704,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 14.69525232608989
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 17,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 9.67153290115678,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 22,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.7260925945580405,
+        "count_robot": 0,
+        "offset_sum_min": 14.52185189116081,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.26315432464573446,
+        "count_robot": 0,
+        "offset_sum_min": 5.26308649291469,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 20.000000000000004
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 0.4181203352191771,
+        "count_robot": 0,
+        "offset_sum_min": 8.362406704383542,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 20.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 9.784370965852391
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 6.896210308012054
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 9.67153290115678
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 3.455790580886613
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 6.0721967372383014
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 0.06267216326897833
+      },
+      {
+        "src": 0,
+        "dst": 4,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 19.77942015691778
+      },
+      {
+        "src": 1,
+        "dst": 5,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 2.698783101997653
+      },
+      {
+        "src": 2,
+        "dst": 1,
+        "count": 6.23988652768283
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.6634204312890623
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "count": 0.06944284018723361
+      },
+      {
+        "src": 3,
+        "dst": 1,
+        "count": 0.7260925945580405
+      },
+      {
+        "src": 4,
+        "dst": 1,
+        "count": 0.26315432464573446
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 0.4181203352191771
+      }
+    ]
+  },
+  "clean_kitchen_counter": {
+    "activity_name": "clean_kitchen_counter",
+    "n_segments": 9.013442333495897,
+    "nodes": [
+      {
+        "obj_idx": 39,
+        "dest_idx": 9,
+        "obj_class": "cleaning_solution",
+        "dest_class": "kitchen_counter",
+        "count": 5.605726440167491,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 21,
+        "obj_class": "instrument_guitar",
+        "dest_class": "home_office",
+        "count": 1.3549514247747698,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 89,
+        "dest_idx": 9,
+        "obj_class": "washcloth",
+        "dest_class": "kitchen_counter",
+        "count": 3.6876387933050325,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 39,
+        "dest_idx": 30,
+        "obj_class": "cleaning_solution",
+        "dest_class": "kitchen_cabinet",
+        "count": 5.357184159135064,
+        "count_robot": 0,
+        "offset_sum_min": 37.3865058836024,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 6.978760627418599
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 22,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.046069798986951946,
+        "count_robot": 0,
+        "offset_sum_min": 0.4606979898695195,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 89,
+        "dest_idx": 30,
+        "obj_class": "washcloth",
+        "dest_class": "kitchen_cabinet",
+        "count": 5.650275749791736,
+        "count_robot": 0.8268494526588528,
+        "offset_sum_min": 38.06543825247769,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 6.736916911334946
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 17,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 0.2039068257457904,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 1.0620281693981317,
+        "count_robot": 0,
+        "offset_sum_min": 5.987369392383787,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 5.637674748097242
+      },
+      {
+        "obj_idx": 65,
+        "dest_idx": 1,
+        "obj_class": "hairbrush",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.6983372960937497,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 24,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 0.6983372960937497,
+        "count_robot": 0.6983372960937497,
+        "offset_sum_min": 13.966745921874995,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 20.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 5.605726440167491
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 0.39353277761827177
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 2.5508918855503833
+      },
+      {
+        "src": -1,
+        "dst": 7,
+        "count": 0.46329123015975304
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 1.3549514247747698
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 1.9391545909119912
+      },
+      {
+        "src": 0,
+        "dst": 5,
+        "count": 1.6132831283869793
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "count": 0.6983372960937497
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 1.3549514247747698
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 1.8930847919250393
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.9998570091058474
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 2,
+        "dst": 5,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 2,
+        "dst": 7,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 1.4700817917791231
+      },
+      {
+        "src": 3,
+        "dst": 5,
+        "count": 2.984858245516401
+      },
+      {
+        "src": 3,
+        "dst": 6,
+        "count": 0.2039068257457904
+      },
+      {
+        "src": 3,
+        "dst": 9,
+        "count": 0.6983372960937497
+      },
+      {
+        "src": 4,
+        "dst": 3,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 5.650275749791736
+      },
+      {
+        "src": 6,
+        "dst": 5,
+        "count": 0.2039068257457904
+      },
+      {
+        "src": 7,
+        "dst": 3,
+        "count": 1.0620281693981317
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "count": 0.6983372960937497
+      },
+      {
+        "src": 9,
+        "dst": 5,
+        "count": 0.6983372960937497
+      }
+    ]
+  },
+  "bathroom_routine": {
+    "activity_name": "bathroom_routine",
+    "n_segments": 18.622914922070713,
+    "nodes": [
+      {
+        "obj_idx": 85,
+        "dest_idx": 2,
+        "obj_class": "tooth_paste",
+        "dest_class": "bathroom_counter",
+        "count": 6.849825615547754,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 89,
+        "dest_idx": 30,
+        "obj_class": "washcloth",
+        "dest_class": "kitchen_cabinet",
+        "count": 0.36105768418482503,
+        "count_robot": 0,
+        "offset_sum_min": 3.2353354497370903,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 8.960716227496007
+      },
+      {
+        "obj_idx": 85,
+        "dest_idx": 1,
+        "obj_class": "tooth_paste",
+        "dest_class": "bathroom_cabinet",
+        "count": 7.184411291911858,
+        "count_robot": 2.991711732144728,
+        "offset_sum_min": 38.92830098199675,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 5.418439925039071
+      },
+      {
+        "obj_idx": 66,
+        "dest_idx": 2,
+        "obj_class": "hairdryer",
+        "dest_class": "bathroom_counter",
+        "count": 3.3105829584260396,
+        "count_robot": 0,
+        "offset_sum_min": 1.6258089649744072,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 0.49109446444663946
+      },
+      {
+        "obj_idx": 66,
+        "dest_idx": 1,
+        "obj_class": "hairdryer",
+        "dest_class": "bathroom_cabinet",
+        "count": 5.023209576887537,
+        "count_robot": 1.3446181800863741,
+        "offset_sum_min": 39.18969259615396,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 7.801723578580318
+      },
+      {
+        "obj_idx": 65,
+        "dest_idx": 2,
+        "obj_class": "hairbrush",
+        "dest_class": "bathroom_counter",
+        "count": 2.332355327414512,
+        "count_robot": 0,
+        "offset_sum_min": 0.8753261807520869,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 0.3752970957998981
+      },
+      {
+        "obj_idx": 65,
+        "dest_idx": 1,
+        "obj_class": "hairbrush",
+        "dest_class": "bathroom_cabinet",
+        "count": 3.3830137552426134,
+        "count_robot": 1.0022755641353904,
+        "offset_sum_min": 12.589188177861601,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 3.7212938192616853
+      },
+      {
+        "obj_idx": 80,
+        "dest_idx": 2,
+        "obj_class": "razor",
+        "dest_class": "bathroom_counter",
+        "count": 0.6302692748202664,
+        "count_robot": 0,
+        "offset_sum_min": 4.350564623766868,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 6.902707775192622
+      },
+      {
+        "obj_idx": 82,
+        "dest_idx": 2,
+        "obj_class": "shaving_cream",
+        "dest_class": "bathroom_counter",
+        "count": 0.6302692748202664,
+        "count_robot": 0,
+        "offset_sum_min": 4.350564623766868,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 6.902707775192622
+      },
+      {
+        "obj_idx": 80,
+        "dest_idx": 1,
+        "obj_class": "razor",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.7278672788014098,
+        "count_robot": 0.35826393484074887,
+        "offset_sum_min": 21.33524376099224,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 29.311997368703416
+      },
+      {
+        "obj_idx": 82,
+        "dest_idx": 1,
+        "obj_class": "shaving_cream",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.7278672788014098,
+        "count_robot": 0.35826393484074887,
+        "offset_sum_min": 21.33524376099224,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 29.311997368703416
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 8,
+        "obj_class": "coffee_cup",
+        "dest_class": "cupboard",
+        "count": 0.06267216326897833,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 7,
+        "obj_class": "bowl",
+        "dest_class": "table",
+        "count": 0.07309772651287749,
+        "count_robot": 0,
+        "offset_sum_min": 0.7309772651287749,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 17,
+        "obj_class": "book",
+        "dest_class": "chair",
+        "count": 0.0809947108175928,
+        "count_robot": 0,
+        "offset_sum_min": 0.809947108175928,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 29,
+        "obj_class": "cookingpot",
+        "dest_class": "stove",
+        "count": 0.09944025698709225,
+        "count_robot": 0,
+        "offset_sum_min": 0.9944025698709225,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 29,
+        "obj_class": "fryingpan",
+        "dest_class": "stove",
+        "count": 0.09944025698709225,
+        "count_robot": 0,
+        "offset_sum_min": 0.9944025698709225,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.12851215656510312,
+        "count_robot": 0,
+        "offset_sum_min": 1.285121565651031,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 85,
+        "dest_idx": 86,
+        "obj_class": "tooth_paste",
+        "dest_class": "toothbrush",
+        "count": 0.5277336628642887,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 17,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 39,
+        "dest_idx": 30,
+        "obj_class": "cleaning_solution",
+        "dest_class": "kitchen_cabinet",
+        "count": 0.323533544973709,
+        "count_robot": 0,
+        "offset_sum_min": 3.2353354497370903,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 18,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 6.849825615547754
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 3.291581193712183
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 1.0771870221826536
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 1.5823899158512087
+      },
+      {
+        "src": -1,
+        "dst": 5,
+        "count": 2.288589018376908
+      },
+      {
+        "src": -1,
+        "dst": 6,
+        "count": 2.27429971880064
+      },
+      {
+        "src": -1,
+        "dst": 7,
+        "count": 0.34510306649239497
+      },
+      {
+        "src": -1,
+        "dst": 11,
+        "count": 0.06267216326897833
+      },
+      {
+        "src": -1,
+        "dst": 17,
+        "count": 0.5277336628642887
+      },
+      {
+        "src": -1,
+        "dst": 18,
+        "count": 0.323533544973709
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 3.044602511560602
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 3.32757229612427
+      },
+      {
+        "src": 0,
+        "dst": 4,
+        "count": 0.44012666865176536
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 1,
+        "dst": 4,
+        "count": 0.323533544973709
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 7.103120843663138
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 2,
+        "dst": 5,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 1.3159133078468819
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.7206753638539671
+      },
+      {
+        "src": 3,
+        "dst": 6,
+        "count": 0.965047162355402
+      },
+      {
+        "src": 3,
+        "dst": 13,
+        "count": 0.0809947108175928
+      },
+      {
+        "src": 3,
+        "dst": 14,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 3,
+        "dst": 16,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 4.414509823585957
+      },
+      {
+        "src": 4,
+        "dst": 7,
+        "count": 0.2851662083278714
+      },
+      {
+        "src": 4,
+        "dst": 9,
+        "count": 0.323533544973709
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 0.07694497527671315
+      },
+      {
+        "src": 5,
+        "dst": 3,
+        "count": 2.1958717970322694
+      },
+      {
+        "src": 5,
+        "dst": 4,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 6,
+        "dst": -2,
+        "count": 1.7140206403434513
+      },
+      {
+        "src": 6,
+        "dst": 4,
+        "count": 1.668993114899162
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.6302692748202664
+      },
+      {
+        "src": 8,
+        "dst": -2,
+        "count": 0.22593554099256555
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 0.33123600731482333
+      },
+      {
+        "src": 8,
+        "dst": 12,
+        "count": 0.07309772651287749
+      },
+      {
+        "src": 9,
+        "dst": 10,
+        "count": 0.7278672788014098
+      },
+      {
+        "src": 10,
+        "dst": -2,
+        "count": 0.7278672788014098
+      },
+      {
+        "src": 11,
+        "dst": 6,
+        "count": 0.06267216326897833
+      },
+      {
+        "src": 12,
+        "dst": 9,
+        "count": 0.07309772651287749
+      },
+      {
+        "src": 13,
+        "dst": 6,
+        "count": 0.0809947108175928
+      },
+      {
+        "src": 14,
+        "dst": 15,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 15,
+        "dst": 4,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 16,
+        "dst": 4,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 17,
+        "dst": 2,
+        "count": 0.5277336628642887
+      },
+      {
+        "src": 18,
+        "dst": 1,
+        "count": 0.323533544973709
+      }
+    ]
+  },
+  "work_at_desk": {
+    "activity_name": "work_at_desk",
+    "n_segments": 13.007023505375232,
+    "nodes": [
+      {
+        "obj_idx": 74,
+        "dest_idx": 25,
+        "obj_class": "notebook",
+        "dest_class": "desk",
+        "count": 6.139145424572904,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 74,
+        "dest_idx": 20,
+        "obj_class": "notebook",
+        "dest_class": "filing_cabinet",
+        "count": 6.139145424572904,
+        "count_robot": 6.060043291776064,
+        "offset_sum_min": 61.7666956378402,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 10.06112274040768
+      },
+      {
+        "obj_idx": 77,
+        "dest_idx": 20,
+        "obj_class": "pen",
+        "dest_class": "filing_cabinet",
+        "count": 6.139145424572904,
+        "count_robot": 6.060043291776064,
+        "offset_sum_min": 62.71981103352485,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 10.216374869127362
+      },
+      {
+        "obj_idx": 67,
+        "dest_idx": 25,
+        "obj_class": "headset",
+        "dest_class": "desk",
+        "count": 6.757694970567322,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 67,
+        "dest_idx": 20,
+        "obj_class": "headset",
+        "dest_class": "filing_cabinet",
+        "count": 6.757694970567322,
+        "count_robot": 6.718195876660885,
+        "offset_sum_min": 67.9719406447376,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 10.058450542793768
+      },
+      {
+        "obj_idx": 77,
+        "dest_idx": 25,
+        "obj_class": "pen",
+        "dest_class": "desk",
+        "count": 5.937704629144043,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 7,
+        "obj_class": "bowl",
+        "dest_class": "table",
+        "count": 0.11018311023500528,
+        "count_robot": 0,
+        "offset_sum_min": 1.1018311023500529,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 6.139145424572904
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 6.757694970567322
+      },
+      {
+        "src": -1,
+        "dst": 6,
+        "count": 0.11018311023500528
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.20144079542886156
+      },
+      {
+        "src": 0,
+        "dst": 5,
+        "count": 5.937704629144043
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.11018311023500528
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 6.028962314337899
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 6.139145424572904
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 6.757694970567322
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 6.757694970567322
+      },
+      {
+        "src": 5,
+        "dst": 1,
+        "count": 5.937704629144043
+      },
+      {
+        "src": 6,
+        "dst": 2,
+        "count": 0.11018311023500528
+      }
+    ]
+  },
+  "cereal_or_oatmeal_breakfast": {
+    "activity_name": "cereal_or_oatmeal_breakfast",
+    "n_segments": 13.936659281910975,
+    "nodes": [
+      {
+        "obj_idx": 35,
+        "dest_idx": 7,
+        "obj_class": "bowl",
+        "dest_class": "table",
+        "count": 6.2568470652413275,
+        "count_robot": 1.4174269202115324,
+        "offset_sum_min": 62.639520784520826,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 10.011355580752845
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 7,
+        "obj_class": "food_cereal",
+        "dest_class": "table",
+        "count": 2.335097074896734,
+        "count_robot": 0,
+        "offset_sum_min": 4.453377907026968,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 1.9071489382187299
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 7,
+        "obj_class": "milk",
+        "dest_class": "table",
+        "count": 7.531494751182209,
+        "count_robot": 0,
+        "offset_sum_min": 13.548689762566921,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 1.7989376890211868
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 35,
+        "obj_class": "spoon",
+        "dest_class": "bowl",
+        "count": 7.7852789168268215,
+        "count_robot": 2.518075192497794,
+        "offset_sum_min": 86.64388879008797,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 11.129195204916678
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 10,
+        "obj_class": "coffee_filter",
+        "dest_class": "sink",
+        "count": 0.53015711802004,
+        "count_robot": 0,
+        "offset_sum_min": 10.603142360400799,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 7,
+        "obj_class": "mug",
+        "dest_class": "table",
+        "count": 0.30339661455993705,
+        "count_robot": 0,
+        "offset_sum_min": 6.067932291198741,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 8,
+        "obj_class": "food_cereal",
+        "dest_class": "cupboard",
+        "count": 5.2041654519810105,
+        "count_robot": 3.8856546514725934,
+        "offset_sum_min": 83.6257555121357,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 16.069004009144795
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 10,
+        "obj_class": "bowl",
+        "dest_class": "sink",
+        "count": 7.852838394092314,
+        "count_robot": 0.8523712756016695,
+        "offset_sum_min": 224.8491376041738,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 28.632849209443517
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 31,
+        "obj_class": "milk",
+        "dest_class": "fridge",
+        "count": 11.89284122220903,
+        "count_robot": 9.957926398622993,
+        "offset_sum_min": 233.93275062036568,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 19.670047404947525
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 8.57268805891129,
+        "count_robot": 5.805058439915071,
+        "offset_sum_min": 217.00740155308355,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 25.31381056464604
+      },
+      {
+        "obj_idx": 57,
+        "dest_idx": 7,
+        "obj_class": "food_oatmeal",
+        "dest_class": "table",
+        "count": 2.9221531681996744,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 21,
+        "obj_class": "instrument_guitar",
+        "dest_class": "home_office",
+        "count": 0.15572082340685828,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 35,
+        "obj_class": "milk",
+        "dest_class": "bowl",
+        "count": 5.0738383424990845,
+        "count_robot": 0.0852575903343082,
+        "offset_sum_min": 72.75734062377046,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 14.339704127809151
+      },
+      {
+        "obj_idx": 57,
+        "dest_idx": 8,
+        "obj_class": "food_oatmeal",
+        "dest_class": "cupboard",
+        "count": 6.992324839107976,
+        "count_robot": 3.721678509452664,
+        "offset_sum_min": 164.10088584652533,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 23.468716002539146
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 35,
+        "obj_class": "food_cereal",
+        "dest_class": "bowl",
+        "count": 2.446498617084234,
+        "count_robot": 0,
+        "offset_sum_min": 2.242487266513567,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 0.9166108866172954
+      },
+      {
+        "obj_idx": 88,
+        "dest_idx": 30,
+        "obj_class": "vacuum_cleaner",
+        "dest_class": "kitchen_cabinet",
+        "count": 0.06597069817787193,
+        "count_robot": 0.06597069817787193,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 7,
+        "obj_class": "cup",
+        "dest_class": "table",
+        "count": 1.9148767763791597,
+        "count_robot": 0,
+        "offset_sum_min": 11.99810783366252,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 6.265733639712181
+      },
+      {
+        "obj_idx": 69,
+        "dest_idx": 7,
+        "obj_class": "juice",
+        "dest_class": "table",
+        "count": 1.8962655860509368,
+        "count_robot": 0,
+        "offset_sum_min": 21.534850578262557,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 17,
+        "mean_offset_min": 11.356452775747465
+      },
+      {
+        "obj_idx": 69,
+        "dest_idx": 8,
+        "obj_class": "juice",
+        "dest_class": "cupboard",
+        "count": 2.4176200946053434,
+        "count_robot": 0.3972143184582182,
+        "offset_sum_min": 64.3835403381603,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 18,
+        "mean_offset_min": 26.630958471029082
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 15,
+        "obj_class": "bowl",
+        "dest_class": "microwave",
+        "count": 3.003274979812538,
+        "count_robot": 0,
+        "offset_sum_min": 65.94640661260195,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 19,
+        "mean_offset_min": 21.95816468884187
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 14,
+        "obj_class": "coffee_filter",
+        "dest_class": "coffe_maker",
+        "count": 1.0375199581652728,
+        "count_robot": 0,
+        "offset_sum_min": 8.84950663244249,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 20,
+        "mean_offset_min": 8.52948086713605
+      },
+      {
+        "obj_idx": 64,
+        "dest_idx": 9,
+        "obj_class": "ground_coffee",
+        "dest_class": "kitchen_counter",
+        "count": 0.5233177771075788,
+        "count_robot": 0,
+        "offset_sum_min": 4.4249198345427985,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 21,
+        "mean_offset_min": 8.455512172736997
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 14,
+        "obj_class": "mug",
+        "dest_class": "coffe_maker",
+        "count": 1.856502420474699,
+        "count_robot": 0.16608338398760716,
+        "offset_sum_min": 17.756766268214,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 22,
+        "mean_offset_min": 9.564634051849865
+      },
+      {
+        "obj_idx": 64,
+        "dest_idx": 8,
+        "obj_class": "ground_coffee",
+        "dest_class": "cupboard",
+        "count": 0.3572343931199716,
+        "count_robot": 0,
+        "offset_sum_min": 7.997263765742514,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 23,
+        "mean_offset_min": 22.386600841808523
+      },
+      {
+        "obj_idx": 57,
+        "dest_idx": 35,
+        "obj_class": "food_oatmeal",
+        "dest_class": "bowl",
+        "count": 2.205493570961923,
+        "count_robot": 0,
+        "offset_sum_min": 1.988805139741845,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 24,
+        "mean_offset_min": 0.9017505949357314
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 8,
+        "obj_class": "coffee_filter",
+        "dest_class": "cupboard",
+        "count": 0.8254974426984816,
+        "count_robot": 0.8254974426984816,
+        "offset_sum_min": 24.76492328095445,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 25,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 10,
+        "obj_class": "mug",
+        "dest_class": "sink",
+        "count": 0.3766507575089184,
+        "count_robot": 0,
+        "offset_sum_min": 15.066030300356736,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 26,
+        "mean_offset_min": 40.0
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 8,
+        "obj_class": "bowl",
+        "dest_class": "cupboard",
+        "count": 4.090809601670218,
+        "count_robot": 2.9640979402214027,
+        "offset_sum_min": 175.8802167129046,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 27,
+        "mean_offset_min": 42.99398745937608
+      },
+      {
+        "obj_idx": 69,
+        "dest_idx": 45,
+        "obj_class": "juice",
+        "dest_class": "cup",
+        "count": 0.1577792147882268,
+        "count_robot": 0,
+        "offset_sum_min": 1.5777921478822678,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 28,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 3.4851226301640903,
+        "count_robot": 0.1577792147882268,
+        "offset_sum_min": 164.3438118806114,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 29,
+        "mean_offset_min": 47.1558189827236
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 1.1471100795120237,
+        "count_robot": 0.174824614723797,
+        "offset_sum_min": 47.29174132900751,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 30,
+        "mean_offset_min": 41.22685535909966
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 0.16756597065061513
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 4.742894986789245
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 1.5847464408468572
+      },
+      {
+        "src": -1,
+        "dst": 10,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": -1,
+        "dst": 12,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": -1,
+        "dst": 14,
+        "count": 2.069680595511853
+      },
+      {
+        "src": -1,
+        "dst": 16,
+        "count": 0.9139465069870921
+      },
+      {
+        "src": -1,
+        "dst": 19,
+        "count": 1.7897548853467957
+      },
+      {
+        "src": -1,
+        "dst": 20,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": -1,
+        "dst": 21,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": -1,
+        "dst": 24,
+        "count": 1.7654916876867164
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 2.1852068208479185
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 1.0309947108175928
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "count": 0.14239574134637467
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "count": 1.2904345254928442
+      },
+      {
+        "src": 0,
+        "dst": 14,
+        "count": 0.053733545982740286
+      },
+      {
+        "src": 0,
+        "dst": 16,
+        "count": 0.3405616262881148
+      },
+      {
+        "src": 0,
+        "dst": 19,
+        "count": 1.213520094465742
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 1.1777564586715594
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 1,
+        "dst": 11,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 1,
+        "dst": 12,
+        "count": 0.6647076374162506
+      },
+      {
+        "src": 1,
+        "dst": 20,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 1,
+        "dst": 21,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.11610018245578235
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "count": 0.5639520784520823
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 3.2826892057362724
+      },
+      {
+        "src": 2,
+        "dst": 6,
+        "count": 0.7101093595579495
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "count": 1.0282826605560342
+      },
+      {
+        "src": 2,
+        "dst": 13,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 2,
+        "dst": 16,
+        "count": 0.590925802916719
+      },
+      {
+        "src": 2,
+        "dst": 17,
+        "count": 0.46329123015975304
+      },
+      {
+        "src": 2,
+        "dst": 22,
+        "count": 0.20734413907115617
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 0.8389229176747794
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.30950094199677947
+      },
+      {
+        "src": 3,
+        "dst": 6,
+        "count": 2.1784588551828876
+      },
+      {
+        "src": 3,
+        "dst": 7,
+        "count": 1.5708198387241383
+      },
+      {
+        "src": 3,
+        "dst": 8,
+        "count": 0.174824614723797
+      },
+      {
+        "src": 3,
+        "dst": 13,
+        "count": 2.712751748524439
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 4,
+        "dst": 6,
+        "count": 0.22065617602326057
+      },
+      {
+        "src": 4,
+        "dst": 23,
+        "count": 0.2719768027856634
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.18741439325993148
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "count": 1.1766211661121313
+      },
+      {
+        "src": 6,
+        "dst": 8,
+        "count": 2.9733153175514175
+      },
+      {
+        "src": 6,
+        "dst": 9,
+        "count": 0.48129639886762415
+      },
+      {
+        "src": 6,
+        "dst": 12,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 6,
+        "dst": 23,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 7,
+        "dst": -2,
+        "count": 1.6787439349740323
+      },
+      {
+        "src": 7,
+        "dst": 4,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 7,
+        "dst": 6,
+        "count": 0.5888450906312201
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.5778842268737526
+      },
+      {
+        "src": 7,
+        "dst": 9,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 7,
+        "dst": 13,
+        "count": 1.8947545400254286
+      },
+      {
+        "src": 7,
+        "dst": 18,
+        "count": 1.3822899312635752
+      },
+      {
+        "src": 7,
+        "dst": 25,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 7,
+        "dst": 26,
+        "count": 0.2719768027856634
+      },
+      {
+        "src": 7,
+        "dst": 30,
+        "count": 0.174824614723797
+      },
+      {
+        "src": 8,
+        "dst": -2,
+        "count": 2.108329061211097
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "count": 0.14239574134637467
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 8,
+        "dst": 7,
+        "count": 2.0176374748946055
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 5.910766569488836
+      },
+      {
+        "src": 8,
+        "dst": 13,
+        "count": 1.2010671749060862
+      },
+      {
+        "src": 8,
+        "dst": 22,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 8,
+        "dst": 25,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 3.245477437488982
+      },
+      {
+        "src": 9,
+        "dst": 7,
+        "count": 2.5141984999118425
+      },
+      {
+        "src": 9,
+        "dst": 27,
+        "count": 2.8130121215104644
+      },
+      {
+        "src": 10,
+        "dst": 2,
+        "count": 2.0289329611650486
+      },
+      {
+        "src": 10,
+        "dst": 11,
+        "count": 0.051046868683603266
+      },
+      {
+        "src": 10,
+        "dst": 13,
+        "count": 0.44012666865176536
+      },
+      {
+        "src": 10,
+        "dst": 16,
+        "count": 0.06944284018723361
+      },
+      {
+        "src": 10,
+        "dst": 17,
+        "count": 0.174824614723797
+      },
+      {
+        "src": 10,
+        "dst": 28,
+        "count": 0.1577792147882268
+      },
+      {
+        "src": 11,
+        "dst": 12,
+        "count": 0.051046868683603266
+      },
+      {
+        "src": 11,
+        "dst": 20,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 12,
+        "dst": -2,
+        "count": 0.053733545982740286
+      },
+      {
+        "src": 12,
+        "dst": 0,
+        "count": 0.95
+      },
+      {
+        "src": 12,
+        "dst": 3,
+        "count": 2.5051512267440392
+      },
+      {
+        "src": 12,
+        "dst": 6,
+        "count": 0.11018311023500528
+      },
+      {
+        "src": 12,
+        "dst": 7,
+        "count": 0.051046868683603266
+      },
+      {
+        "src": 12,
+        "dst": 15,
+        "count": 0.06597069817787193
+      },
+      {
+        "src": 12,
+        "dst": 20,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 12,
+        "dst": 22,
+        "count": 1.2524953023415155
+      },
+      {
+        "src": 13,
+        "dst": 7,
+        "count": 0.3405616262881148
+      },
+      {
+        "src": 13,
+        "dst": 8,
+        "count": 4.9532977418906565
+      },
+      {
+        "src": 13,
+        "dst": 9,
+        "count": 0.5053560927992089
+      },
+      {
+        "src": 13,
+        "dst": 17,
+        "count": 0.1577792147882268
+      },
+      {
+        "src": 13,
+        "dst": 18,
+        "count": 0.5720389331820153
+      },
+      {
+        "src": 13,
+        "dst": 27,
+        "count": 0.46329123015975304
+      },
+      {
+        "src": 14,
+        "dst": 2,
+        "count": 0.6559472204745093
+      },
+      {
+        "src": 14,
+        "dst": 12,
+        "count": 1.2176188271598871
+      },
+      {
+        "src": 14,
+        "dst": 20,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 14,
+        "dst": 21,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 15,
+        "dst": 7,
+        "count": 0.06597069817787193
+      },
+      {
+        "src": 16,
+        "dst": 2,
+        "count": 0.8145062499999999
+      },
+      {
+        "src": 16,
+        "dst": 17,
+        "count": 1.0009302693920674
+      },
+      {
+        "src": 16,
+        "dst": 24,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 17,
+        "dst": -2,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 17,
+        "dst": 2,
+        "count": 0.16888309717432587
+      },
+      {
+        "src": 17,
+        "dst": 3,
+        "count": 0.174824614723797
+      },
+      {
+        "src": 17,
+        "dst": 8,
+        "count": 1.3588463896943128
+      },
+      {
+        "src": 18,
+        "dst": -2,
+        "count": 0.8732956966351015
+      },
+      {
+        "src": 18,
+        "dst": 9,
+        "count": 0.729818147970242
+      },
+      {
+        "src": 18,
+        "dst": 27,
+        "count": 0.8145062499999999
+      },
+      {
+        "src": 19,
+        "dst": -2,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": 19,
+        "dst": 2,
+        "count": 0.0809947108175928
+      },
+      {
+        "src": 19,
+        "dst": 10,
+        "count": 1.368198548241088
+      },
+      {
+        "src": 19,
+        "dst": 12,
+        "count": 0.95
+      },
+      {
+        "src": 19,
+        "dst": 24,
+        "count": 0.3405616262881148
+      },
+      {
+        "src": 20,
+        "dst": 6,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 20,
+        "dst": 14,
+        "count": 0.3230844755896404
+      },
+      {
+        "src": 20,
+        "dst": 21,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 20,
+        "dst": 22,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 21,
+        "dst": 2,
+        "count": 0.20734413907115617
+      },
+      {
+        "src": 21,
+        "dst": 3,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 21,
+        "dst": 12,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 22,
+        "dst": -2,
+        "count": 0.6537583631031367
+      },
+      {
+        "src": 22,
+        "dst": 3,
+        "count": 0.49933316340992856
+      },
+      {
+        "src": 22,
+        "dst": 4,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 22,
+        "dst": 6,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 23,
+        "dst": 5,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 23,
+        "dst": 8,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 23,
+        "dst": 25,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 24,
+        "dst": 2,
+        "count": 0.8123834729611596
+      },
+      {
+        "src": 24,
+        "dst": 12,
+        "count": 1.2936698410136713
+      },
+      {
+        "src": 24,
+        "dst": 17,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 25,
+        "dst": 6,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 25,
+        "dst": 8,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 25,
+        "dst": 26,
+        "count": 0.10467395472325501
+      },
+      {
+        "src": 26,
+        "dst": 9,
+        "count": 0.3766507575089184
+      },
+      {
+        "src": 27,
+        "dst": -2,
+        "count": 0.14239574134637467
+      },
+      {
+        "src": 27,
+        "dst": 18,
+        "count": 0.46329123015975304
+      },
+      {
+        "src": 27,
+        "dst": 29,
+        "count": 3.4851226301640903
+      },
+      {
+        "src": 28,
+        "dst": 12,
+        "count": 0.1577792147882268
+      },
+      {
+        "src": 29,
+        "dst": -2,
+        "count": 2.5128371653758634
+      },
+      {
+        "src": 29,
+        "dst": 30,
+        "count": 0.9722854647882266
+      },
+      {
+        "src": 30,
+        "dst": -2,
+        "count": 0.9722854647882266
+      },
+      {
+        "src": 30,
+        "dst": 13,
+        "count": 0.174824614723797
+      }
+    ]
+  },
+  "put_away_breakfast_dishes": {
+    "activity_name": "put_away_breakfast_dishes",
+    "n_segments": 9.515419997703765,
+    "nodes": [
+      {
+        "obj_idx": 35,
+        "dest_idx": 8,
+        "obj_class": "bowl",
+        "dest_class": "cupboard",
+        "count": 7.875403051223836,
+        "count_robot": 4.583275738294491,
+        "offset_sum_min": 50.65397792841353,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 6.43192197262106
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 10,
+        "obj_class": "mug",
+        "dest_class": "sink",
+        "count": 2.5668346934001405,
+        "count_robot": 0,
+        "offset_sum_min": 19.76752365218126,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 7.701128437685382
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 8,
+        "obj_class": "mug",
+        "dest_class": "cupboard",
+        "count": 3.0314220821155753,
+        "count_robot": 2.4679011249246723,
+        "offset_sum_min": 57.83064532364051,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 19.07706804170323
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 7.902085445698728,
+        "count_robot": 1.8629596619676128,
+        "offset_sum_min": 76.14129802874608,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 9.635595382000254
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 8,
+        "obj_class": "coffee_filter",
+        "dest_class": "cupboard",
+        "count": 1.470832748792094,
+        "count_robot": 1.4333086095809782,
+        "offset_sum_min": 14.23099297668902,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 9.675466492282059
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 2.9633811140086586,
+        "count_robot": 1.9295792527049813,
+        "offset_sum_min": 16.836954783661923,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 5.681670408193311
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 10,
+        "obj_class": "bowl",
+        "dest_class": "sink",
+        "count": 3.095303613814165,
+        "count_robot": 0.1833928998458707,
+        "offset_sum_min": 18.664536167329896,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 6.029953276321949
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 8,
+        "obj_class": "food_cereal",
+        "dest_class": "cupboard",
+        "count": 0.985967843267323,
+        "count_robot": 0.7713290793243858,
+        "offset_sum_min": 1.6608338398760716,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 1.6844705952806351
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 31,
+        "obj_class": "milk",
+        "dest_class": "fridge",
+        "count": 1.5777966407435153,
+        "count_robot": 1.3840851562850145,
+        "offset_sum_min": 6.537583631031367,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 4.1434893839998415
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 0.7264455548054876,
+        "count_robot": 0.19371148445850087,
+        "offset_sum_min": 11.833113639097228,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 16.289057811449684
+      },
+      {
+        "obj_idx": 57,
+        "dest_idx": 8,
+        "obj_class": "food_oatmeal",
+        "dest_class": "cupboard",
+        "count": 0.2881797285962385,
+        "count_robot": 0.09446824413773763,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 10,
+        "obj_class": "coffee_filter",
+        "dest_class": "sink",
+        "count": 0.6537583631031367,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 64,
+        "dest_idx": 8,
+        "obj_class": "ground_coffee",
+        "dest_class": "cupboard",
+        "count": 0.4039102692429393,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 7,
+        "obj_class": "mug",
+        "dest_class": "table",
+        "count": 0.4039102692429393,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 69,
+        "dest_idx": 8,
+        "obj_class": "juice",
+        "dest_class": "cupboard",
+        "count": 0.19371148445850087,
+        "count_robot": 0,
+        "offset_sum_min": 1.9371148445850086,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.6302494097246091,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 0.6302494097246091,
+        "count_robot": 0,
+        "offset_sum_min": 12.604988194492181,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 20.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 0.174824614723797
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 4.022182862983121
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.8510741119250054
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": -1,
+        "dst": 6,
+        "count": 1.9247492906628874
+      },
+      {
+        "src": -1,
+        "dst": 7,
+        "count": 0.421852795490908
+      },
+      {
+        "src": -1,
+        "dst": 9,
+        "count": 0.46329123015975304
+      },
+      {
+        "src": -1,
+        "dst": 10,
+        "count": 0.2881797285962385
+      },
+      {
+        "src": -1,
+        "dst": 11,
+        "count": 0.6537583631031367
+      },
+      {
+        "src": -1,
+        "dst": 15,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 0.051046868683603266
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 1.4644196071532196
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 0.1899315450575632
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 6.0145237151230075
+      },
+      {
+        "src": 0,
+        "dst": 4,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 0,
+        "dst": 5,
+        "count": 0.03949909390643792
+      },
+      {
+        "src": 1,
+        "dst": 0,
+        "count": 0.36732319562192095
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 1.3713529690744943
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 1,
+        "dst": 4,
+        "count": 0.048494525249423104
+      },
+      {
+        "src": 1,
+        "dst": 5,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 1.669059954243565
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 1.3623621278720104
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 6.153171729798709
+      },
+      {
+        "src": 3,
+        "dst": 2,
+        "count": 0.8179858423185596
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 3,
+        "dst": 9,
+        "count": 0.26315432464573446
+      },
+      {
+        "src": 3,
+        "dst": 16,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 4,
+        "dst": 2,
+        "count": 0.16447674654942868
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 4,
+        "dst": 6,
+        "count": 0.3230844755896404
+      },
+      {
+        "src": 4,
+        "dst": 7,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 4,
+        "dst": 8,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 5,
+        "dst": 0,
+        "count": 2.076412172540583
+      },
+      {
+        "src": 5,
+        "dst": 2,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 5,
+        "dst": 3,
+        "count": 0.23321057836493878
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 6,
+        "dst": 0,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": 6,
+        "dst": 1,
+        "count": 0.2513409743219154
+      },
+      {
+        "src": 6,
+        "dst": 4,
+        "count": 0.7796640034543019
+      },
+      {
+        "src": 6,
+        "dst": 5,
+        "count": 1.234728602535307
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "count": 0.39803166378880794
+      },
+      {
+        "src": 6,
+        "dst": 14,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.5641150477764151
+      },
+      {
+        "src": 7,
+        "dst": 12,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": 8,
+        "dst": -2,
+        "count": 0.07309772651287749
+      },
+      {
+        "src": 8,
+        "dst": 0,
+        "count": 0.5414085250982699
+      },
+      {
+        "src": 8,
+        "dst": 5,
+        "count": 0.531752019418535
+      },
+      {
+        "src": 8,
+        "dst": 6,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 8,
+        "dst": 13,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.7264455548054876
+      },
+      {
+        "src": 10,
+        "dst": 8,
+        "count": 0.2881797285962385
+      },
+      {
+        "src": 11,
+        "dst": 6,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 11,
+        "dst": 12,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 12,
+        "dst": 8,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": 12,
+        "dst": 13,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 13,
+        "dst": 4,
+        "count": 0.4039102692429393
+      },
+      {
+        "src": 14,
+        "dst": 5,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 15,
+        "dst": 0,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 16,
+        "dst": -2,
+        "count": 0.6302494097246091
+      }
+    ]
+  },
+  "bring_in_mail_and_groceries": {
+    "activity_name": "bring_in_mail_and_groceries",
+    "n_segments": 0.8628494711246038,
+    "nodes": [
+      {
+        "obj_idx": 71,
+        "dest_idx": 3,
+        "obj_class": "mail",
+        "dest_class": "dining_room",
+        "count": 0.8628494711246038,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 63,
+        "dest_idx": 8,
+        "obj_class": "groceries",
+        "dest_class": "cupboard",
+        "count": 0.03752413921111602,
+        "count_robot": 0,
+        "offset_sum_min": 0.3752413921111602,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 71,
+        "dest_idx": 8,
+        "obj_class": "mail",
+        "dest_class": "cupboard",
+        "count": 0.8628494711246038,
+        "count_robot": 0.8253253319134877,
+        "offset_sum_min": 8.628494711246038,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 0.8628494711246038
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 0.8253253319134877
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.8628494711246038
+      }
+    ]
+  },
+  "set_up_and_put_away_board_games": {
+    "activity_name": "set_up_and_put_away_board_games",
+    "n_segments": 16.211873866157873,
+    "nodes": [
+      {
+        "obj_idx": 38,
+        "dest_idx": 7,
+        "obj_class": "chessboard",
+        "dest_class": "table",
+        "count": 5.842422769459944,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 7,
+        "obj_class": "deck_of_cards",
+        "dest_class": "table",
+        "count": 6.157532848601498,
+        "count_robot": 0,
+        "offset_sum_min": 24.9205970036328,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 4.047172401084759
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 13,
+        "obj_class": "chessboard",
+        "dest_class": "bookshelf",
+        "count": 13.4762493471822,
+        "count_robot": 11.071041473633521,
+        "offset_sum_min": 571.3589080773216,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 42.39747227568101
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 13,
+        "obj_class": "deck_of_cards",
+        "dest_class": "bookshelf",
+        "count": 13.933951664685367,
+        "count_robot": 11.440969040907017,
+        "offset_sum_min": 502.2940788042761,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 36.048214526056206
+      },
+      {
+        "obj_idx": 41,
+        "dest_idx": 7,
+        "obj_class": "coffee",
+        "dest_class": "table",
+        "count": 2.3639904970910246,
+        "count_robot": 0,
+        "offset_sum_min": 60.595385551055294,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 25.63266883924453
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 7,
+        "obj_class": "coffee_cup",
+        "dest_class": "table",
+        "count": 2.3200020087018,
+        "count_robot": 0.07309772651287749,
+        "offset_sum_min": 120.86410393436347,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 52.09655141720986
+      },
+      {
+        "obj_idx": 41,
+        "dest_idx": 8,
+        "obj_class": "coffee",
+        "dest_class": "cupboard",
+        "count": 3.135862507719823,
+        "count_robot": 3.0502936148264332,
+        "offset_sum_min": 140.7595702976226,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 44.88703505051724
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 10,
+        "obj_class": "coffee_cup",
+        "dest_class": "sink",
+        "count": 1.114662560396979,
+        "count_robot": 0.18237640742959055,
+        "offset_sum_min": 88.97265919153924,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 79.82026341662741
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 8,
+        "obj_class": "coffee_cup",
+        "dest_class": "cupboard",
+        "count": 0.6148308212310148,
+        "count_robot": 0,
+        "offset_sum_min": 68.19983041339536,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 110.92454714102588
+      },
+      {
+        "obj_idx": 55,
+        "dest_idx": 9,
+        "obj_class": "food_donut",
+        "dest_class": "kitchen_counter",
+        "count": 1.3630133807558775,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 17,
+        "obj_class": "book",
+        "dest_class": "chair",
+        "count": 0.04157799358572413,
+        "count_robot": 0,
+        "offset_sum_min": 1.663119743428965,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 40.0
+      },
+      {
+        "obj_idx": 55,
+        "dest_idx": 87,
+        "obj_class": "food_donut",
+        "dest_class": "trashbag",
+        "count": 1.1875504258005471,
+        "count_robot": 1.145972432214823,
+        "offset_sum_min": 14.302217719943762,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 12.043461405272456
+      },
+      {
+        "obj_idx": 90,
+        "dest_idx": 9,
+        "obj_class": "wine",
+        "dest_class": "kitchen_counter",
+        "count": 0.8927763600847368,
+        "count_robot": 0.8490100510471325,
+        "offset_sum_min": 59.900797997002044,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 67.09496428793952
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 8,
+        "obj_class": "wine_glass",
+        "dest_class": "cupboard",
+        "count": 0.043766309037604346,
+        "count_robot": 0,
+        "offset_sum_min": 1.7506523615041738,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 40.0
+      },
+      {
+        "obj_idx": 53,
+        "dest_idx": 31,
+        "obj_class": "food_cheese",
+        "dest_class": "fridge",
+        "count": 0.8362147327344839,
+        "count_robot": 0.19371148445850087,
+        "offset_sum_min": 85.65943722799571,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 102.43712993178562
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 7,
+        "obj_class": "cup",
+        "dest_class": "table",
+        "count": 2.1995298638525904,
+        "count_robot": 0.3073568677250236,
+        "offset_sum_min": 101.72083699172234,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 46.2466269103312
+      },
+      {
+        "obj_idx": 84,
+        "dest_idx": 7,
+        "obj_class": "tea",
+        "dest_class": "table",
+        "count": 4.262208899806397,
+        "count_robot": 0,
+        "offset_sum_min": 162.7819158345355,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 38.191914019495755
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 10,
+        "obj_class": "cup",
+        "dest_class": "sink",
+        "count": 3.2208079895708215,
+        "count_robot": 0.9025,
+        "offset_sum_min": 217.09655409461865,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 17,
+        "mean_offset_min": 67.40437641659824
+      },
+      {
+        "obj_idx": 84,
+        "dest_idx": 8,
+        "obj_class": "tea",
+        "dest_class": "cupboard",
+        "count": 4.262208899806397,
+        "count_robot": 2.4292176268740793,
+        "offset_sum_min": 286.4871317737259,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 18,
+        "mean_offset_min": 67.2156476860482
+      },
+      {
+        "obj_idx": 90,
+        "dest_idx": 7,
+        "obj_class": "wine",
+        "dest_class": "table",
+        "count": 0.2502731118087538,
+        "count_robot": 0,
+        "offset_sum_min": 3.874229689170017,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 19,
+        "mean_offset_min": 15.480007665108309
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 7,
+        "obj_class": "wine_glass",
+        "dest_class": "table",
+        "count": 0.6552985665886316,
+        "count_robot": 0.5987369392383787,
+        "offset_sum_min": 41.911585746686505,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 20,
+        "mean_offset_min": 63.95800003786183
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 29,
+        "obj_class": "fryingpan",
+        "dest_class": "stove",
+        "count": 0.14989025404881545,
+        "count_robot": 0.14989025404881545,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 21,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 9,
+        "obj_class": "plate",
+        "dest_class": "kitchen_counter",
+        "count": 0.14989025404881545,
+        "count_robot": 0.14989025404881545,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 22,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 1.1239334285874865,
+        "count_robot": 0,
+        "offset_sum_min": 108.03568507685259,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 23,
+        "mean_offset_min": 96.12285063237901
+      },
+      {
+        "obj_idx": 53,
+        "dest_idx": 46,
+        "obj_class": "food_cheese",
+        "dest_class": "cutting_board",
+        "count": 0.7924484236968795,
+        "count_robot": 0,
+        "offset_sum_min": 39.79844604347274,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 24,
+        "mean_offset_min": 50.222127842475324
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 1.234728602535307,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 25,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 0.37735360253530725,
+        "count_robot": 0,
+        "offset_sum_min": 7.547072050706145,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 26,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 10,
+        "obj_class": "wine_glass",
+        "dest_class": "sink",
+        "count": 0.5987369392383787,
+        "count_robot": 0,
+        "offset_sum_min": 65.86106331622166,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 27,
+        "mean_offset_min": 110.00000000000001
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 1.9630084891395572
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 5.842422769459944
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 1.5979184940131383
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 1.2838009874662684
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 1.0
+      },
+      {
+        "src": -1,
+        "dst": 5,
+        "count": 0.5679651848830081
+      },
+      {
+        "src": -1,
+        "dst": 15,
+        "count": 1.1944890243387722
+      },
+      {
+        "src": -1,
+        "dst": 24,
+        "count": 0.7924484236968795
+      },
+      {
+        "src": -1,
+        "dst": 25,
+        "count": 1.234728602535307
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 3.255162412602864
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 1.2828084148715841
+      },
+      {
+        "src": 0,
+        "dst": 4,
+        "count": 1.3044519419854952
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 2.7891540951045433
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.3405616262881148
+      },
+      {
+        "src": 1,
+        "dst": 5,
+        "count": 0.08556889289338987
+      },
+      {
+        "src": 1,
+        "dst": 9,
+        "count": 1.3630133807558775
+      },
+      {
+        "src": 1,
+        "dst": 12,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 1,
+        "dst": 16,
+        "count": 1.4413827779605994
+      },
+      {
+        "src": 1,
+        "dst": 19,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 2.2212904833574094
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 6.416111164052477
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 2,
+        "dst": 5,
+        "count": 0.2039068257457904
+      },
+      {
+        "src": 2,
+        "dst": 6,
+        "count": 2.2188830490921054
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "count": 0.502790324066191
+      },
+      {
+        "src": 2,
+        "dst": 12,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 2,
+        "dst": 14,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 2,
+        "dst": 15,
+        "count": 0.13630445901791147
+      },
+      {
+        "src": 2,
+        "dst": 17,
+        "count": 0.37735360253530725
+      },
+      {
+        "src": 2,
+        "dst": 21,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 2,
+        "dst": 23,
+        "count": 0.9399075183519108
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 7.523670064256273
+      },
+      {
+        "src": 3,
+        "dst": 7,
+        "count": 0.9167559657845459
+      },
+      {
+        "src": 3,
+        "dst": 11,
+        "count": 1.1875504258005471
+      },
+      {
+        "src": 3,
+        "dst": 14,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 3,
+        "dst": 16,
+        "count": 0.3405616262881148
+      },
+      {
+        "src": 3,
+        "dst": 17,
+        "count": 1.6003927607473991
+      },
+      {
+        "src": 3,
+        "dst": 18,
+        "count": 2.137228602535307
+      },
+      {
+        "src": 3,
+        "dst": 23,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 4,
+        "dst": 1,
+        "count": 1.3044519419854952
+      },
+      {
+        "src": 4,
+        "dst": 2,
+        "count": 1.0
+      },
+      {
+        "src": 4,
+        "dst": 6,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 5,
+        "dst": 3,
+        "count": 1.4625611051796117
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.8574409035221884
+      },
+      {
+        "src": 6,
+        "dst": 3,
+        "count": 1.429325008940826
+      },
+      {
+        "src": 6,
+        "dst": 5,
+        "count": 1.4625611051796117
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "count": 0.1979065946124332
+      },
+      {
+        "src": 6,
+        "dst": 8,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 7,
+        "dst": -2,
+        "count": 0.3874940374469209
+      },
+      {
+        "src": 7,
+        "dst": 2,
+        "count": 0.607464278789446
+      },
+      {
+        "src": 7,
+        "dst": 3,
+        "count": 0.053733545982740286
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.06597069817787193
+      },
+      {
+        "src": 8,
+        "dst": -2,
+        "count": 0.529261928337625
+      },
+      {
+        "src": 8,
+        "dst": 2,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "count": 0.03949909390643792
+      },
+      {
+        "src": 9,
+        "dst": 2,
+        "count": 1.3214353871701534
+      },
+      {
+        "src": 9,
+        "dst": 10,
+        "count": 0.04157799358572413
+      },
+      {
+        "src": 10,
+        "dst": 2,
+        "count": 0.04157799358572413
+      },
+      {
+        "src": 11,
+        "dst": -2,
+        "count": 1.1875504258005471
+      },
+      {
+        "src": 12,
+        "dst": 2,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 12,
+        "dst": 3,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 12,
+        "dst": 13,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 12,
+        "dst": 27,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 13,
+        "dst": 2,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 14,
+        "dst": -2,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 14,
+        "dst": 2,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 14,
+        "dst": 3,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 15,
+        "dst": 3,
+        "count": 0.5766403682949076
+      },
+      {
+        "src": 15,
+        "dst": 16,
+        "count": 1.6228894955576827
+      },
+      {
+        "src": 16,
+        "dst": 2,
+        "count": 0.95
+      },
+      {
+        "src": 16,
+        "dst": 3,
+        "count": 1.5777644955576826
+      },
+      {
+        "src": 16,
+        "dst": 15,
+        "count": 0.49138277796059937
+      },
+      {
+        "src": 16,
+        "dst": 17,
+        "count": 1.2430616262881147
+      },
+      {
+        "src": 17,
+        "dst": -2,
+        "count": 0.37735360253530725
+      },
+      {
+        "src": 17,
+        "dst": 2,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 17,
+        "dst": 3,
+        "count": 0.9025
+      },
+      {
+        "src": 17,
+        "dst": 18,
+        "count": 1.6489653626967415
+      },
+      {
+        "src": 18,
+        "dst": -2,
+        "count": 1.2930358930223755
+      },
+      {
+        "src": 18,
+        "dst": 2,
+        "count": 2.969173006784021
+      },
+      {
+        "src": 19,
+        "dst": 12,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 19,
+        "dst": 20,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 20,
+        "dst": 2,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 20,
+        "dst": 12,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 21,
+        "dst": 22,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 22,
+        "dst": 3,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 23,
+        "dst": -2,
+        "count": 0.6479184940131384
+      },
+      {
+        "src": 23,
+        "dst": 18,
+        "count": 0.4760149345743482
+      },
+      {
+        "src": 24,
+        "dst": 19,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 24,
+        "dst": 20,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 25,
+        "dst": 16,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 25,
+        "dst": 26,
+        "count": 0.37735360253530725
+      },
+      {
+        "src": 26,
+        "dst": 15,
+        "count": 0.37735360253530725
+      },
+      {
+        "src": 27,
+        "dst": 14,
+        "count": 0.5987369392383787
+      }
+    ]
+  },
+  "prepare_and_eat_dinner": {
+    "activity_name": "prepare_and_eat_dinner",
+    "n_segments": 19.846050885033666,
+    "nodes": [
+      {
+        "obj_idx": 55,
+        "dest_idx": 87,
+        "obj_class": "food_donut",
+        "dest_class": "trashbag",
+        "count": 0.4347384576693342,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 9,
+        "obj_class": "plate",
+        "dest_class": "kitchen_counter",
+        "count": 16.213686448861974,
+        "count_robot": 7.214044000675143,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 29,
+        "obj_class": "cookingpot",
+        "dest_class": "stove",
+        "count": 9.030281795982253,
+        "count_robot": 1.1312932826894535,
+        "offset_sum_min": 14.700390794135153,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 1.627899452780714
+      },
+      {
+        "obj_idx": 59,
+        "dest_idx": 9,
+        "obj_class": "food_rice",
+        "dest_class": "kitchen_counter",
+        "count": 4.0189075175589934,
+        "count_robot": 0,
+        "offset_sum_min": 88.4213688432278,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 22.00134450890107
+      },
+      {
+        "obj_idx": 60,
+        "dest_idx": 9,
+        "obj_class": "food_vegetable",
+        "dest_class": "kitchen_counter",
+        "count": 5.937056441878671,
+        "count_robot": 0,
+        "offset_sum_min": 166.34242935120855,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 28.017660094633122
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 29,
+        "obj_class": "fryingpan",
+        "dest_class": "stove",
+        "count": 10.501267929310593,
+        "count_robot": 2.7243659647546448,
+        "offset_sum_min": 15.64507323551253,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 1.4898270704859187
+      },
+      {
+        "obj_idx": 75,
+        "dest_idx": 9,
+        "obj_class": "oil",
+        "dest_class": "kitchen_counter",
+        "count": 0.03752413921111602,
+        "count_robot": 0,
+        "offset_sum_min": 0.3752413921111602,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 7,
+        "obj_class": "cookingpot",
+        "dest_class": "table",
+        "count": 13.8563956303796,
+        "count_robot": 3.172207946833775,
+        "offset_sum_min": 549.9608168812092,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 39.69003423050666
+      },
+      {
+        "obj_idx": 59,
+        "dest_idx": 8,
+        "obj_class": "food_rice",
+        "dest_class": "cupboard",
+        "count": 8.342215749550057,
+        "count_robot": 7.421162485506914,
+        "offset_sum_min": 324.7262490756202,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 38.9256594200569
+      },
+      {
+        "obj_idx": 60,
+        "dest_idx": 31,
+        "obj_class": "food_vegetable",
+        "dest_class": "fridge",
+        "count": 6.047239552113676,
+        "count_robot": 5.302875196616263,
+        "offset_sum_min": 226.8148248723453,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 37.50716718226704
+      },
+      {
+        "obj_idx": 61,
+        "dest_idx": 7,
+        "obj_class": "fork",
+        "dest_class": "table",
+        "count": 9.694207257209154,
+        "count_robot": 0.4181203352191771,
+        "offset_sum_min": 329.70217527773013,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 34.010225542944234
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 7,
+        "obj_class": "fryingpan",
+        "dest_class": "table",
+        "count": 14.736447200420672,
+        "count_robot": 0.518352928352719,
+        "offset_sum_min": 563.2516361160572,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 38.22167096693281
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 7,
+        "obj_class": "plate",
+        "dest_class": "table",
+        "count": 16.942160538582396,
+        "count_robot": 0.6912043090087916,
+        "offset_sum_min": 667.1223035215963,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 39.37645980879228
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 7,
+        "obj_class": "spoon",
+        "dest_class": "table",
+        "count": 14.204460242813935,
+        "count_robot": 2.972395198617995,
+        "offset_sum_min": 542.2643287027472,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 38.175637752731916
+      },
+      {
+        "obj_idx": 49,
+        "dest_idx": 9,
+        "obj_class": "dry_pasta",
+        "dest_class": "kitchen_counter",
+        "count": 5.875977494017652,
+        "count_robot": 0,
+        "offset_sum_min": 60.161644759094955,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 10.238576444573805
+      },
+      {
+        "obj_idx": 54,
+        "dest_idx": 9,
+        "obj_class": "food_chicken",
+        "dest_class": "kitchen_counter",
+        "count": 6.099389328533544,
+        "count_robot": 0,
+        "offset_sum_min": 159.91090459731285,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 26.217527031638053
+      },
+      {
+        "obj_idx": 49,
+        "dest_idx": 8,
+        "obj_class": "dry_pasta",
+        "dest_class": "cupboard",
+        "count": 9.869134706809662,
+        "count_robot": 8.173766637389782,
+        "offset_sum_min": 347.4802866434426,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 35.208789520694516
+      },
+      {
+        "obj_idx": 54,
+        "dest_idx": 31,
+        "obj_class": "food_chicken",
+        "dest_class": "fridge",
+        "count": 9.729517568263972,
+        "count_robot": 8.95145139651689,
+        "offset_sum_min": 365.0934253621386,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 17,
+        "mean_offset_min": 37.52430917572019
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 44,
+        "obj_class": "spoon",
+        "dest_class": "cookingpot",
+        "count": 6.1067542866749065,
+        "count_robot": 0,
+        "offset_sum_min": 225.90701580125418,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 18,
+        "mean_offset_min": 36.99297616971245
+      },
+      {
+        "obj_idx": 54,
+        "dest_idx": 62,
+        "obj_class": "food_chicken",
+        "dest_class": "fryingpan",
+        "count": 1.9375389611258025,
+        "count_robot": 0,
+        "offset_sum_min": 19.375389611258022,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 19,
+        "mean_offset_min": 9.999999999999998
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 10,
+        "obj_class": "plate",
+        "dest_class": "sink",
+        "count": 4.284567956416396,
+        "count_robot": 0.048494525249423104,
+        "offset_sum_min": 195.01376686445477,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 20,
+        "mean_offset_min": 45.51538657997244
+      },
+      {
+        "obj_idx": 49,
+        "dest_idx": 44,
+        "obj_class": "dry_pasta",
+        "dest_class": "cookingpot",
+        "count": 4.172393295450849,
+        "count_robot": 0,
+        "offset_sum_min": 187.3078687289098,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 21,
+        "mean_offset_min": 44.892189078419605
+      },
+      {
+        "obj_idx": 53,
+        "dest_idx": 31,
+        "obj_class": "food_cheese",
+        "dest_class": "fridge",
+        "count": 0.2396350859796662,
+        "count_robot": 0.14989025404881545,
+        "offset_sum_min": 2.997805080976309,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 22,
+        "mean_offset_min": 12.509875458014866
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 10,
+        "obj_class": "cookingpot",
+        "dest_class": "sink",
+        "count": 2.845364544652094,
+        "count_robot": 0,
+        "offset_sum_min": 103.00599883956284,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 23,
+        "mean_offset_min": 36.201336321971176
+      },
+      {
+        "obj_idx": 61,
+        "dest_idx": 10,
+        "obj_class": "fork",
+        "dest_class": "sink",
+        "count": 3.651869711960188,
+        "count_robot": 1.7879232049730964,
+        "offset_sum_min": 176.03281953076853,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 24,
+        "mean_offset_min": 48.20347751023151
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 10,
+        "obj_class": "fryingpan",
+        "dest_class": "sink",
+        "count": 3.540155793372187,
+        "count_robot": 1.1646387639429372,
+        "offset_sum_min": 175.67976701591505,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 25,
+        "mean_offset_min": 49.624868867302226
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 3.9605582331428,
+        "count_robot": 0,
+        "offset_sum_min": 153.7843338102038,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 26,
+        "mean_offset_min": 38.828954091194404
+      },
+      {
+        "obj_idx": 59,
+        "dest_idx": 44,
+        "obj_class": "food_rice",
+        "dest_class": "cookingpot",
+        "count": 1.6356818377190478,
+        "count_robot": 0,
+        "offset_sum_min": 61.48181837719048,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 27,
+        "mean_offset_min": 37.58788351096852
+      },
+      {
+        "obj_idx": 90,
+        "dest_idx": 9,
+        "obj_class": "wine",
+        "dest_class": "kitchen_counter",
+        "count": 0.14989025404881545,
+        "count_robot": 0.14989025404881545,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 28,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 8,
+        "obj_class": "wine_glass",
+        "dest_class": "cupboard",
+        "count": 0.14989025404881545,
+        "count_robot": 0,
+        "offset_sum_min": 4.496707621464464,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 29,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 65,
+        "dest_idx": 1,
+        "obj_class": "hairbrush",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.18402591023557582,
+        "count_robot": 0,
+        "offset_sum_min": 5.5207773070672745,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 30,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 66,
+        "dest_idx": 1,
+        "obj_class": "hairdryer",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.18402591023557582,
+        "count_robot": 0,
+        "offset_sum_min": 5.5207773070672745,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 31,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 81,
+        "dest_idx": 22,
+        "obj_class": "remote_control",
+        "dest_class": "sofa",
+        "count": 0.21463876394293727,
+        "count_robot": 0,
+        "offset_sum_min": 4.292775278858746,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 32,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 8,
+        "obj_class": "cookingpot",
+        "dest_class": "cupboard",
+        "count": 0.2919890243387724,
+        "count_robot": 0.2919890243387724,
+        "offset_sum_min": 14.599451216938618,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 33,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 8,
+        "obj_class": "fryingpan",
+        "dest_class": "cupboard",
+        "count": 0.2919890243387724,
+        "count_robot": 0.2919890243387724,
+        "offset_sum_min": 14.599451216938618,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 34,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 66,
+        "dest_idx": 2,
+        "obj_class": "hairdryer",
+        "dest_class": "bathroom_counter",
+        "count": 0.2919890243387724,
+        "count_robot": 0,
+        "offset_sum_min": 14.599451216938618,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 35,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 8,
+        "obj_class": "plate",
+        "dest_class": "cupboard",
+        "count": 0.2919890243387724,
+        "count_robot": 0.2919890243387724,
+        "offset_sum_min": 14.599451216938618,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 36,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 0.2919890243387724,
+        "count_robot": 0.2919890243387724,
+        "offset_sum_min": 20.439231703714068,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 37,
+        "mean_offset_min": 70.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 7.324659294225826
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 7.688754873133843
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 1.11768265439365
+      },
+      {
+        "src": -1,
+        "dst": 5,
+        "count": 1.3765178891906056
+      },
+      {
+        "src": -1,
+        "dst": 7,
+        "count": 0.9461536948117669
+      },
+      {
+        "src": -1,
+        "dst": 14,
+        "count": 0.4310871485180475
+      },
+      {
+        "src": -1,
+        "dst": 21,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": -1,
+        "dst": 28,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 0,
+        "dst": 5,
+        "count": 0.3972143184582182
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.22593554099256555
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 1.3415269228484121
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 1.2592631578643507
+      },
+      {
+        "src": 1,
+        "dst": 4,
+        "count": 1.737775944746333
+      },
+      {
+        "src": 1,
+        "dst": 7,
+        "count": 1.1595857528604088
+      },
+      {
+        "src": 1,
+        "dst": 8,
+        "count": 0.668464424961632
+      },
+      {
+        "src": 1,
+        "dst": 14,
+        "count": 2.6963389811566065
+      },
+      {
+        "src": 1,
+        "dst": 15,
+        "count": 0.7756495657068616
+      },
+      {
+        "src": 1,
+        "dst": 16,
+        "count": 1.304931992578263
+      },
+      {
+        "src": 1,
+        "dst": 21,
+        "count": 3.329169517763616
+      },
+      {
+        "src": 1,
+        "dst": 27,
+        "count": 1.500405883439992
+      },
+      {
+        "src": 1,
+        "dst": 32,
+        "count": 0.21463876394293727
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "count": 0.3972143184582182
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 1.1048947038092707
+      },
+      {
+        "src": 2,
+        "dst": 4,
+        "count": 0.6097615278523775
+      },
+      {
+        "src": 2,
+        "dst": 5,
+        "count": 4.982408143653642
+      },
+      {
+        "src": 2,
+        "dst": 14,
+        "count": 1.846258270277895
+      },
+      {
+        "src": 2,
+        "dst": 22,
+        "count": 0.08974483193085075
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 1.864092299630061
+      },
+      {
+        "src": 3,
+        "dst": 5,
+        "count": 0.7753815402593822
+      },
+      {
+        "src": 3,
+        "dst": 7,
+        "count": 0.5133420832795048
+      },
+      {
+        "src": 3,
+        "dst": 8,
+        "count": 0.6820656841544697
+      },
+      {
+        "src": 3,
+        "dst": 30,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 1.0337429355400036
+      },
+      {
+        "src": 4,
+        "dst": 7,
+        "count": 2.4986575060242733
+      },
+      {
+        "src": 4,
+        "dst": 8,
+        "count": 2.2591459443403497
+      },
+      {
+        "src": 4,
+        "dst": 18,
+        "count": 0.1455100559740442
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 5,
+        "dst": 1,
+        "count": 8.851503015425036
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 5,
+        "dst": 7,
+        "count": 0.8765082375928226
+      },
+      {
+        "src": 5,
+        "dst": 8,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 5,
+        "dst": 16,
+        "count": 0.3584859224085419
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "count": 0.03752413921111602
+      },
+      {
+        "src": 7,
+        "dst": 3,
+        "count": 0.17253798349996974
+      },
+      {
+        "src": 7,
+        "dst": 4,
+        "count": 0.08974483193085075
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 4.1570845045321665
+      },
+      {
+        "src": 7,
+        "dst": 10,
+        "count": 4.179199870932712
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "count": 1.5882871874999998
+      },
+      {
+        "src": 7,
+        "dst": 14,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 7,
+        "dst": 16,
+        "count": 0.7958820054518565
+      },
+      {
+        "src": 7,
+        "dst": 17,
+        "count": 2.2820503328542734
+      },
+      {
+        "src": 7,
+        "dst": 19,
+        "count": 0.25837796264638024
+      },
+      {
+        "src": 7,
+        "dst": 21,
+        "count": 0.06944284018723361
+      },
+      {
+        "src": 7,
+        "dst": 27,
+        "count": 0.13527595427905592
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 6.047239552113676
+      },
+      {
+        "src": 8,
+        "dst": 10,
+        "count": 0.4542509154882453
+      },
+      {
+        "src": 8,
+        "dst": 11,
+        "count": 1.840725281948137
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.9025
+      },
+      {
+        "src": 9,
+        "dst": 10,
+        "count": 3.307398565003693
+      },
+      {
+        "src": 9,
+        "dst": 11,
+        "count": 0.8373409871099835
+      },
+      {
+        "src": 9,
+        "dst": 12,
+        "count": 1.0
+      },
+      {
+        "src": 10,
+        "dst": 11,
+        "count": 8.407889136912713
+      },
+      {
+        "src": 10,
+        "dst": 12,
+        "count": 0.5963128076638741
+      },
+      {
+        "src": 10,
+        "dst": 13,
+        "count": 0.22339045216396747
+      },
+      {
+        "src": 10,
+        "dst": 20,
+        "count": 0.048494525249423104
+      },
+      {
+        "src": 10,
+        "dst": 26,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 11,
+        "dst": -2,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 11,
+        "dst": 12,
+        "count": 13.407338506340189
+      },
+      {
+        "src": 11,
+        "dst": 18,
+        "count": 1.1353972096219853
+      },
+      {
+        "src": 12,
+        "dst": -2,
+        "count": 2.0069451400141016
+      },
+      {
+        "src": 12,
+        "dst": 13,
+        "count": 12.693136737555456
+      },
+      {
+        "src": 12,
+        "dst": 18,
+        "count": 2.004251775757508
+      },
+      {
+        "src": 12,
+        "dst": 26,
+        "count": 0.23782688525533216
+      },
+      {
+        "src": 13,
+        "dst": -2,
+        "count": 10.552590530853749
+      },
+      {
+        "src": 13,
+        "dst": 23,
+        "count": 2.2611608254453106
+      },
+      {
+        "src": 13,
+        "dst": 24,
+        "count": 1.3907088865148782
+      },
+      {
+        "src": 14,
+        "dst": 5,
+        "count": 1.4440060388317484
+      },
+      {
+        "src": 14,
+        "dst": 15,
+        "count": 3.0893904254094435
+      },
+      {
+        "src": 14,
+        "dst": 16,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 14,
+        "dst": 19,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 15,
+        "dst": -2,
+        "count": 0.37735360253530725
+      },
+      {
+        "src": 15,
+        "dst": 5,
+        "count": 0.40225223144614625
+      },
+      {
+        "src": 15,
+        "dst": 7,
+        "count": 0.22006822380921054
+      },
+      {
+        "src": 15,
+        "dst": 16,
+        "count": 4.127816813366409
+      },
+      {
+        "src": 15,
+        "dst": 17,
+        "count": 0.9718984573764697
+      },
+      {
+        "src": 16,
+        "dst": 7,
+        "count": 0.8761265123602124
+      },
+      {
+        "src": 16,
+        "dst": 10,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 16,
+        "dst": 11,
+        "count": 0.5403600876626367
+      },
+      {
+        "src": 16,
+        "dst": 12,
+        "count": 0.06267216326897833
+      },
+      {
+        "src": 16,
+        "dst": 15,
+        "count": 0.3230844755896404
+      },
+      {
+        "src": 16,
+        "dst": 17,
+        "count": 6.370512625433553
+      },
+      {
+        "src": 16,
+        "dst": 18,
+        "count": 0.5402362054364662
+      },
+      {
+        "src": 16,
+        "dst": 19,
+        "count": 0.9624311525996759
+      },
+      {
+        "src": 17,
+        "dst": -2,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 17,
+        "dst": 7,
+        "count": 3.3841319948318835
+      },
+      {
+        "src": 17,
+        "dst": 10,
+        "count": 0.6318142234381035
+      },
+      {
+        "src": 17,
+        "dst": 11,
+        "count": 1.5218445192872068
+      },
+      {
+        "src": 17,
+        "dst": 12,
+        "count": 1.147856214086915
+      },
+      {
+        "src": 17,
+        "dst": 16,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": 17,
+        "dst": 18,
+        "count": 2.2813590398849026
+      },
+      {
+        "src": 18,
+        "dst": -2,
+        "count": 0.4590565871463729
+      },
+      {
+        "src": 18,
+        "dst": 7,
+        "count": 2.4869224855984036
+      },
+      {
+        "src": 18,
+        "dst": 8,
+        "count": 0.09944025698709225
+      },
+      {
+        "src": 18,
+        "dst": 10,
+        "count": 0.9278321978878998
+      },
+      {
+        "src": 18,
+        "dst": 12,
+        "count": 0.5133420832795048
+      },
+      {
+        "src": 18,
+        "dst": 13,
+        "count": 1.2394385278450888
+      },
+      {
+        "src": 18,
+        "dst": 25,
+        "count": 0.21463876394293727
+      },
+      {
+        "src": 18,
+        "dst": 26,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 19,
+        "dst": 7,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 19,
+        "dst": 16,
+        "count": 0.9751078085261264
+      },
+      {
+        "src": 19,
+        "dst": 17,
+        "count": 0.10505615259967604
+      },
+      {
+        "src": 20,
+        "dst": -2,
+        "count": 1.0975458024862892
+      },
+      {
+        "src": 20,
+        "dst": 13,
+        "count": 0.048494525249423104
+      },
+      {
+        "src": 20,
+        "dst": 26,
+        "count": 3.1385276286806834
+      },
+      {
+        "src": 21,
+        "dst": 14,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 21,
+        "dst": 15,
+        "count": 1.9112648618275974
+      },
+      {
+        "src": 21,
+        "dst": 16,
+        "count": 1.3394177425199656
+      },
+      {
+        "src": 21,
+        "dst": 19,
+        "count": 0.14792975360328653
+      },
+      {
+        "src": 22,
+        "dst": 5,
+        "count": 0.08974483193085075
+      },
+      {
+        "src": 22,
+        "dst": 29,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 23,
+        "dst": 24,
+        "count": 2.2611608254453106
+      },
+      {
+        "src": 23,
+        "dst": 25,
+        "count": 0.5842037192067843
+      },
+      {
+        "src": 24,
+        "dst": 20,
+        "count": 2.2746319748133432
+      },
+      {
+        "src": 24,
+        "dst": 25,
+        "count": 1.3772377371468452
+      },
+      {
+        "src": 25,
+        "dst": -2,
+        "count": 1.0720865487368478
+      },
+      {
+        "src": 25,
+        "dst": 12,
+        "count": 0.21463876394293727
+      },
+      {
+        "src": 25,
+        "dst": 20,
+        "count": 1.9614414563536293
+      },
+      {
+        "src": 25,
+        "dst": 33,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 26,
+        "dst": -2,
+        "count": 2.0122789408603956
+      },
+      {
+        "src": 26,
+        "dst": 23,
+        "count": 0.5842037192067843
+      },
+      {
+        "src": 26,
+        "dst": 25,
+        "count": 1.3640755730756204
+      },
+      {
+        "src": 27,
+        "dst": 4,
+        "count": 1.6356818377190478
+      },
+      {
+        "src": 28,
+        "dst": 22,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 29,
+        "dst": 3,
+        "count": 0.14989025404881545
+      },
+      {
+        "src": 30,
+        "dst": 31,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 31,
+        "dst": 8,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 32,
+        "dst": 3,
+        "count": 0.21463876394293727
+      },
+      {
+        "src": 33,
+        "dst": 34,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 34,
+        "dst": 35,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 35,
+        "dst": 36,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 36,
+        "dst": 37,
+        "count": 0.2919890243387724
+      },
+      {
+        "src": 37,
+        "dst": -2,
+        "count": 0.2919890243387724
+      }
+    ]
+  },
+  "wash_dinner_dishes": {
+    "activity_name": "wash_dinner_dishes",
+    "n_segments": 14.30413610247863,
+    "nodes": [
+      {
+        "obj_idx": 44,
+        "dest_idx": 10,
+        "obj_class": "cookingpot",
+        "dest_class": "sink",
+        "count": 12.93147803585966,
+        "count_robot": 0.5987369392383787,
+        "offset_sum_min": 20.745809928727297,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 1.6042876051135135
+      },
+      {
+        "obj_idx": 61,
+        "dest_idx": 10,
+        "obj_class": "fork",
+        "dest_class": "sink",
+        "count": 12.160862547343699,
+        "count_robot": 2.8273378596126992,
+        "offset_sum_min": 10.865259102355758,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 0.8934612211967694
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 10,
+        "obj_class": "plate",
+        "dest_class": "sink",
+        "count": 12.876122638860043,
+        "count_robot": 0.19947730080483803,
+        "offset_sum_min": 20.31938931111145,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 1.578067395054757
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 12.305538425878451,
+        "count_robot": 0.06597069817787193,
+        "offset_sum_min": 14.966326183176635,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 1.2162268456049488
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 10,
+        "obj_class": "fryingpan",
+        "dest_class": "sink",
+        "count": 11.424438978792223,
+        "count_robot": 0.35885052495937286,
+        "offset_sum_min": 35.631802190845804,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 3.1189104565214065
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 44,
+        "obj_class": "spoon",
+        "dest_class": "cookingpot",
+        "count": 0.04157799358572413,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 7,
+        "obj_class": "spoon",
+        "dest_class": "table",
+        "count": 1.220032512862542,
+        "count_robot": 0.24058753758582876,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 7,
+        "obj_class": "plate",
+        "dest_class": "table",
+        "count": 1.0865259102355758,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 61,
+        "dest_idx": 7,
+        "obj_class": "fork",
+        "dest_class": "table",
+        "count": 0.8622570337041207,
+        "count_robot": 0.8622570337041207,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 8,
+        "obj_class": "cookingpot",
+        "dest_class": "cupboard",
+        "count": 1.1798895731218337,
+        "count_robot": 1.1798895731218337,
+        "offset_sum_min": 23.597791462436675,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 8,
+        "obj_class": "fryingpan",
+        "dest_class": "cupboard",
+        "count": 1.1798895731218337,
+        "count_robot": 1.1798895731218337,
+        "offset_sum_min": 23.597791462436675,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 8,
+        "obj_class": "plate",
+        "dest_class": "cupboard",
+        "count": 1.1798895731218337,
+        "count_robot": 1.1798895731218337,
+        "offset_sum_min": 23.597791462436675,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 1.1798895731218337,
+        "count_robot": 0.27738957312183377,
+        "offset_sum_min": 71.496687193655,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 60.596083584740995
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 7,
+        "obj_class": "fryingpan",
+        "dest_class": "table",
+        "count": 0.9025,
+        "count_robot": 0.9025,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 0.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 10.898475036572655
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 1.9093631128956803
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 0.2886998649588308
+      },
+      {
+        "src": -1,
+        "dst": 5,
+        "count": 0.04157799358572413
+      },
+      {
+        "src": -1,
+        "dst": 8,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": -1,
+        "dst": 13,
+        "count": 0.9025
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 0.11018311023500528
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 10.25149943444802
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 0.07694497527671315
+      },
+      {
+        "src": 0,
+        "dst": 4,
+        "count": 1.8941135766615451
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.06267216326897833
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 4.086068659137411
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 1,
+        "dst": 4,
+        "count": 7.381872315212702
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 2.184461974032416
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 10.558154062200664
+      },
+      {
+        "src": 2,
+        "dst": 6,
+        "count": 0.1335066026269661
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 8.995100456261136
+      },
+      {
+        "src": 3,
+        "dst": 0,
+        "count": 0.8695321137747167
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 1.2610162827207663
+      },
+      {
+        "src": 3,
+        "dst": 9,
+        "count": 1.1798895731218337
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 1.7152671982090115
+      },
+      {
+        "src": 4,
+        "dst": 2,
+        "count": 8.790053979722636
+      },
+      {
+        "src": 4,
+        "dst": 3,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 4,
+        "dst": 7,
+        "count": 0.18402591023557582
+      },
+      {
+        "src": 5,
+        "dst": 3,
+        "count": 0.04157799358572413
+      },
+      {
+        "src": 6,
+        "dst": -2,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 6,
+        "dst": 0,
+        "count": 1.163470885512289
+      },
+      {
+        "src": 7,
+        "dst": 6,
+        "count": 1.0865259102355758
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": 8,
+        "dst": 4,
+        "count": 0.5987369392383787
+      },
+      {
+        "src": 9,
+        "dst": 10,
+        "count": 1.1798895731218337
+      },
+      {
+        "src": 10,
+        "dst": 11,
+        "count": 1.1798895731218337
+      },
+      {
+        "src": 11,
+        "dst": 12,
+        "count": 1.1798895731218337
+      },
+      {
+        "src": 12,
+        "dst": -2,
+        "count": 1.1798895731218337
+      },
+      {
+        "src": 13,
+        "dst": 7,
+        "count": 0.9025
+      }
+    ]
+  },
+  "put_away_dinner_dishes": {
+    "activity_name": "put_away_dinner_dishes",
+    "n_segments": 16.309542494494448,
+    "nodes": [
+      {
+        "obj_idx": 78,
+        "dest_idx": 8,
+        "obj_class": "plate",
+        "dest_class": "cupboard",
+        "count": 14.768863536975223,
+        "count_robot": 8.571859923423315,
+        "offset_sum_min": 38.21116588135977,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 2.587278688417329
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 14.518519447232768,
+        "count_robot": 9.521928317755368,
+        "offset_sum_min": 164.43746931724175,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 11.326049458065338
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 8,
+        "obj_class": "cookingpot",
+        "dest_class": "cupboard",
+        "count": 14.876280610157686,
+        "count_robot": 13.0047603861441,
+        "offset_sum_min": 97.88004093931586,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 6.579604371840251
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 8,
+        "obj_class": "fryingpan",
+        "dest_class": "cupboard",
+        "count": 14.62593652041523,
+        "count_robot": 11.770132692571758,
+        "offset_sum_min": 138.73501276760567,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 9.485547306591686
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 10,
+        "obj_class": "cup",
+        "dest_class": "sink",
+        "count": 0.0852575903343082,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 84,
+        "dest_idx": 8,
+        "obj_class": "tea",
+        "dest_class": "cupboard",
+        "count": 0.0852575903343082,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 0.0852575903343082,
+        "count_robot": 0,
+        "offset_sum_min": 0.852575903343082,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 10,
+        "obj_class": "fryingpan",
+        "dest_class": "sink",
+        "count": 0.8461609015240714,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 10,
+        "obj_class": "wine_glass",
+        "dest_class": "sink",
+        "count": 0.7737809374999998,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 8,
+        "obj_class": "wine_glass",
+        "dest_class": "cupboard",
+        "count": 0.7737809374999998,
+        "count_robot": 0.7737809374999998,
+        "offset_sum_min": 7.737809374999998,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 6.512714535635654
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.6327590991621144
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 6.674780922137768
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 1.630249409724609
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": -1,
+        "dst": 8,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 10.574310988956956
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 2.8153747904662483
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 0.9610574223328454
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 9.7638584504968
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 4.386124897553673
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.3685360991822979
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 2,
+        "dst": 0,
+        "count": 1.9711075991066014
+      },
+      {
+        "src": 2,
+        "dst": 1,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 11.17841861005995
+      },
+      {
+        "src": 2,
+        "dst": 7,
+        "count": 0.8461609015240714
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 5.018181091201713
+      },
+      {
+        "src": 3,
+        "dst": 0,
+        "count": 5.9265554798244295
+      },
+      {
+        "src": 3,
+        "dst": 1,
+        "count": 2.681199949389092
+      },
+      {
+        "src": 3,
+        "dst": 2,
+        "count": 1.0
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 6,
+        "dst": -2,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 7,
+        "dst": 0,
+        "count": 0.3584859224085419
+      },
+      {
+        "src": 7,
+        "dst": 3,
+        "count": 0.48767497911552954
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.7737809374999998
+      }
+    ]
+  },
+  "watch_tv": {
+    "activity_name": "watch_tv",
+    "n_segments": 34.12750024279687,
+    "nodes": [
+      {
+        "obj_idx": 81,
+        "dest_idx": 22,
+        "obj_class": "remote_control",
+        "dest_class": "sofa",
+        "count": 20.318618905854898,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 81,
+        "dest_idx": 26,
+        "obj_class": "remote_control",
+        "dest_class": "tvstand",
+        "count": 21.15830372680115,
+        "count_robot": 2.9141302554030863,
+        "offset_sum_min": 718.4814814333276,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 33.95742355863951
+      },
+      {
+        "obj_idx": 44,
+        "dest_idx": 29,
+        "obj_class": "cookingpot",
+        "dest_class": "stove",
+        "count": 0.046069798986951946,
+        "count_robot": 0,
+        "offset_sum_min": 2.3034899493475973,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 29,
+        "obj_class": "fryingpan",
+        "dest_class": "stove",
+        "count": 0.046069798986951946,
+        "count_robot": 0,
+        "offset_sum_min": 2.3034899493475973,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 50.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 9,
+        "obj_class": "plate",
+        "dest_class": "kitchen_counter",
+        "count": 0.046069798986951946,
+        "count_robot": 0,
+        "offset_sum_min": 2.3034899493475973,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 50.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 3.559865289783182
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 20.318618905854898
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 10.24901604715879
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 9.409331226212531
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 10.863217880655416
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 21.15830372680115
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.046069798986951946
+      },
+      {
+        "src": 4,
+        "dst": 1,
+        "count": 0.046069798986951946
+      }
+    ]
+  },
+  "vacuum_cleaning": {
+    "activity_name": "vacuum_cleaning",
+    "n_segments": 9.68654538205343,
+    "nodes": [
+      {
+        "obj_idx": 88,
+        "dest_idx": 16,
+        "obj_class": "vacuum_cleaner",
+        "dest_class": "bedroom",
+        "count": 9.409155808931596,
+        "count_robot": 0.2503440897424549,
+        "offset_sum_min": 0.5373354598274028,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.057107722599017835
+      },
+      {
+        "obj_idx": 88,
+        "dest_idx": 21,
+        "obj_class": "vacuum_cleaner",
+        "dest_class": "home_office",
+        "count": 1.0978265348408003,
+        "count_robot": 0,
+        "offset_sum_min": 20.72157410431241,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 18.875089503386178
+      },
+      {
+        "obj_idx": 88,
+        "dest_idx": 30,
+        "obj_class": "vacuum_cleaner",
+        "dest_class": "kitchen_cabinet",
+        "count": 4.20379800291158,
+        "count_robot": 0.11598222130000556,
+        "offset_sum_min": 133.2256976327965,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 31.691745783342455
+      },
+      {
+        "obj_idx": 88,
+        "dest_idx": 3,
+        "obj_class": "vacuum_cleaner",
+        "dest_class": "dining_room",
+        "count": 4.284869170052439,
+        "count_robot": 2.99676518098413,
+        "offset_sum_min": 98.21458788817154,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 22.92125710035846
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 22,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.053733545982740286,
+        "count_robot": 0.053733545982740286,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 24,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 0.3356016800767631,
+        "count_robot": 0,
+        "offset_sum_min": 5.061168607453795,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 15.080879828420823
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 17,
+        "obj_class": "book",
+        "dest_class": "chair",
+        "count": 0.4933358238353128,
+        "count_robot": 0,
+        "offset_sum_min": 14.800074715059385,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.12208654873684796,
+        "count_robot": 0,
+        "offset_sum_min": 3.662596462105439,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 30.0
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 7,
+        "obj_class": "bowl",
+        "dest_class": "table",
+        "count": 1.3243946710601924,
+        "count_robot": 1.1583112870725851,
+        "offset_sum_min": 18.310396813359144,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 13.825483606560779
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 7,
+        "obj_class": "food_cereal",
+        "dest_class": "table",
+        "count": 0.16608338398760716,
+        "count_robot": 0,
+        "offset_sum_min": 3.321667679752143,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 85,
+        "dest_idx": 2,
+        "obj_class": "tooth_paste",
+        "dest_class": "bathroom_counter",
+        "count": 0.3894633786667343,
+        "count_robot": 0,
+        "offset_sum_min": 7.789267573334686,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 0.2503440897424549,
+        "count_robot": 0,
+        "offset_sum_min": 2.5034408974245492,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 9.355422262948855
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.27738957312183377
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 0.053733545982740286
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 2.43504199243021
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.5700928719765116
+      },
+      {
+        "src": 0,
+        "dst": 2,
+        "count": 1.8682397959827401
+      },
+      {
+        "src": 0,
+        "dst": 3,
+        "count": 2.3996295936100323
+      },
+      {
+        "src": 0,
+        "dst": 6,
+        "count": 0.4933358238353128
+      },
+      {
+        "src": 0,
+        "dst": 7,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 0,
+        "dst": 8,
+        "count": 0.8809217139507515
+      },
+      {
+        "src": 0,
+        "dst": 10,
+        "count": 0.3894633786667343
+      },
+      {
+        "src": 0,
+        "dst": 11,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.03949909390643792
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.6148544838249215
+      },
+      {
+        "src": 1,
+        "dst": 8,
+        "count": 0.4434729571094409
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 4.20379800291158
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 2.8816220027240322
+      },
+      {
+        "src": 3,
+        "dst": 2,
+        "count": 1.3179895769940995
+      },
+      {
+        "src": 3,
+        "dst": 5,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 4,
+        "dst": 0,
+        "count": 0.053733545982740286
+      },
+      {
+        "src": 5,
+        "dst": 1,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 5,
+        "dst": 2,
+        "count": 0.0852575903343082
+      },
+      {
+        "src": 6,
+        "dst": 2,
+        "count": 0.4933358238353128
+      },
+      {
+        "src": 7,
+        "dst": 2,
+        "count": 0.12208654873684796
+      },
+      {
+        "src": 8,
+        "dst": 2,
+        "count": 0.27738957312183377
+      },
+      {
+        "src": 8,
+        "dst": 3,
+        "count": 0.8809217139507515
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.16608338398760716
+      },
+      {
+        "src": 10,
+        "dst": 3,
+        "count": 0.3894633786667343
+      },
+      {
+        "src": 11,
+        "dst": 5,
+        "count": 0.2503440897424549
+      }
+    ]
+  },
+  "read_book": {
+    "activity_name": "read_book",
+    "n_segments": 17.45720716394549,
+    "nodes": [
+      {
+        "obj_idx": 34,
+        "dest_idx": 17,
+        "obj_class": "book",
+        "dest_class": "chair",
+        "count": 2.5656977424751184,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 14.966697907964347,
+        "count_robot": 0,
+        "offset_sum_min": 186.84379476843822,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 12.48396913717431
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 8.840654911495728,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 21,
+        "obj_class": "instrument_guitar",
+        "dest_class": "home_office",
+        "count": 0.2226450113378601,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 22,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 5.156831412604575,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 39,
+        "dest_idx": 30,
+        "obj_class": "cleaning_solution",
+        "dest_class": "kitchen_cabinet",
+        "count": 0.26352009446574204,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 89,
+        "dest_idx": 30,
+        "obj_class": "washcloth",
+        "dest_class": "kitchen_cabinet",
+        "count": 0.26352009446574204,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 10,
+        "obj_class": "bowl",
+        "dest_class": "sink",
+        "count": 0.44012666865176536,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 0.44012666865176536,
+        "count_robot": 0.44012666865176536,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 0.6302494097246091,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 85,
+        "dest_idx": 1,
+        "obj_class": "tooth_paste",
+        "dest_class": "bathroom_cabinet",
+        "count": 0.8573749999999999,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 68,
+        "dest_idx": 24,
+        "obj_class": "instrument_guitar",
+        "dest_class": "chair",
+        "count": 0.95,
+        "count_robot": 0.95,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 1.0,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 0.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": -2,
+        "count": 0.2062737400376499
+      },
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 2.5656977424751184
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.6877493573324276
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 8.840654911495728
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 5.156831412604575
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 0.983675115415044
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.9517732173354652
+      },
+      {
+        "src": 0,
+        "dst": 9,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 14.966697907964347
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.19914219886099266
+      },
+      {
+        "src": 2,
+        "dst": 1,
+        "count": 5.611492701296873
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.2226450113378601
+      },
+      {
+        "src": 2,
+        "dst": 10,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 2,
+        "dst": 11,
+        "count": 0.95
+      },
+      {
+        "src": 2,
+        "dst": 12,
+        "count": 1.0
+      },
+      {
+        "src": 3,
+        "dst": 1,
+        "count": 0.2226450113378601
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 1.1014182016674603
+      },
+      {
+        "src": 4,
+        "dst": 1,
+        "count": 3.3517664478196076
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": 4,
+        "dst": 7,
+        "count": 0.44012666865176536
+      },
+      {
+        "src": 5,
+        "dst": 6,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": 6,
+        "dst": 1,
+        "count": 0.26352009446574204
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.44012666865176536
+      },
+      {
+        "src": 8,
+        "dst": 1,
+        "count": 0.44012666865176536
+      },
+      {
+        "src": 9,
+        "dst": 1,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 10,
+        "dst": 1,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 11,
+        "dst": 1,
+        "count": 0.95
+      },
+      {
+        "src": 12,
+        "dst": 1,
+        "count": 1.0
+      }
+    ]
+  },
+  "prepare_snack": {
+    "activity_name": "prepare_snack",
+    "n_segments": 4.111350630262252,
+    "nodes": [
+      {
+        "obj_idx": 46,
+        "dest_idx": 7,
+        "obj_class": "cutting_board",
+        "dest_class": "table",
+        "count": 0.043766309037604346,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 53,
+        "dest_idx": 46,
+        "obj_class": "food_cheese",
+        "dest_class": "cutting_board",
+        "count": 2.7472076592801935,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 7,
+        "obj_class": "wine_glass",
+        "dest_class": "table",
+        "count": 0.9681837085937357,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 53,
+        "dest_idx": 31,
+        "obj_class": "food_cheese",
+        "dest_class": "fridge",
+        "count": 2.4638062642629226,
+        "count_robot": 2.347824042962917,
+        "offset_sum_min": 66.59030704706035,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 27.027412022179288
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 10,
+        "obj_class": "wine_glass",
+        "dest_class": "sink",
+        "count": 1.2886993295758091,
+        "count_robot": 0,
+        "offset_sum_min": 45.68514872838919,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 35.450587798029666
+      },
+      {
+        "obj_idx": 91,
+        "dest_idx": 8,
+        "obj_class": "wine_glass",
+        "dest_class": "cupboard",
+        "count": 0.9916880306691731,
+        "count_robot": 0,
+        "offset_sum_min": 45.384111815526516,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 45.76450497733863
+      },
+      {
+        "obj_idx": 90,
+        "dest_idx": 7,
+        "obj_class": "wine",
+        "dest_class": "table",
+        "count": 0.9244173995561314,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 90,
+        "dest_idx": 9,
+        "obj_class": "wine",
+        "dest_class": "kitchen_counter",
+        "count": 2.4969894688435206,
+        "count_robot": 2.381007247543515,
+        "offset_sum_min": 42.51786067793366,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 17.027649178522882
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 7,
+        "obj_class": "chessboard",
+        "dest_class": "table",
+        "count": 1.588100454893755,
+        "count_robot": 0,
+        "offset_sum_min": 15.88100454893755,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 7,
+        "obj_class": "deck_of_cards",
+        "dest_class": "table",
+        "count": 0.3663263110424605,
+        "count_robot": 0,
+        "offset_sum_min": 3.6632631104246047,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 10.0
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 13,
+        "obj_class": "chessboard",
+        "dest_class": "bookshelf",
+        "count": 2.1569005471702147,
+        "count_robot": 2.1569005471702147,
+        "offset_sum_min": 39.03839403893349,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 18.09930183853429
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 13,
+        "obj_class": "deck_of_cards",
+        "dest_class": "bookshelf",
+        "count": 2.1569005471702147,
+        "count_robot": 2.1569005471702147,
+        "offset_sum_min": 59.44757729763558,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 27.561575509649217
+      },
+      {
+        "obj_idx": 62,
+        "dest_idx": 29,
+        "obj_class": "fryingpan",
+        "dest_class": "stove",
+        "count": 0.7737809374999998,
+        "count_robot": 0.7737809374999998,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 78,
+        "dest_idx": 9,
+        "obj_class": "plate",
+        "dest_class": "kitchen_counter",
+        "count": 0.7737809374999998,
+        "count_robot": 0.7737809374999998,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 0.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 2.7034413502425885
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": -1,
+        "dst": 4,
+        "count": 0.19371148445850087
+      },
+      {
+        "src": -1,
+        "dst": 7,
+        "count": 0.3400889216733057
+      },
+      {
+        "src": -1,
+        "dst": 10,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.056561627350252934
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.043766309037604346
+      },
+      {
+        "src": 1,
+        "dst": 6,
+        "count": 0.9244173995561314
+      },
+      {
+        "src": 1,
+        "dst": 8,
+        "count": 1.4721182335937495
+      },
+      {
+        "src": 1,
+        "dst": 9,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.2834013950172706
+      },
+      {
+        "src": 2,
+        "dst": 8,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 2,
+        "dst": 10,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 3,
+        "dst": -2,
+        "count": 0.8897631588000053
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 1.0052430131864576
+      },
+      {
+        "src": 3,
+        "dst": 5,
+        "count": 0.5688000922764597
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 0.9817936124831014
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.30690571709270786
+      },
+      {
+        "src": 5,
+        "dst": -2,
+        "count": 0.8757058093691675
+      },
+      {
+        "src": 5,
+        "dst": 3,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 6,
+        "dst": 2,
+        "count": 0.9244173995561314
+      },
+      {
+        "src": 7,
+        "dst": 3,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 7,
+        "dst": 4,
+        "count": 0.08974483193085075
+      },
+      {
+        "src": 7,
+        "dst": 5,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 7,
+        "dst": 11,
+        "count": 2.040918325870209
+      },
+      {
+        "src": 8,
+        "dst": -2,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 8,
+        "dst": 10,
+        "count": 0.6983372960937497
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.2503440897424549
+      },
+      {
+        "src": 9,
+        "dst": 10,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 10,
+        "dst": 7,
+        "count": 1.2671373883702093
+      },
+      {
+        "src": 10,
+        "dst": 11,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 10,
+        "dst": 12,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 11,
+        "dst": 3,
+        "count": 2.040918325870209
+      },
+      {
+        "src": 11,
+        "dst": 7,
+        "count": 0.11598222130000556
+      },
+      {
+        "src": 12,
+        "dst": 13,
+        "count": 0.7737809374999998
+      },
+      {
+        "src": 13,
+        "dst": 7,
+        "count": 0.7737809374999998
+      }
+    ]
+  },
+  "make_coffee_or_tea": {
+    "activity_name": "make_coffee_or_tea",
+    "n_segments": 7.139735415080518,
+    "nodes": [
+      {
+        "obj_idx": 43,
+        "dest_idx": 14,
+        "obj_class": "coffee_filter",
+        "dest_class": "coffe_maker",
+        "count": 0.10803308035495252,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 8,
+        "obj_class": "food_cereal",
+        "dest_class": "cupboard",
+        "count": 2.602999970979952,
+        "count_robot": 2.602999970979952,
+        "offset_sum_min": 102.11341890624999,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 39.22912794647759
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 31,
+        "obj_class": "milk",
+        "dest_class": "fridge",
+        "count": 2.602999970979952,
+        "count_robot": 1.8679080803549524,
+        "offset_sum_min": 134.86525671874998,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 51.81147069624331
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 14,
+        "obj_class": "mug",
+        "dest_class": "coffe_maker",
+        "count": 1.7456249709799523,
+        "count_robot": 0.7350918906249998,
+        "offset_sum_min": 16.37591890625,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 9.381120904255253
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 7,
+        "obj_class": "mug",
+        "dest_class": "table",
+        "count": 1.7456249709799523,
+        "count_robot": 0.9025,
+        "offset_sum_min": 33.83216861604952,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 19.38112090425525
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 10,
+        "obj_class": "bowl",
+        "dest_class": "sink",
+        "count": 0.7946304457305292,
+        "count_robot": 0.05953855510552941,
+        "offset_sum_min": 22.052756718749993,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 27.75221719383806
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 8,
+        "obj_class": "bowl",
+        "dest_class": "cupboard",
+        "count": 0.9620385551055294,
+        "count_robot": 0.9025,
+        "offset_sum_min": 37.886156653165884,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 6,
+        "mean_offset_min": 39.381120904255255
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 10,
+        "obj_class": "mug",
+        "dest_class": "sink",
+        "count": 0.9620385551055294,
+        "count_robot": 0,
+        "offset_sum_min": 37.886156653165884,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 7,
+        "mean_offset_min": 39.381120904255255
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 8,
+        "obj_class": "coffee_filter",
+        "dest_class": "cupboard",
+        "count": 1.6971304457305292,
+        "count_robot": 1.6971304457305292,
+        "offset_sum_min": 69.55929892297117,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 8,
+        "mean_offset_min": 40.986418632675814
+      },
+      {
+        "obj_idx": 73,
+        "dest_idx": 8,
+        "obj_class": "mug",
+        "dest_class": "cupboard",
+        "count": 0.9620385551055294,
+        "count_robot": 0.9620385551055294,
+        "offset_sum_min": 47.50654220422118,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 9,
+        "mean_offset_min": 49.381120904255255
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 10,
+        "obj_class": "coffee_cup",
+        "dest_class": "sink",
+        "count": 3.491839702754192,
+        "count_robot": 0.22593554099256555,
+        "offset_sum_min": 96.06112638094842,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 10,
+        "mean_offset_min": 27.510176456605414
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 8,
+        "obj_class": "coffee_cup",
+        "dest_class": "cupboard",
+        "count": 2.496991824758433,
+        "count_robot": 0.174824614723797,
+        "offset_sum_min": 97.30548768165042,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 11,
+        "mean_offset_min": 38.969085407824295
+      },
+      {
+        "obj_idx": 42,
+        "dest_idx": 7,
+        "obj_class": "coffee_cup",
+        "dest_class": "table",
+        "count": 1.501326080976448,
+        "count_robot": 0,
+        "offset_sum_min": 37.352224916644886,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 12,
+        "mean_offset_min": 24.87948846685682
+      },
+      {
+        "obj_idx": 41,
+        "dest_idx": 8,
+        "obj_class": "coffee",
+        "dest_class": "cupboard",
+        "count": 1.6591052957646744,
+        "count_robot": 1.6591052957646744,
+        "offset_sum_min": 48.18428237421759,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 13,
+        "mean_offset_min": 29.042329318833055
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 13,
+        "obj_class": "deck_of_cards",
+        "dest_class": "bookshelf",
+        "count": 1.358930339630073,
+        "count_robot": 1.358930339630073,
+        "offset_sum_min": 46.76032496075385,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 14,
+        "mean_offset_min": 34.40965559241463
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 7,
+        "obj_class": "chessboard",
+        "dest_class": "table",
+        "count": 0.4181203352191771,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 15,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 41,
+        "dest_idx": 7,
+        "obj_class": "coffee",
+        "dest_class": "table",
+        "count": 0.4181203352191771,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 16,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 7,
+        "obj_class": "deck_of_cards",
+        "dest_class": "table",
+        "count": 0.4181203352191771,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 17,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 13,
+        "obj_class": "chessboard",
+        "dest_class": "bookshelf",
+        "count": 1.0815407665082393,
+        "count_robot": 0.4181203352191771,
+        "offset_sum_min": 70.523246481098,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 18,
+        "mean_offset_min": 65.20627669799514
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 7,
+        "obj_class": "food_cereal",
+        "dest_class": "table",
+        "count": 2.4949668906249998,
+        "count_robot": 0,
+        "offset_sum_min": 77.16375,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 19,
+        "mean_offset_min": 30.92776512984914
+      },
+      {
+        "obj_idx": 35,
+        "dest_idx": 7,
+        "obj_class": "bowl",
+        "dest_class": "table",
+        "count": 0.8573749999999999,
+        "count_robot": 0.8573749999999999,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 20,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 72,
+        "dest_idx": 7,
+        "obj_class": "milk",
+        "dest_class": "table",
+        "count": 1.7598749999999999,
+        "count_robot": 0,
+        "offset_sum_min": 86.18875,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 21,
+        "mean_offset_min": 48.97435897435898
+      },
+      {
+        "obj_idx": 52,
+        "dest_idx": 35,
+        "obj_class": "food_cereal",
+        "dest_class": "bowl",
+        "count": 0.9025,
+        "count_robot": 0.9025,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 22,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 43,
+        "dest_idx": 10,
+        "obj_class": "coffee_filter",
+        "dest_class": "sink",
+        "count": 0.9025,
+        "count_robot": 0,
+        "offset_sum_min": 18.05,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 23,
+        "mean_offset_min": 20.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 10,
+        "obj_class": "spoon",
+        "dest_class": "sink",
+        "count": 0.9025,
+        "count_robot": 0,
+        "offset_sum_min": 36.1,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 24,
+        "mean_offset_min": 40.0
+      },
+      {
+        "obj_idx": 83,
+        "dest_idx": 8,
+        "obj_class": "spoon",
+        "dest_class": "cupboard",
+        "count": 0.9025,
+        "count_robot": 0,
+        "offset_sum_min": 45.125,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 25,
+        "mean_offset_min": 50.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 0.048494525249423104
+      },
+      {
+        "src": -1,
+        "dst": 5,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": -1,
+        "dst": 10,
+        "count": 1.975130148335892
+      },
+      {
+        "src": -1,
+        "dst": 12,
+        "count": 1.0832057457572706
+      },
+      {
+        "src": -1,
+        "dst": 13,
+        "count": 0.1577792147882268
+      },
+      {
+        "src": -1,
+        "dst": 15,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": -1,
+        "dst": 19,
+        "count": 1.6375918906249998
+      },
+      {
+        "src": -1,
+        "dst": 20,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": -1,
+        "dst": 22,
+        "count": 0.9025
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.10803308035495252
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.9654080803549524
+      },
+      {
+        "src": 1,
+        "dst": 3,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 1,
+        "dst": 21,
+        "count": 0.9025
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 1.5924668906249997
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.10803308035495252
+      },
+      {
+        "src": 2,
+        "dst": 6,
+        "count": 0.9025
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.8431249709799523
+      },
+      {
+        "src": 3,
+        "dst": 23,
+        "count": 0.9025
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 0.048494525249423104
+      },
+      {
+        "src": 4,
+        "dst": 2,
+        "count": 0.9025
+      },
+      {
+        "src": 4,
+        "dst": 5,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 4,
+        "dst": 6,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 5,
+        "dst": 0,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 5,
+        "dst": 8,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 6,
+        "dst": 7,
+        "count": 0.9620385551055294
+      },
+      {
+        "src": 7,
+        "dst": 8,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 7,
+        "dst": 24,
+        "count": 0.9025
+      },
+      {
+        "src": 8,
+        "dst": 2,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 8,
+        "dst": 9,
+        "count": 0.9620385551055294
+      },
+      {
+        "src": 9,
+        "dst": -2,
+        "count": 0.05953855510552941
+      },
+      {
+        "src": 9,
+        "dst": 25,
+        "count": 0.9025
+      },
+      {
+        "src": 10,
+        "dst": -2,
+        "count": 1.1372436193421334
+      },
+      {
+        "src": 10,
+        "dst": 11,
+        "count": 1.6911756521229964
+      },
+      {
+        "src": 10,
+        "dst": 18,
+        "count": 0.6634204312890623
+      },
+      {
+        "src": 11,
+        "dst": -2,
+        "count": 2.496991824758433
+      },
+      {
+        "src": 12,
+        "dst": 13,
+        "count": 1.0832057457572706
+      },
+      {
+        "src": 12,
+        "dst": 14,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 13,
+        "dst": 10,
+        "count": 0.1577792147882268
+      },
+      {
+        "src": 13,
+        "dst": 11,
+        "count": 0.14239574134637467
+      },
+      {
+        "src": 13,
+        "dst": 12,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 13,
+        "dst": 14,
+        "count": 0.940810004410896
+      },
+      {
+        "src": 14,
+        "dst": 10,
+        "count": 1.358930339630073
+      },
+      {
+        "src": 15,
+        "dst": 16,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 16,
+        "dst": 17,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 17,
+        "dst": 18,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 18,
+        "dst": 11,
+        "count": 0.6634204312890623
+      },
+      {
+        "src": 18,
+        "dst": 13,
+        "count": 0.4181203352191771
+      },
+      {
+        "src": 19,
+        "dst": 1,
+        "count": 1.6375918906249998
+      },
+      {
+        "src": 19,
+        "dst": 21,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 20,
+        "dst": 19,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 21,
+        "dst": 1,
+        "count": 0.8573749999999999
+      },
+      {
+        "src": 21,
+        "dst": 3,
+        "count": 0.9025
+      },
+      {
+        "src": 22,
+        "dst": -2,
+        "count": 0.9025
+      },
+      {
+        "src": 23,
+        "dst": 4,
+        "count": 0.9025
+      },
+      {
+        "src": 24,
+        "dst": 8,
+        "count": 0.9025
+      },
+      {
+        "src": 25,
+        "dst": -2,
+        "count": 0.9025
+      }
+    ]
+  },
+  "discard_food": {
+    "activity_name": "discard_food",
+    "n_segments": 1.0507172590661535,
+    "nodes": [
+      {
+        "obj_idx": 55,
+        "dest_idx": 87,
+        "obj_class": "food_donut",
+        "dest_class": "trashbag",
+        "count": 1.0507172590661535,
+        "count_robot": 0.19390850112482988,
+        "offset_sum_min": 6.134888832475047,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 5.838762787552909
+      },
+      {
+        "obj_idx": 55,
+        "dest_idx": 9,
+        "obj_class": "food_donut",
+        "dest_class": "kitchen_counter",
+        "count": 0.12851215656510312,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 13,
+        "obj_class": "chessboard",
+        "dest_class": "bookshelf",
+        "count": 0.12851215656510312,
+        "count_robot": 0,
+        "offset_sum_min": 5.140486262604124,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 40.0
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 13,
+        "obj_class": "deck_of_cards",
+        "dest_class": "bookshelf",
+        "count": 0.12851215656510312,
+        "count_robot": 0,
+        "offset_sum_min": 5.140486262604124,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 40.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 0.9222051025010503
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 1.0507172590661535
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 0.12851215656510312
+      },
+      {
+        "src": 3,
+        "dst": 0,
+        "count": 0.12851215656510312
+      }
+    ]
+  },
+  "put_away_books": {
+    "activity_name": "put_away_books",
+    "n_segments": 7.124359501108845,
+    "nodes": [
+      {
+        "obj_idx": 34,
+        "dest_idx": 17,
+        "obj_class": "book",
+        "dest_class": "chair",
+        "count": 3.1151021722493737,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 18,
+        "obj_class": "book",
+        "dest_class": "bookshelf",
+        "count": 6.084212004924701,
+        "count_robot": 0,
+        "offset_sum_min": 44.71350581131297,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 7.349103840418584
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 19,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 1.2640896959828494,
+        "count_robot": 0.2039068257457904,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 34,
+        "dest_idx": 22,
+        "obj_class": "book",
+        "dest_class": "sofa",
+        "count": 0.7350918906249998,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 0.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 3.1151021722493737
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 2.0100757422516224
+      },
+      {
+        "src": -1,
+        "dst": 2,
+        "count": 1.2640896959828494
+      },
+      {
+        "src": -1,
+        "dst": 3,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 0,
+        "dst": -2,
+        "count": 0.8362406704383542
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 2.2788615018110194
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 6.084212004924701
+      },
+      {
+        "src": 2,
+        "dst": -2,
+        "count": 0.2039068257457904
+      },
+      {
+        "src": 2,
+        "dst": 1,
+        "count": 1.060182870237059
+      },
+      {
+        "src": 3,
+        "dst": 1,
+        "count": 0.7350918906249998
+      }
+    ]
+  },
+  "make_tea": {
+    "activity_name": "make_tea",
+    "n_segments": 2.1798475503496086,
+    "nodes": [
+      {
+        "obj_idx": 84,
+        "dest_idx": 7,
+        "obj_class": "tea",
+        "dest_class": "table",
+        "count": 1.444755659724609,
+        "count_robot": 0,
+        "offset_sum_min": 0.0,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 0,
+        "mean_offset_min": 0.0
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 10,
+        "obj_class": "cup",
+        "dest_class": "sink",
+        "count": 2.1798475503496086,
+        "count_robot": 0.6302494097246091,
+        "offset_sum_min": 47.027806597246084,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 1,
+        "mean_offset_min": 21.573897032250564
+      },
+      {
+        "obj_idx": 84,
+        "dest_idx": 8,
+        "obj_class": "tea",
+        "dest_class": "cupboard",
+        "count": 1.5495981406249997,
+        "count_robot": 0.8145062499999999,
+        "offset_sum_min": 8.145062499999998,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 2,
+        "mean_offset_min": 5.256241787122208
+      },
+      {
+        "obj_idx": 38,
+        "dest_idx": 13,
+        "obj_class": "chessboard",
+        "dest_class": "bookshelf",
+        "count": 1.5495981406249997,
+        "count_robot": 1.5495981406249997,
+        "offset_sum_min": 48.07623140624999,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 3,
+        "mean_offset_min": 31.02496714848883
+      },
+      {
+        "obj_idx": 45,
+        "dest_idx": 8,
+        "obj_class": "cup",
+        "dest_class": "cupboard",
+        "count": 1.5495981406249997,
+        "count_robot": 0.8145062499999999,
+        "offset_sum_min": 56.22129390625,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 4,
+        "mean_offset_min": 36.28120893561104
+      },
+      {
+        "obj_idx": 47,
+        "dest_idx": 13,
+        "obj_class": "deck_of_cards",
+        "dest_class": "bookshelf",
+        "count": 0.8145062499999999,
+        "count_robot": 0.8145062499999999,
+        "offset_sum_min": 8.145062499999998,
+        "robot_doable": null,
+        "intrusive": null,
+        "id": 5,
+        "mean_offset_min": 10.0
+      }
+    ],
+    "edges": [
+      {
+        "src": -1,
+        "dst": 0,
+        "count": 1.444755659724609
+      },
+      {
+        "src": -1,
+        "dst": 1,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 0,
+        "dst": 1,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 0,
+        "dst": 5,
+        "count": 0.8145062499999999
+      },
+      {
+        "src": 1,
+        "dst": -2,
+        "count": 0.6302494097246091
+      },
+      {
+        "src": 1,
+        "dst": 2,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 1,
+        "dst": 4,
+        "count": 0.8145062499999999
+      },
+      {
+        "src": 2,
+        "dst": 3,
+        "count": 1.5495981406249997
+      },
+      {
+        "src": 3,
+        "dst": 1,
+        "count": 0.8145062499999999
+      },
+      {
+        "src": 3,
+        "dst": 4,
+        "count": 0.7350918906249998
+      },
+      {
+        "src": 4,
+        "dst": -2,
+        "count": 1.5495981406249997
+      },
+      {
+        "src": 5,
+        "dst": 2,
+        "count": 0.8145062499999999
+      }
+    ]
+  }
+}
