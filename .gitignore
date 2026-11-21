@@ -1,0 +1,35 @@
+*/__pycache__/*
+*/*.pyc
+visualization/output/
+logs/*
+checkpoints/*
+.claude/
+.cursor/
+.vscode/
+.idea/
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+.DS_Store
+node_modules/*
+visualization/*
+*.pyc
+data/replay*
+wandb/*
+results_Old/*
+lightning_logs/*
+external/delete/*
+external/*
+results/*/*
+full_results/
+slatepro_logs/*
+scripts/random_**.db-shm
+*.db-wal
+# cache/ IS tracked on purpose: paid gpt-4o / gpt-4o-mini responses.
+# Only the transient SQLite sidecars stay out.
+*.db-shm
+!results_slim/**/.done_*
+checkpoints_old/
+slatepro_logs_old/
+cache_old/

@@ -1,0 +1,9 @@
+[submodule "external/SLaTe-PRO"]
+	path = external/SLaTe-PRO
+	url = https://github.com/Maithili/SLaTe-PRO.git
+[submodule "external/rail_tasksim"]
+	path = external/rail_tasksim
+	url = https://github.com/GT-RAIL/rail_tasksim.git
+[submodule "external/HOMER_PLUS"]
+	path = external/HOMER_PLUS
+	url = https://github.com/Maithili/HOMER_PLUS.git
